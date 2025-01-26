@@ -12,3 +12,31 @@
   background-color: #ffffff;
   opacity: 1;
 }
+.subject-card {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.subject-card:active {
+  background-color: #ffffff;
+  color: #000000;
+}
+.social-icon {
+  transition: color 0.3s ease;
+}
+
+.social-icon:active {
+  color: #9b9999;
+}
+
+.click-effect {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.click-effect:active {
+  background-color: white;
+  color: #000000;
+}
