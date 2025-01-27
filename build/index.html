@@ -30,8 +30,37 @@
           <p>Resources</p>
         </div>
       </div>
-      <div class="menu-button-wrapper ml-auto text-2xl text-white">
+      <div class="menu-button-wrapper ml-auto text-2xl text-white md:hidden">
         <i class="fa-solid fa-bars"></i>
+      </div>
+      <div
+        class="links-container absolute top-0 left-0 z-10 mr-auto max-h-0 w-full translate-y-[3rem] overflow-hidden bg-[#000511] font-medium opacity-0 transition-all duration-300 ease-in md:relative md:ml-auto md:max-h-screen md:w-auto md:translate-y-0 md:bg-none md:text-sm md:opacity-100"
+      >
+        <ul
+          class="flex list-none flex-col items-center justify-center gap-6 py-6 md:flex-row md:gap-3 md:py-0"
+        >
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="individual.html">About</a></li>
+          <li class="flex flex-col md:hidden">
+            <div class="sublink-toggle-button flex items-center gap-1 text-end">
+              <p>Subject</p>
+              <div class="caret-wrapper">
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <ul
+              class="sublink hover:text z-20 flex max-h-0 flex-col items-center gap-3 overflow-hidden opacity-0 transition-all duration-200 ease-in"
+            >
+              <a href="individual.html"><li>DCN</li></a>
+              <a href="individual.html"><li>PWP</li></a>
+              <a href="individual.html"><li>JAVA</li></a>
+              <a href="individual.html"><li>UID</li></a>
+              <a href="individual.html"><li>MIC</li></a>
+              <a href="individual.html"><li>EES</li></a>
+            </ul>
+          </li>
+          <li><a href="">Syllabus</a></li>
+        </ul>
       </div>
     </nav>
     <main>
@@ -75,6 +104,40 @@
               </div>
             </div>
 
+            <div class="swiper-slide w-auto max-w-[600px]">
+              <div class="card rounded-3xl bg-[#171D2B] p-6">
+                <div class="content-container flex flex-col gap-2 text-white">
+                  <div class="icon-title-wrapper flex items-center gap-1">
+                    <div class="icon -translate-x-1">
+                      <img
+                        src="src/other icons/notice.png "
+                        alt=""
+                        class="h-12"
+                      />
+                    </div>
+                    <div class="title text-lg font-semibold">
+                      <p>NOTICE</p>
+                    </div>
+                  </div>
+                  <div
+                    class="content-description-wrapper font-medium' text-base"
+                  >
+                    <p>
+                      This is to inform all staff and students that the school
+                      will remain closed on Saturday, January 25, 2025, on
+                      account of the fourth Saturday.
+                    </p>
+                    <div class="anchor-link-button-wrapper mb-3">
+                      <a
+                        href="https://drive.google.com/file/d/1rZb9UTa7olAxNEd9ZptQxczKPww35hKF/view?usp=drive_link"
+                        class="text-[#7EA1F4]"
+                        >Learn more</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="swiper-slide w-auto max-w-[600px]">
               <div class="card rounded-3xl bg-[#171D2B] p-6">
                 <div class="content-container flex flex-col gap-2 text-white">

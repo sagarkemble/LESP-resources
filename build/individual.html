@@ -22,13 +22,42 @@
         <img src="src/subject icons/DCN.png" alt="" class="" />
       </div>
       <div
-        class="name-wrapper flex flex-col justify-center text-sm leading-4 font-semibold text-white"
+        class="name-wrapper flex items-center text-sm font-semibold text-white"
       >
         <p>DCN</p>
       </div>
     </div>
-    <div class="menu-button-wrapper ml-auto text-2xl text-white">
+    <div class="menu-button-wrapper ml-auto text-2xl text-white md:hidden">
       <i class="fa-solid fa-bars"></i>
+    </div>
+    <div
+      class="links-container absolute top-0 left-0 z-10 mr-auto max-h-0 w-full translate-y-[3rem] overflow-hidden bg-[#000511] font-medium opacity-0 transition-all duration-300 ease-in md:relative md:ml-auto md:max-h-screen md:w-auto md:translate-y-0 md:bg-none md:text-sm md:opacity-100"
+    >
+      <ul
+        class="flex list-none flex-col items-center justify-center gap-6 py-6 md:flex-row md:gap-3 md:py-0"
+      >
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="individual.html">About</a></li>
+        <li class="flex flex-col md:hidden">
+          <div class="sublink-toggle-button flex items-center gap-1 text-end">
+            <p>Subject</p>
+            <div class="caret-wrapper">
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+          <ul
+            class="sublink hover:text z-20 flex max-h-0 flex-col items-center gap-3 overflow-hidden opacity-0 transition-all duration-200 ease-in"
+          >
+            <a href="individual.html"><li>DCN</li></a>
+            <a href="individual.html"><li>PWP</li></a>
+            <a href="individual.html"><li>JAVA</li></a>
+            <a href="individual.html"><li>UID</li></a>
+            <a href="individual.html"><li>MIC</li></a>
+            <a href="individual.html"><li>EES</li></a>
+          </ul>
+        </li>
+        <li><a href="">Syllabus</a></li>
+      </ul>
     </div>
   </nav>
   <body class="font-poppins bg-[#000511] text-white">
@@ -106,10 +135,7 @@
             <p>Assignment-1</p>
           </div>
         </a>
-        <a
-          href=""
-          class="assignment-card-link-wrapper"
-        >
+        <a href="" class="assignment-card-link-wrapper">
           <div
             class="assignment-card click-effect flex cursor-pointer justify-center rounded-2xl bg-[#171D2B] py-4"
           >
