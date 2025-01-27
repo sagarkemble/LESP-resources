@@ -3,7 +3,13 @@
 @theme {
   --font-poppins: "Poppins", "sans-serif";
 }
-
+@font-face {
+  font-family: "Poppins"; /* Name your font family */
+  src: url("src/font/Poppins-Regular.ttf"); /* Locate the .ttf file within your directory*/
+}
+body {
+  font-family: "Poppins", Arial; /* Use the font family */
+}
 .swiper .swiper-pagination-bullet {
   background-color: #818181;
   opacity: 0.8;
