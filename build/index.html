@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,7 +17,7 @@
     />
     <title>Lesp resources</title>
   </head>
-  <body class="font-poppins bg-[#000511] text-white">
+  <body class="font-poppins flex h-full flex-col bg-[#000511] text-white">
     <nav class="flex items-center p-1 px-3 pt-2">
       <div class="logo-container flex gap-1">
         <div class="logo w-10">
@@ -40,8 +40,8 @@
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide">
-              <div class="card w-[80vw] rounded-3xl bg-[#171D2B] p-6">
+            <div class="swiper-slide w-auto max-w-[600px]">
+              <div class="card rounded-3xl bg-[#171D2B] p-6">
                 <div class="content-container flex flex-col gap-2 text-white">
                   <div class="icon-title-wrapper flex items-center gap-1">
                     <div class="icon -translate-x-1">
@@ -75,8 +75,8 @@
               </div>
             </div>
 
-            <div class="swiper-slide">
-              <div class="card w-[80vw] rounded-3xl bg-[#171D2B] p-6">
+            <div class="swiper-slide w-auto max-w-[600px]">
+              <div class="card rounded-3xl bg-[#171D2B] p-6">
                 <div class="content-container flex flex-col gap-2 text-white">
                   <div class="icon-title-wrapper flex items-center gap-1">
                     <div class="icon -translate-x-1">
@@ -109,8 +109,8 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="card w-[80vw] rounded-3xl bg-[#171D2B] p-6">
+            <div class="swiper-slide w-auto max-w-[600px]">
+              <div class="card rounded-3xl bg-[#171D2B] p-6">
                 <div class="content-container flex flex-col gap-2 text-white">
                   <div class="icon-title-wrapper flex items-center gap-1">
                     <div class="icon -translate-x-1">
@@ -143,8 +143,8 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="card w-[80vw] rounded-3xl bg-[#171D2B] p-6">
+            <div class="swiper-slide w-auto max-w-[600px]">
+              <div class="card rounded-3xl bg-[#171D2B] p-6">
                 <div class="content-container flex flex-col gap-2 text-white">
                   <div class="icon-title-wrapper flex items-center gap-1">
                     <div class="icon -translate-x-1">
@@ -345,7 +345,7 @@
           &nbsp;Subject navigation
         </div>
 
-        <div class="subject-cards-conteiner grid grid-cols-2 gap-4">
+        <div class="subject-cards-conteiner">
           <a href="individual.html" class="subject-card-link-wrapper">
             <div
               class="subject-card flex cursor-pointer flex-col items-center gap-3 rounded-2xl bg-[#171D2B] p-3"
@@ -428,7 +428,9 @@
         </div>
       </div>
     </main>
-    <footer class="flex flex-col gap-4 border-t-2 border-[#171D2A] px-3 py-5">
+    <footer
+      class="mt-auto flex flex-col gap-4 border-t-2 border-[#171D2A] px-3 py-5"
+    >
       <div class="flex flex-col">
         <p class="text-lg font-semibold">Report Bug or Contribute:</p>
         <div class="social-icons-container flex gap-3 text-2xl text-gray-300">

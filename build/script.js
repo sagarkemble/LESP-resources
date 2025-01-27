@@ -2,12 +2,17 @@ const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
-  slidesPerView: 1.25,
   centeredSlides: true,
+  slidesPerView: 1.2,
   spaceBetween: 20,
+  breakpoints: {
+    768: {
+      slidesPerView: "auto",
+    },
+  },
 
-  // If we need pagination
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
   },
 });

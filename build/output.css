@@ -714,6 +714,9 @@
   .my-3 {
     margin-block: calc(var(--spacing) * 3);
   }
+  .mt-auto {
+    margin-top: auto;
+  }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
   }
@@ -837,6 +840,9 @@
   .h-auto {
     height: auto;
   }
+  .h-full {
+    height: 100%;
+  }
   .h-screen {
     height: 100vh;
   }
@@ -867,14 +873,17 @@
   .w-97 {
     width: calc(var(--spacing) * 97);
   }
-  .w-\[80vw\] {
-    width: 80vw;
+  .w-auto {
+    width: auto;
   }
   .w-full {
     width: 100%;
   }
   .w-screen {
     width: 100vw;
+  }
+  .max-w-\[600px\] {
+    max-width: 600px;
   }
   .max-w-none {
     max-width: none;
@@ -2763,6 +2772,11 @@
   color: #000000;
 }
 .submissions-cards-conteiner {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.subject-cards-conteiner {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
