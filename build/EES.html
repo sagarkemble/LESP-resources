@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,51 +16,51 @@
     />
     <title>Lesp resources</title>
   </head>
-  <nav class="flex items-center p-1 px-3 pt-2">
-    <div class="logo-container flex gap-1">
-      <div class="logo w-10">
-        <img src="src/subject icons/ees.png" alt="" class="" />
+  <body class="font-poppins flex h-full flex-col bg-[#000511] text-white">
+    <nav class="flex items-center p-1 px-3 pt-2">
+      <div class="logo-container flex gap-1">
+        <div class="logo w-10">
+          <img src="src/subject icons/ees.png" alt="" class="" />
+        </div>
+        <div
+          class="name-wrapper flex items-center text-sm font-semibold text-white"
+        >
+          <p>EES</p>
+        </div>
+      </div>
+      <div class="menu-button-wrapper ml-auto text-2xl text-white md:hidden">
+        <i class="fa-solid fa-bars"></i>
       </div>
       <div
-        class="name-wrapper flex items-center text-sm font-semibold text-white"
+        class="links-container absolute top-0 left-0 z-10 mr-auto max-h-0 w-full translate-y-[3rem] overflow-hidden bg-[#000511] font-medium opacity-0 transition-all duration-300 ease-in md:relative md:ml-auto md:max-h-screen md:w-auto md:translate-y-0 md:bg-none md:text-sm md:opacity-100"
       >
-        <p>MIC</p>
-      </div>
-    </div>
-    <div class="menu-button-wrapper ml-auto text-2xl text-white md:hidden">
-      <i class="fa-solid fa-bars"></i>
-    </div>
-    <div
-      class="links-container absolute top-0 left-0 z-10 mr-auto max-h-0 w-full translate-y-[3rem] overflow-hidden bg-[#000511] font-medium opacity-0 transition-all duration-300 ease-in md:relative md:ml-auto md:max-h-screen md:w-auto md:translate-y-0 md:bg-none md:text-sm md:opacity-100"
-    >
-      <ul
-        class="flex list-none flex-col items-center justify-center gap-6 py-6 md:flex-row md:gap-3 md:py-0"
-      >
-        <li><a href="index.html"> Home</a></li>
-        <li><a href="individual.html">About</a></li>
-        <li class="flex flex-col md:hidden">
-          <div class="sublink-toggle-button flex items-center gap-1 text-end">
-            <p>Subject</p>
-            <div class="caret-wrapper">
-              <i class="fa-solid fa-caret-down"></i>
+        <ul
+          class="flex list-none flex-col items-center justify-center gap-6 py-6 md:flex-row md:gap-3 md:py-0"
+        >
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="individual.html">About</a></li>
+          <li class="flex flex-col md:hidden">
+            <div class="sublink-toggle-button flex items-center gap-1 text-end">
+              <p>Subject</p>
+              <div class="caret-wrapper">
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
             </div>
-          </div>
-          <ul
-            class="sublink hover:text z-20 flex max-h-0 flex-col items-center gap-3 overflow-hidden opacity-0 transition-all duration-200 ease-in"
-          >
-            <a href="DCN.html"><li>DCN</li></a>
-            <a href="PWP.html"><li>PWP</li></a>
-            <a href="JAVA.html"><li>JAVA</li></a>
-            <a href="UID.html"><li>UID</li></a>
-            <a href="MIC.html"><li>MIC</li></a>
-            <a href="EES.html"><li>EES</li></a>
-          </ul>
-        </li>
-        <li><a href="">Syllabus</a></li>
-      </ul>
-    </div>
-  </nav>
-  <body class="font-poppins bg-[#000511] text-white">
+            <ul
+              class="sublink hover:text z-20 flex max-h-0 flex-col items-center gap-3 overflow-hidden opacity-0 transition-all duration-200 ease-in"
+            >
+              <a href="DCN.html"><li>DCN</li></a>
+              <a href="PWP.html"><li>PWP</li></a>
+              <a href="JAVA.html"><li>JAVA</li></a>
+              <a href="UID.html"><li>UID</li></a>
+              <a href="MIC.html"><li>MIC</li></a>
+              <a href="EES.html"><li>EES</li></a>
+            </ul>
+          </li>
+          <li><a href="">Syllabus</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="hero-section-container my-2 flex items-center justify-center">
       <div class="card mx-3 w-full rounded-3xl bg-[#171D2B] p-6">
         <div class="content-container flex flex-col gap-2 text-white">
@@ -217,7 +217,9 @@
         </a>
       </div>
     </div>
-    <footer class="flex flex-col gap-4 border-t-2 border-[#171D2A] px-3 py-5">
+    <footer
+      class="mt-auto flex flex-col gap-4 border-t-2 border-[#171D2A] px-3 py-5"
+    >
       <div class="flex flex-col">
         <p class="text-lg font-semibold">Report Bug or Contribute:</p>
         <div class="social-icons-container flex gap-3 text-2xl text-gray-300">
