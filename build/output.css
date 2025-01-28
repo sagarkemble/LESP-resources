@@ -869,6 +869,18 @@
   .max-h-screen {
     max-height: 100vh;
   }
+  .min-h-\[250px\] {
+    min-height: 250px;
+  }
+  .min-h-\[260px\] {
+    min-height: 260px;
+  }
+  .min-h-\[280px\] {
+    min-height: 280px;
+  }
+  .min-h-\[300px\] {
+    min-height: 300px;
+  }
   .min-h-none {
     min-height: none;
   }
@@ -1784,6 +1796,9 @@
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
+  }
+  .bg-black {
+    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
