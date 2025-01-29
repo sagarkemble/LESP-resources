@@ -872,12 +872,6 @@
   .min-h-\[250px\] {
     min-height: 250px;
   }
-  .min-h-\[300px\] {
-    min-height: 300px;
-  }
-  .min-h-\[350px\] {
-    min-height: 350px;
-  }
   .min-h-none {
     min-height: none;
   }
@@ -1793,9 +1787,6 @@
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
-  }
-  .bg-black {
-    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
