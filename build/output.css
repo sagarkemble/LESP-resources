@@ -872,14 +872,11 @@
   .min-h-\[250px\] {
     min-height: 250px;
   }
-  .min-h-\[260px\] {
-    min-height: 260px;
-  }
-  .min-h-\[280px\] {
-    min-height: 280px;
-  }
   .min-h-\[300px\] {
     min-height: 300px;
+  }
+  .min-h-\[350px\] {
+    min-height: 350px;
   }
   .min-h-none {
     min-height: none;
@@ -2787,6 +2784,11 @@
   }
   .transform-view {
     transform-box: view-box;
+  }
+  .sm\:min-h-\[200px\] {
+    @media (width >= 40rem) {
+      min-height: 200px;
+    }
   }
   .md\:relative {
     @media (width >= 48rem) {
