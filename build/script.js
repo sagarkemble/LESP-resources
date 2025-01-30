@@ -21,7 +21,7 @@ subLinkToggleButton.addEventListener("click", () => {
       subLink.style.paddingTop = "0";
       subLink.style.opacity = "0";
     } else {
-      subLink.style.maxHeight = subLink.scrollHeight + "px";
+      subLink.style.maxHeight = "800px";
       subLink.style.paddingTop = "1.5rem";
       subLink.style.opacity = "100";
     }
