@@ -1788,9 +1788,6 @@
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
-  .bg-black {
-    background-color: var(--color-black);
-  }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
   }
@@ -2354,9 +2351,6 @@
   .opacity-0 {
     opacity: 0%;
   }
-  .opacity-45 {
-    opacity: 45%;
-  }
   .bg-blend-color {
     background-blend-mode: color;
   }
@@ -2608,10 +2602,6 @@
   .duration-500 {
     --tw-duration: 500ms;
     transition-duration: 500ms;
-  }
-  .duration-50000 {
-    --tw-duration: 50000ms;
-    transition-duration: 50000ms;
   }
   .ease-in {
     --tw-ease: var(--ease-in);
