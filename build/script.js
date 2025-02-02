@@ -29,7 +29,7 @@ subLinkToggleButton.addEventListener("click", () => {
   }
 });
 
-const swiper = new Swiper(".swiper", {
+const swiper1 = new Swiper("#swiper-1", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
@@ -42,6 +42,21 @@ const swiper = new Swiper(".swiper", {
     },
   },
 
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
+const swiper2 = new Swiper("#swiper-2", {
+  direction: "horizontal",
+  loop: true,
+  centeredSlides: true,
+  slidesPerView: "auto", // Change this to auto
+  spaceBetween: 20,
+  autoplay: {
+    delay: 2500,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

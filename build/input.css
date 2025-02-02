@@ -10,6 +10,14 @@
     opacity: 1;
   }
 }
+@keyframes animatedtext {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
 
 body {
   background: #000511;
@@ -61,4 +69,20 @@ body {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.tag-line-container {
+  background: linear-gradient(
+    to right,
+
+    #4da7fa,
+    #71fff3,
+    #71ffa7,
+    #e2ffad
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 400%;
+  animation: animatedtext 3s linear infinite alternate;
+  color: white;
 }
