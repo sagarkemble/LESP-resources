@@ -731,6 +731,12 @@
   .my-6 {
     margin-block: calc(var(--spacing) * 6);
   }
+  .my-7 {
+    margin-block: calc(var(--spacing) * 7);
+  }
+  .my-8 {
+    margin-block: calc(var(--spacing) * 8);
+  }
   .mt-auto {
     margin-top: auto;
   }
@@ -739,9 +745,6 @@
   }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
-  }
-  .mb-4 {
-    margin-bottom: calc(var(--spacing) * 4);
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
@@ -848,9 +851,6 @@
   .h-1 {
     height: calc(var(--spacing) * 1);
   }
-  .h-9 {
-    height: calc(var(--spacing) * 9);
-  }
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
@@ -911,12 +911,6 @@
   .w-\[230px\] {
     width: 230px;
   }
-  .w-\[250px\] {
-    width: 250px;
-  }
-  .w-\[350px\] {
-    width: 350px;
-  }
   .w-auto {
     width: auto;
   }
@@ -928,9 +922,6 @@
   }
   .max-w-\[250px\] {
     max-width: 250px;
-  }
-  .max-w-\[350px\] {
-    max-width: 350px;
   }
   .max-w-\[600px\] {
     max-width: 600px;
@@ -1731,10 +1722,6 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .border-2 {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
-  }
   .border-x {
     border-inline-style: var(--tw-border-style);
     border-inline-width: 1px;
@@ -1804,9 +1791,6 @@
   }
   .border-\[\#171D2B\] {
     border-color: #171D2B;
-  }
-  .border-amber-100 {
-    border-color: var(--color-amber-100);
   }
   .bg-\(--my_variable\) {
     background-color: var(--my_variable);
@@ -2046,9 +2030,6 @@
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
-  .px-\[25\%\] {
-    padding-inline: 25%;
-  }
   .\!py-0 {
     padding-block: calc(var(--spacing) * 0) !important;
   }
@@ -2064,17 +2045,8 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
-  .py-8 {
-    padding-block: calc(var(--spacing) * 8);
-  }
   .py-9 {
     padding-block: calc(var(--spacing) * 9);
-  }
-  .py-10 {
-    padding-block: calc(var(--spacing) * 10);
-  }
-  .py-19 {
-    padding-block: calc(var(--spacing) * 19);
   }
   .pe-1 {
     padding-inline-end: calc(var(--spacing) * 1);
@@ -2090,9 +2062,6 @@
   }
   .pb-9 {
     padding-bottom: calc(var(--spacing) * 9);
-  }
-  .pb-11 {
-    padding-bottom: calc(var(--spacing) * 11);
   }
   .text-center {
     text-align: center;
