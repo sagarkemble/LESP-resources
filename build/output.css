@@ -2964,6 +2964,25 @@ body {
   animation: animatedtext 3s linear infinite alternate;
   color: white;
 }
+.hover-effect {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.hover-effect:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.grid-auto-fit {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+@media (min-width: 768px) {
+  .grid-auto-fit {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+  }
+}
 @keyframes spin {
   to {
     transform: rotate(360deg);
