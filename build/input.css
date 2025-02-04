@@ -86,21 +86,12 @@ body {
   animation: animatedtext 3s linear infinite alternate;
   color: white;
 }
-.hover-card {
+.hover-effect {
   transition:
     background-color 0.2s ease,
     color 0.2s ease;
 }
-.hover-card:hover {
-  background-color: #ffffff;
-  color: #000000;
-}
-.active-card {
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
-}
-.active-card:active {
+.hover-effect:hover {
   background-color: #ffffff;
   color: #000000;
 }
