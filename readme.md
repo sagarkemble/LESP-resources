@@ -9,9 +9,9 @@
   <p align="center">
     <a href="https://lesp-resources.vercel.app">Visit</a>
     &middot;
-    <a href="https://github.com/sagarkemble/gradient-lab/issues/new?template=bug_report.md">Report Bug</a>
+    <a href="https://github.com/sagarkemble/LESP-resources/issues">Report Bug</a>
     &middot;
-    <a href="https://github.com/sagarkemble/gradient-lab/issues/new?template=feature_request.md">Request Feature</a>
+    <a href="https://github.com/sagarkemble/LESP-resources/issues">Request Feature</a>
   </p>
 </div>
 
