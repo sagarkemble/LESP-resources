@@ -9,7 +9,7 @@
         };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
     <script>
       !(function (t, e) {
         var o, n, p, r;
@@ -102,6 +102,32 @@
     <title>Lesp resources</title>
   </head>
   <body class="flex h-full flex-col bg-[#000511] text-white">
+    <div
+      class="popup-container absolute z-30 flex h-full w-full items-center justify-center bg-[#00000090] transition-all delay-300 ease-in-out"
+    >
+      <div
+        class="card flex max-w-[75vw] flex-col gap-2 rounded-2xl bg-[#171D2B] p-5 sm:max-w-[350px]"
+      >
+        <div class="title-container flex items-center gap-2">
+          <div class="emoji">
+            <img src="src/icons/other/image.png" class="w-16" />
+          </div>
+          <div class="title text-3xl font-bold">We Did It!</div>
+        </div>
+        <div class="description">
+          We are delighted to announce that our website has crossed 1,000
+          visitors and more than 2500 page views. This milestone has been
+          achieved through the valuable cooperation of our Team,students and
+          teachers. We thank our team members for their dedication and
+          contributions.Thank you everyone for your support and dedication.
+        </div>
+        <div
+          class="donate-btn click-effect-popup mt-1 flex w-20 cursor-pointer justify-center rounded-xl bg-red-500 p-2 font-medium text-white transition-all delay-150 ease-in-out"
+        >
+          Okay
+        </div>
+      </div>
+    </div>
     <!-- nav bar start -->
     <nav class="flex items-center p-1 px-3 pt-2">
       <div class="logo-container flex gap-1">
@@ -158,6 +184,44 @@
           <!-- slides-wrapper-start -->
           <div class="swiper-wrapper">
             <!-- Slides -->
+            <!-- slide-start -->
+            <div class="swiper-slide w-auto max-w-[600px]">
+              <div
+                class="card min-h-[250px] rounded-3xl bg-[#171D2B] p-6 sm:min-h-[200px]"
+              >
+                <div class="content-container flex flex-col gap-2 text-white">
+                  <div class="icon-title-wrapper flex items-center gap-1">
+                    <div class="icon -translate-x-1">
+                      <img
+                        src="src/icons/black_bg _icons/notice.png"
+                        alt=""
+                        class="h-12"
+                      />
+                    </div>
+                    <div class="title text-lg font-semibold">
+                      <p>Notice</p>
+                    </div>
+                  </div>
+                  <div
+                    class="content-description-wrapper font-medium' text-base"
+                  >
+                    <p>
+                      The UT-1 timetable has been uploaded. All students should
+                      check it and plan their studies accordingly for better
+                      preparation.
+                    </p>
+                    <div class="anchor-link-button-wrapper mb-3">
+                      <a
+                        href="https://drive.google.com/file/d/1C9Y4LYm1GN62jPytAZslJfOxrt4QUedj/view?usp=drivesdk"
+                        class="text-[#7EA1F4]"
+                        >View</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- slide-end -->
             <!-- slide-start -->
             <div class="swiper-slide w-auto max-w-[600px]">
               <div

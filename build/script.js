@@ -2,6 +2,19 @@ const navLinks = document.querySelector(".links-container");
 const navMenuIcon = document.querySelector(".menu-button-wrapper");
 const subLink = document.querySelector(".sublink");
 const subLinkToggleButton = document.querySelector(".sublink-toggle-button");
+const jsConfetti = new JSConfetti();
+window.onload = function () {
+  jsConfetti.addConfetti();
+};
+const cbutton = document.querySelector(".donate-btn"); // Select the button
+const popup = document.querySelector(".popup-container"); // Select the popup container
+
+cbutton.addEventListener("click", () => {
+  popup.style.opacity = "0"; // Fade out effect
+  setTimeout(() => {
+    popup.style.display = "none"; // Hide after fade-out
+  }, 400); // Delay matches the transition time
+});
 
 navMenuIcon.addEventListener("click", () => {
   if (navLinks.style.maxHeight) {
