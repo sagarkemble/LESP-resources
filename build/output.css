@@ -932,9 +932,6 @@
   .w-screen {
     width: 100vw;
   }
-  .max-w-\[70vw\] {
-    max-width: 70vw;
-  }
   .max-w-\[75vw\] {
     max-width: 75vw;
   }
@@ -1816,9 +1813,6 @@
   .bg-\(color\:--my-color\) {
     background-color: var(--my-color);
   }
-  .bg-\[\#00000080\] {
-    background-color: #00000080;
-  }
   .bg-\[\#0088cc\] {
     background-color: #0088cc;
   }
@@ -1836,9 +1830,6 @@
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
-  }
-  .bg-black {
-    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -2171,10 +2162,6 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
-  }
-  .font-light {
-    --tw-font-weight: var(--font-weight-light);
-    font-weight: var(--font-weight-light);
   }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
@@ -2668,9 +2655,6 @@
   }
   .delay-150 {
     transition-delay: 150ms;
-  }
-  .delay-200 {
-    transition-delay: 200ms;
   }
   .delay-300 {
     transition-delay: 300ms;
