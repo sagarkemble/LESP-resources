@@ -97,6 +97,40 @@ const content = {
       link: "https://drive.google.com/file/d/1t9upXsQtHy72YYvrQQnzMp7SnecGlkOB/view?usp=sharing",
     },
   },
+  manual_obj: {
+    maunal_0: {
+      name: "Index",
+      link: "https://drive.google.com/file/d/1qut1o_WrsnNyFd_Yso5_SGUNCNhqpRWq/view?usp=drive_link",
+    },
+    maunal_1_5: {
+      name: "Manual 1-5",
+      link: "https://drive.google.com/file/d/1-x72MeK6QB00wE-tD7_d5Wny6ZHSJSRa/view?usp=drive_link",
+    },
+    maunal_6_10: {
+      name: "Manual 6-10",
+      link: "https://drive.google.com/file/d/108M3_WB2AkiA6lj158URP0VU66BBCWm2/view?usp=drive_link",
+    },
+    maunal_11_15: {
+      name: "Manual 11-15",
+      link: "https://drive.google.com/file/d/10KDTVZdoDX35z7Ta9aMccsO3XVDyHcmU/view?usp=drive_link",
+    },
+    maunal_16_20: {
+      name: "Manual 16-20",
+      link: "https://drive.google.com/file/d/10SotUjYqryGYBMWota3qqn_rSRroXUOL/view?usp=drive_link",
+    },
+    maunal_21_25: {
+      name: "Manual 21-25",
+      link: "ttps://drive.google.com/file/d/10YKe5qoi7cRlTC4-5rWGE1EQpFD9TI2c/view?usp=drive_link",
+    },
+    maunal_26_30: {
+      name: "Manual 26-30",
+      link: "https://drive.google.com/file/d/10aIEnhgq-62jckzjJPSH64gG9dSir8JY/view?usp=drive_link",
+    },
+    FULL_MANUAL: {
+      name: "Full Manual",
+      link: "https://drive.google.com/file/d/14N-jxptj8EBm_MVr7wj4XRJP94NfVbSy/view?usp=drive_link",
+    },
+  },
 };
 
 const assignment_container = document.querySelector(
@@ -115,7 +149,6 @@ const other_resources_container = document.querySelector(
 const Notes_resources_container = document.querySelector(
   ".Notes-resources-cards-container",
 );
-
 function createCard(obj, container) {
   if (!container) return; // Check if the container exists
 
@@ -147,3 +180,4 @@ createCard(
 );
 createCard(content.other_resources_Obj, other_resources_container);
 createCard(content.notes_obj, Notes_resources_container);
+createCard(content.manual_obj, manual_container);
