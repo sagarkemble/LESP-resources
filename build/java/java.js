@@ -25,14 +25,30 @@ const content = {
       link: "/build/notuploaded.html",
     },
   },
-  manual_obj: {
-    manual1: {
-      name: "Manual-1",
+  manual_questionandanswer_obj: {
+    exp1: {
+      name: "Experiment-1",
       link: "https://drive.google.com/file/d/1WdPYQMr2wvV9CpT-dexxeZe9BILX0GJ1/view?usp=drive_link",
     },
-    manual2: {
-      name: "Manual-2",
-      link: "https://drive.google.com/file/d/1WdPYQMr2wvV9CpT-dexxeZe9BILX0GJ1/view?usp=drive_link",
+    exp2: {
+      name: "Experiment-2",
+      link: "https://drive.google.com/file/d/18PH2xWsOjV1m4I4JJkMK_fV7I4cplV1d/view?usp=drivesdk",
+    },
+    exp4: {
+      name: "Experiment-4",
+      link: "https://drive.google.com/file/d/18Qmzh28_30u44jNYn7yRhFjnb9IYFd5T/view?usp=drivesdk",
+    },
+    exp5: {
+      name: "Experiment-5",
+      link: "https://drive.google.com/file/d/18R_tuKyTeQuHXgFe2UkGP74S1ossj-Jc/view?usp=drivesdk",
+    },
+    exp7: {
+      name: "Experiment-7",
+      link: "https://drive.google.com/file/d/18TX_CmLN9YPmJlMwSCsgyyjvYU2bXqMs/view?usp=drivesdk",
+    },
+    exp9: {
+      name: "Experiment-9",
+      link: "https://drive.google.com/file/d/18TcOloCDdRBjh8croc1KZ2QmqIZHI52a/view?usp=drivesdk",
     },
   },
 };
@@ -40,8 +56,15 @@ const content = {
 const assignment_container = document.querySelector(
   ".assignment-cards-container",
 );
-const manual_container = document.querySelector(
+const manual_questionandanswer_container = document.querySelector(
   ".manaul-question-answer-cards-container",
+);
+const manual_container = document.querySelector(".manual-cards-container");
+const notes_container = document.querySelector(
+  ".Notes-resources-cards-container",
+);
+const other_resources_container = document.querySelector(
+  ".other-resources-cards-container",
 );
 
 function createCard(obj, container) {
@@ -69,4 +92,7 @@ function createCard(obj, container) {
 
 // Load Assignments
 createCard(content.assignment_Obj, assignment_container);
-createCard(content.manual_obj, manual_container);
+createCard(
+  content.manual_questionandanswer_obj,
+  manual_questionandanswer_container,
+);
