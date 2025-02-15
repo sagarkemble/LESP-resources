@@ -6,7 +6,23 @@ const content = {
     },
     assignemnt2: {
       name: "Assignment-2",
-      link: "https://drive.google.com/file/d/1WdPYQMr2wvV9CpT-dexxeZe9BILX0GJ1/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/14NTu0mNJWAAi438wRlFAJaQsC9WaX4f3/view?usp=drivesdk",
+    },
+    assignemnt3: {
+      name: "Assignment-3",
+      link: "/build/notuploaded.html",
+    },
+    assignemnt4: {
+      name: "Assignment-4",
+      link: "/build/notuploaded.html",
+    },
+    assignemnt5: {
+      name: "Assignment-5",
+      link: "/build/notuploaded.html",
+    },
+    assignemnt6: {
+      name: "Assignment-6",
+      link: "/build/notuploaded.html",
     },
   },
   manual_obj: {
