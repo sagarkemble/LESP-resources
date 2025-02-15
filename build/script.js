@@ -2,23 +2,6 @@ const navLinks = document.querySelector(".links-container");
 const navMenuIcon = document.querySelector(".menu-button-wrapper");
 const subLink = document.querySelector(".sublink");
 const subLinkToggleButton = document.querySelector(".sublink-toggle-button");
-const jsConfetti = new JSConfetti();
-if (!localStorage.getItem("popupShown")) {
-  jsConfetti.addConfetti();
-} else {
-  document.querySelector(".popup-container").style.display = "none"; // Hide popup if already shown
-}
-
-const cbutton = document.querySelector(".donate-btn"); // Select the button
-const popup = document.querySelector(".popup-container"); // Select the popup container
-
-cbutton.addEventListener("click", () => {
-  popup.style.opacity = "0"; // Fade out effect
-  setTimeout(() => {
-    popup.style.display = "none"; // Hide after fade-out
-    localStorage.setItem("popupShown", "true"); // Store in localStorage
-  }, 400); // Delay matches the transition time
-});
 
 navMenuIcon.addEventListener("click", () => {
   if (navLinks.style.maxHeight) {
@@ -78,4 +61,20 @@ const swiper2 = new Swiper("#swiper-2", {
     el: ".swiper-pagination",
     clickable: true,
   },
+});
+const jsConfetti = new JSConfetti();
+if (!localStorage.getItem("popupShown")) {
+  jsConfetti.addConfetti();
+} else {
+  document.querySelector(".popup-container").style.display = "none"; // Hide popup if already shown
+}
+const cbutton = document.querySelector(".donate-btn"); // Select the button
+const popup = document.querySelector(".popup-container"); // Select the popup container
+
+cbutton.addEventListener("click", () => {
+  popup.style.opacity = "0"; // Fade out effect
+  setTimeout(() => {
+    popup.style.display = "none"; // Hide after fade-out
+    localStorage.setItem("popupShown", "true"); // Store in localStorage
+  }, 400); // Delay matches the transition time
 });
