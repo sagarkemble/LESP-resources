@@ -24,19 +24,19 @@ const content = {
     },
     Tutorial_3: {
       name: "Tutorial-3",
-      link: "/build/notuploaded.html",
+      link: "../build/notuploaded.html",
     },
     Tutorial_4: {
       name: "Tutorial-4",
-      link: "/build/notuploaded.html",
+      link: "../build/notuploaded.html",
     },
     Tutorial_5: {
       name: "Tutorial-5",
-      link: "/build/notuploaded.html",
+      link: "../build/notuploaded.html",
     },
     Tutorial_6: {
       name: "Tutorial-6",
-      link: "/build/notuploaded.html",
+      link: "../build/notuploaded.html",
     },
   },
 
