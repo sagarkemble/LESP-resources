@@ -78,47 +78,44 @@ const content = {
       name: "EX-2 O/P",
       link: "https://drive.google.com/file/d/13a7lAlH1lZwdlv5BnaCtEv4ItSm6I6MR/view?usp=drivesdk",
     },
+
     resrc7: {
       name: "EX-3 O/P",
       link: "https://drive.google.com/file/d/13_xeuf9emJT_poBxxAoMpEpf-dP8rtVX/view?usp=drivesdk",
     },
     resrc8: {
-      name: "EX-3 O/P",
-      link: "https://drive.google.com/file/d/13_xeuf9emJT_poBxxAoMpEpf-dP8rtVX/view?usp=drivesdk",
-    },
-    resrc9: {
       name: "EX-4 O/P",
       link: "https://drive.google.com/file/d/14kTSc4kRigB95RIJKKwqjz3aOiSeas2O/view?usp=drivesdk",
     },
-    resrc10: {
+    resrc9: {
       name: "EX-5 O/P",
       link: "https://drive.google.com/file/d/14kX8-Gmj0fu9VJ5GM9AnhGnXcNFLfxJt/view?usp=drivesdk",
     },
-    resrc11: {
+    resrc10: {
       name: "EX-6 O/P",
       link: "https://drive.google.com/file/d/14oFy40XRZVnKl0wSdItleXg7FK7YnfsE/view?usp=drivesdk",
     },
-    resrc12: {
+    resrc11: {
       name: "EX-7 O/P",
       link: "https://drive.google.com/file/d/16Eeza492-aZPX5hmYn5LkBCXu4tqDKmw/view?usp=drivesdk",
     },
-    resrc13: {
+    resrc12: {
       name: "EX-8 O/P",
       link: "https://drive.google.com/file/d/16Pdy8Yk79M8IRddEPcrcWsyyZq0K1efE/view?usp=drivesdk",
     },
-    resrc14: {
+    resrc13: {
       name: "EX-9 O/P",
       link: "https://drive.google.com/file/d/16WWijIIZO9FSThuA0tt_knd_D7MrULu5/view?usp=drivesdk",
     },
-    resrc15: {
+    resrc14: {
       name: "EX-10 O/P",
       link: "https://drive.google.com/file/d/16gs3ZFA8dGe8Ln4XszviSSA5fFZrrlgX/view?usp=drivesdk",
     },
-    resrc16: {
+    resrc15: {
       name: "EX-11 O/P",
       link: "https://drive.google.com/file/d/16qd1aC-DROBHeLlFXxZ8EsA4lIvd2HSY/view?usp=drivesdk",
     },
-    resrc17: {
+    resrc16: {
       name: "EX-13 O/P",
       link: "https://drive.google.com/file/d/16qlEWYNXc1TB9edSR0s6O7HhaBjhvPLk/view?usp=drivesdk",
     },
