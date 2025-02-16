@@ -1,3 +1,18 @@
+const assignment_container = document.querySelector(
+  ".assignment-cards-container",
+);
+const class_notes_container = document.querySelector(
+  ".class-notes-cards-container",
+);
+const notes_container = document.querySelector(".notes-cards-container");
+const manual_questionandanswer_container = document.querySelector(
+  ".manaul-question-answer-cards-container",
+);
+const manual_container = document.querySelector(".manual-cards-container");
+
+const other_resources_container = document.querySelector(
+  ".other-resources-cards-container",
+);
 const content = {
   assignment_Obj: {
     assignemnt1: {
@@ -129,22 +144,6 @@ const content = {
     },
   },
 };
-
-const assignment_container = document.querySelector(
-  ".assignment-cards-container",
-);
-const class_notes_container = document.querySelector(
-  ".class-notes-cards-container",
-);
-const notes_container = document.querySelector(".notes-cards-container");
-const manual_questionandanswer_container = document.querySelector(
-  ".manaul-question-answer-cards-container",
-);
-const manual_container = document.querySelector(".manual-cards-container");
-
-const other_resources_container = document.querySelector(
-  ".other-resources-cards-container",
-);
 
 function createCard(obj, container) {
   if (!container) return; // Check if the container exists
