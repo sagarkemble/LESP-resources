@@ -41,8 +41,6 @@ const content = {
     },
   },
 };
-console.log(content.code_Obj);
-console.log(code_container);
 
 function createCard(obj, container) {
   if (!container) return; // Check if the container exists
