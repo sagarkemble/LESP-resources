@@ -30,7 +30,7 @@ const content = {
     },
     assignemnt6: {
       name: "Assignment-6",
-      link: "../build/notuploaded.html",
+      link: "../notuploaded.html",
     },
   },
 

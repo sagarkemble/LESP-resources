@@ -26,19 +26,19 @@ const content = {
     },
     assignemnt3: {
       name: "Assignment-3",
-      link: "../build/notuploaded.html",
+      link: "../notuploaded.html",
     },
     assignemnt4: {
       name: "Assignment-4",
-      link: "../build/notuploaded.html",
+      link: "../notuploaded.html",
     },
     assignemnt5: {
       name: "Assignment-5",
-      link: "../build/notuploaded.html",
+      link: "../notuploaded.html",
     },
     assignemnt6: {
       name: "Assignment-6",
-      link: "../build/notuploaded.html",
+      link: "../notuploaded.html",
     },
   },
   code_Obj: {
