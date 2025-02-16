@@ -184,3 +184,6 @@ function createCard(obj, container) {
 
 // Load Assignments
 createCard(content.assignment_Obj, assignment_container);
+createCard(content.notes_obj, notes_container);
+createCard(content.other_resources_Obj, other_resources_container);
+createCard(content.manaul_obj, manual_container);
