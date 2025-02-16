@@ -28,7 +28,7 @@ const content = {
   manual_questionandanswer_obj: {
     exp1: {
       name: "Experiment-1",
-      link: "https://drive.google.com/file/d/1WdPYQMr2wvV9CpT-dexxeZe9BILX0GJ1/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1GGxbapM5rvPqnL-B2oyZhgzlw8TEZsER/view?usp=drivesdk",
     },
     exp2: {
       name: "Experiment-2",
