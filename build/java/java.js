@@ -102,31 +102,31 @@ const content = {
       name: "Index",
       link: "https://drive.google.com/file/d/1qut1o_WrsnNyFd_Yso5_SGUNCNhqpRWq/view?usp=drive_link",
     },
-    maunal_1_5: {
+    maunal_1: {
       name: "Manual 1-5",
       link: "https://drive.google.com/file/d/1-x72MeK6QB00wE-tD7_d5Wny6ZHSJSRa/view?usp=drive_link",
     },
-    maunal_6_10: {
+    maunal_3: {
       name: "Manual 6-10",
       link: "https://drive.google.com/file/d/108M3_WB2AkiA6lj158URP0VU66BBCWm2/view?usp=drive_link",
     },
-    maunal_11_15: {
+    maunal_4: {
       name: "Manual 11-15",
       link: "https://drive.google.com/file/d/10KDTVZdoDX35z7Ta9aMccsO3XVDyHcmU/view?usp=drive_link",
     },
-    maunal_16_20: {
+    maunal_5: {
       name: "Manual 16-20",
       link: "https://drive.google.com/file/d/10SotUjYqryGYBMWota3qqn_rSRroXUOL/view?usp=drive_link",
     },
-    maunal_21_25: {
+    maunal_6: {
       name: "Manual 21-25",
       link: "ttps://drive.google.com/file/d/10YKe5qoi7cRlTC4-5rWGE1EQpFD9TI2c/view?usp=drive_link",
     },
-    maunal_26_30: {
+    maunal_7: {
       name: "Manual 26-30",
       link: "https://drive.google.com/file/d/10aIEnhgq-62jckzjJPSH64gG9dSir8JY/view?usp=drive_link",
     },
-    FULL_MANUAL: {
+    maunal_8: {
       name: "Full Manual",
       link: "https://drive.google.com/file/d/14N-jxptj8EBm_MVr7wj4XRJP94NfVbSy/view?usp=drive_link",
     },
