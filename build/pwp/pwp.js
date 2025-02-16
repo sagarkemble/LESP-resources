@@ -24,7 +24,7 @@ const content = {
     },
     Tutorial_3: {
       name: "Tutorial-3",
-      link: "../build/notuploaded.html",
+      link: "../notuploaded.html",
     },
     Tutorial_4: {
       name: "Tutorial-4",
