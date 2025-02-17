@@ -5,6 +5,24 @@ const other_resources_container = document.querySelector(
 );
 
 const content = {
+  manual_questionandanswer_obj: {
+    exp1: {
+      name: "Experiment-1",
+      link: "https://drive.google.com/file/d/1HPNN05eGaaJ0hl-VY7Y1HGKNTQ2pxlSr/view?usp=drivesdk",
+    },
+    exp2: {
+      name: "Experiment-2",
+      link: "https://drive.google.com/file/d/1HPTtCYuUpdMXeN_qvDmbqZp9_2t3anwa/view?usp=drivesdk",
+    },
+    exp3: {
+      name: "Experiment-2",
+      link: "https://drive.google.com/file/d/1HRScRhH3IIbbmSIEBvNSuDASmP3nWWqD/view?usp=drivesdk",
+    },
+    exp4: {
+      name: "Experiment-4",
+      link: "https://drive.google.com/file/d/1HV1A4f4TDmX2V4IjLjErT7quc4lMVVnL/view?usp=drivesdk",
+    },
+  },
   manual_Obj: {
     manual_0: {
       name: "Index",
