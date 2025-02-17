@@ -39,6 +39,10 @@ const content = {
       name: "Syllabus",
       link: "https://drive.google.com/file/d/1D-iREjzTepomydXUjDLEAU4eawktVBQ4/view?usp=drive_link",
     },
+    qb: {
+      name: "QB UT-1",
+      link: "https://drive.google.com/file/d/1H478YDwmhFySg55BVqMXNW6n3p3eJklm/view?usp=drivesdk",
+    },
   },
 };
 
