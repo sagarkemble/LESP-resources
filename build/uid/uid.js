@@ -3,6 +3,9 @@ const manual_container = document.querySelector(".manual-cards-container");
 const other_resources_container = document.querySelector(
   ".other-resources-cards-container",
 );
+const manual_question_answer_container = document.querySelector(
+  ".manual-question-answer-cards-container",
+);
 
 const content = {
   manual_questionandanswer_obj: {
@@ -87,3 +90,8 @@ function createCard(obj, container) {
 
 // Load Assignments
 createCard(content.manual_Obj, manual_container);
+createCard(
+  content.manual_questionandanswer_obj,
+  manual_question_answer_container,
+);
+createCard(content.other_resources_Obj, other_resources_container);
