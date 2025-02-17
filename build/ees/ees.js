@@ -26,7 +26,7 @@ const content = {
     },
     assignemnt5: {
       name: "Assignment-5",
-      link: "../build/notuploaded.html",
+      link: "../notuploaded.html",
     },
     assignemnt6: {
       name: "Assignment-6",
