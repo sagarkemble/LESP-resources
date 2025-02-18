@@ -44,7 +44,7 @@ const content = {
     },
     exp7: {
       name: "Experiment-7",
-      link: "https://drive.google.com/file/d/18TX_CmLN9YPmJlMwSCsgyyjvYU2bXqMs/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1-C6FagBZ0BuDXSvqrXAT4n_ke07qJCdJ/view?usp=drivesdk",
     },
     exp9: {
       name: "Experiment-9",
@@ -76,7 +76,7 @@ const content = {
     },
     EX_7_OP: {
       name: "EX-7 O/P",
-      link: "https://drive.google.com/file/d/1IH75NsgaHO1bYd6Jd7MYvsxAP74slCdE/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/134XSaWIiN8-Ke32fQVWsiFUGhibH26Ui/view?usp=drivesdk",
     },
     EX_8_OP: {
       name: "EX-8 O/P",
