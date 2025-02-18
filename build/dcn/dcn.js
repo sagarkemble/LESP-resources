@@ -144,6 +144,15 @@ const content = {
     },
   },
 };
+const passedparameter = new URLSearchParams(window.location.search);
+const highlight1 = passedparameter.get("highlight1");
+const highlight2 = passedparameter.get("highlight2");
+const highlight3 = passedparameter.get("highlight3");
+const highlight4 = passedparameter.get("highlight4");
+console.log(highlight1);
+console.log(highlight2);
+console.log(highlight3);
+console.log(highlight4);
 
 function createCard(obj, container) {
   if (!container) return; // Check if the container exists
@@ -158,6 +167,14 @@ function createCard(obj, container) {
     const card = document.createElement("div");
     card.className =
       "assignment-card click-effect md:hover-effect flex cursor-pointer justify-center rounded-2xl bg-[#171D2B] py-4 px-6";
+    if (
+      item.name == highlight1 ||
+      item.name == highlight2 ||
+      item.name == highlight3 ||
+      item.name == highlight4
+    ) {
+      card.classList.add("glow"); // Correct way to add a class
+    }
 
     const nameDiv = document.createElement("div");
     nameDiv.textContent = item.name;
