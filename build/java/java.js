@@ -76,7 +76,7 @@ const content = {
     },
     EX_7_OP: {
       name: "EX-7 O/P",
-      link: "https://docs.google.com/document/d/1kOnoXazTx1KP5BWG5yc3ichiKOkmcUnnyzykQRLruTo/edit?usp=sharing",
+      link: "https://drive.google.com/file/d/1IH75NsgaHO1bYd6Jd7MYvsxAP74slCdE/view?usp=drivesdk",
     },
     EX_8_OP: {
       name: "EX-8 O/P",
