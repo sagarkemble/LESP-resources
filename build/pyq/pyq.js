@@ -1,3 +1,8 @@
+const passedparameter = new URLSearchParams(window.location.search);
+const highlight1 = passedparameter.get("highlight1");
+const highlight2 = passedparameter.get("highlight2");
+const highlight3 = passedparameter.get("highlight3");
+const highlight4 = passedparameter.get("highlight4");
 const menuIcon = document.getElementById("menu-icon");
 const closeMenu = document.getElementById("close-menu");
 const mobileMenu = document.getElementById("mobile-menu");

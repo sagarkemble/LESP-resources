@@ -1,3 +1,24 @@
+const passedparameter = new URLSearchParams(window.location.search);
+const highlight1 = passedparameter.get("highlight1");
+const highlight2 = passedparameter.get("highlight2");
+const highlight3 = passedparameter.get("highlight3");
+const highlight4 = passedparameter.get("highlight4");
+const assignment_container = document.querySelector(
+  ".assignment-cards-container",
+);
+const manual_questionandanswer_container = document.querySelector(
+  ".manaul-question-answer-cards-container",
+);
+const manual_container = document.querySelector(".manual-cards-container");
+const notes_container = document.querySelector(
+  ".Notes-resources-cards-container",
+);
+const other_resources_container = document.querySelector(
+  ".other-resources-cards-container",
+);
+const Notes_resources_container = document.querySelector(
+  ".Notes-resources-cards-container",
+);
 const content = {
   assignment_Obj: {
     assignemnt1: {
@@ -137,22 +158,6 @@ const content = {
   },
 };
 
-const assignment_container = document.querySelector(
-  ".assignment-cards-container",
-);
-const manual_questionandanswer_container = document.querySelector(
-  ".manaul-question-answer-cards-container",
-);
-const manual_container = document.querySelector(".manual-cards-container");
-const notes_container = document.querySelector(
-  ".Notes-resources-cards-container",
-);
-const other_resources_container = document.querySelector(
-  ".other-resources-cards-container",
-);
-const Notes_resources_container = document.querySelector(
-  ".Notes-resources-cards-container",
-);
 function createCard(obj, container) {
   if (!container) return; // Check if the container exists
 
@@ -166,6 +171,14 @@ function createCard(obj, container) {
     const card = document.createElement("div");
     card.className =
       "assignment-card click-effect md:hover-effect flex cursor-pointer justify-center rounded-2xl bg-[#171D2B] py-4 px-6";
+    if (
+      item.name == highlight1 ||
+      item.name == highlight2 ||
+      item.name == highlight3 ||
+      item.name == highlight4
+    ) {
+      card.classList.add("glow"); // Correct way to add a class
+    }
 
     const nameDiv = document.createElement("div");
     nameDiv.textContent = item.name;

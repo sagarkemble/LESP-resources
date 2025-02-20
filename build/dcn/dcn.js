@@ -1,3 +1,9 @@
+const passedparameter = new URLSearchParams(window.location.search);
+const highlight1 = passedparameter.get("highlight1");
+const highlight2 = passedparameter.get("highlight2");
+const highlight3 = passedparameter.get("highlight3");
+const highlight4 = passedparameter.get("highlight4");
+
 const assignment_container = document.querySelector(
   ".assignment-cards-container",
 );
@@ -144,15 +150,6 @@ const content = {
     },
   },
 };
-const passedparameter = new URLSearchParams(window.location.search);
-const highlight1 = passedparameter.get("highlight1");
-const highlight2 = passedparameter.get("highlight2");
-const highlight3 = passedparameter.get("highlight3");
-const highlight4 = passedparameter.get("highlight4");
-console.log(highlight1);
-console.log(highlight2);
-console.log(highlight3);
-console.log(highlight4);
 
 function createCard(obj, container) {
   if (!container) return; // Check if the container exists

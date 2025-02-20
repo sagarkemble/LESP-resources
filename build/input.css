@@ -24,6 +24,7 @@ body {
   animation: fadeeffect 0.5s ease-in;
   font-family: "Poppins", Arial; /* Use the font family */
 }
+
 .swiper .swiper-pagination-bullet {
   background-color: #818181;
   opacity: 0.8;

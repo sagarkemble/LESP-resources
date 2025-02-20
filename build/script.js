@@ -2,6 +2,27 @@ const navLinks = document.querySelector(".links-container");
 const navMenuIcon = document.querySelector(".menu-button-wrapper");
 const subLink = document.querySelector(".sublink");
 const subLinkToggleButton = document.querySelector(".sublink-toggle-button");
+const timetable_popup_close_btn = document.querySelector(
+  "#timetable-popup-close-btn",
+);
+const timetable_popup_open_btn = document.querySelector(
+  "#timetable-popup-open-btn",
+);
+const timetable_popup = document.querySelector(".timetable-popup"); // Fixed variable name
+
+timetable_popup_close_btn.addEventListener("click", () => {
+  timetable_popup.style.opacity = "0";
+  setTimeout(() => {
+    timetable_popup.style.display = "none"; // Correct display usage
+  }, 150); // Wait for transition to finish before hiding
+});
+
+timetable_popup_open_btn.addEventListener("click", () => {
+  timetable_popup.style.display = "block"; // Use "block" or "flex" depending on layout
+  setTimeout(() => {
+    timetable_popup.style.opacity = "1";
+  }, 100); // Small delay ensures transition works
+});
 
 navMenuIcon.addEventListener("click", () => {
   if (navLinks.style.maxHeight) {
@@ -60,6 +81,25 @@ const swiper2 = new Swiper("#swiper-2", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+});
+const swiper3 = new Swiper("#swiper-3", {
+  direction: "horizontal",
+  loop: true,
+  autoHeight: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  spaceBetween: 20,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    1024: {
+      spaceBetween: 40,
+      autoHeight: false,
+    },
   },
 });
 const jsConfetti = new JSConfetti();
