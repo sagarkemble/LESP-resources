@@ -86,6 +86,10 @@ const content = {
       name: "EX-9 O/P",
       link: "https://drive.google.com/file/d/1GzTlB5obcAd9ajD0gWvN-nvXqCxns8T1/view?usp=drivesdk",
     },
+    EX_10_OP: {
+      name: "Ex-10 O/P",
+      link: "https://drive.google.com/file/d/15TQcq_oDGMAU1wPyMr7wIg7-IHTm1mjd/view?usp=drive_link",
+    },
   },
   notes_obj: {
     unit_1: {
