@@ -10,19 +10,21 @@ const timetable_popup_open_btn = document.querySelector(
 );
 const timetable_popup = document.querySelector(".timetable-popup"); // Fixed variable name
 
-timetable_popup_close_btn.addEventListener("click", () => {
-  timetable_popup.style.opacity = "0";
-  setTimeout(() => {
-    timetable_popup.style.display = "none"; // Correct display usage
-  }, 150); // Wait for transition to finish before hiding
-});
+if (timetable_popup_close_btn && timetable_popup_open_btn && timetable_popup) {
+  timetable_popup_close_btn.addEventListener("click", () => {
+    timetable_popup.style.opacity = "0";
+    setTimeout(() => {
+      timetable_popup.style.display = "none";
+    }, 200);
+  });
 
-timetable_popup_open_btn.addEventListener("click", () => {
-  timetable_popup.style.display = "block"; // Use "block" or "flex" depending on layout
-  setTimeout(() => {
-    timetable_popup.style.opacity = "1";
-  }, 100); // Small delay ensures transition works
-});
+  timetable_popup_open_btn.addEventListener("click", () => {
+    timetable_popup.style.display = "block";
+    requestAnimationFrame(() => {
+      timetable_popup.style.opacity = "1";
+    });
+  });
+}
 
 navMenuIcon.addEventListener("click", () => {
   if (navLinks.style.maxHeight) {
@@ -104,7 +106,7 @@ const swiper3 = new Swiper("#swiper-3", {
 });
 const jsConfetti = new JSConfetti();
 if (!localStorage.getItem("popupShown")) {
-  jsConfetti.addConfetti();
+  // jsConfetti.addConfetti();
 } else {
   document.querySelector(".popup-container").style.display = "none"; // Hide popup if already shown
 }

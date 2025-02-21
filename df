@@ -1,0 +1,221 @@
+[33me55f393[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: pull --rebase origin main (start): checkout e55f3930c3b49d6765591fc336f3d18d5ffaea85
+[33m467fad2[m[33m ([m[1;32mmain[m[33m)[m HEAD@{1}: commit: features added
+[33m91f4a6c[m HEAD@{2}: pull --rebase origin main (finish): returning to refs/heads/main
+[33m91f4a6c[m HEAD@{3}: pull --rebase origin main (pick): adding the a tag to the upcoming submission
+[33maf7390f[m HEAD@{4}: pull --rebase origin main (start): checkout af7390f2236513c14134725509421f9720abae04
+[33m0fb9608[m HEAD@{5}: commit: adding the a tag to the upcoming submission
+[33mf5af9d2[m HEAD@{6}: reset: moving to origin/main
+[33mf5af9d2[m HEAD@{7}: reset: moving to origin/main
+[33mf5af9d2[m HEAD@{8}: reset: moving to origin/main
+[33mf5af9d2[m HEAD@{9}: reset: moving to origin/main
+[33mf5af9d2[m HEAD@{10}: commit: fixed issue
+[33m55f2971[m HEAD@{11}: reset: moving to origin/main
+[33m55f2971[m HEAD@{12}: reset: moving to origin/main
+[33m55f2971[m HEAD@{13}: reset: moving to origin/main
+[33m55f2971[m HEAD@{14}: reset: moving to origin/main
+[33m55f2971[m HEAD@{15}: reset: moving to origin/main
+[33m55f2971[m HEAD@{16}: commit: added uid update
+[33mb58b83f[m HEAD@{17}: reset: moving to origin/main
+[33mb58b83f[m HEAD@{18}: reset: moving to origin/main
+[33ma05b64f[m HEAD@{19}: reset: moving to origin/main
+[33ma05b64f[m HEAD@{20}: reset: moving to origin/main
+[33ma05b64f[m HEAD@{21}: reset: moving to origin/main
+[33ma05b64f[m HEAD@{22}: reset: moving to origin/main
+[33ma05b64f[m HEAD@{23}: reset: moving to origin/main
+[33ma05b64f[m HEAD@{24}: reset: moving to origin/main
+[33ma05b64f[m HEAD@{25}: reset: moving to origin/main
+[33ma05b64f[m HEAD@{26}: pull --rebase origin main: Fast-forward
+[33m1350355[m HEAD@{27}: commit: fixed minor issue
+[33m0ed46b6[m HEAD@{28}: commit: fixed minor issues
+[33m8dd71c6[m HEAD@{29}: commit: fixed minor issues
+[33mb9b0802[m HEAD@{30}: pull --rebase origin main (finish): returning to refs/heads/main
+[33mb9b0802[m HEAD@{31}: pull --rebase origin main (pick): fixed minor isue
+[33ma3a2741[m HEAD@{32}: pull --rebase origin main (pick): fixed issue all the issue maintaince over
+[33mdcca0b7[m HEAD@{33}: pull --rebase origin main (start): checkout dcca0b77191b5618bd72e352f3f30e3b9120313d
+[33m654be45[m HEAD@{34}: commit: fixed minor isue
+[33m12e87f4[m HEAD@{35}: commit: fixed issue all the issue maintaince over
+[33m24645af[m HEAD@{36}: pull --rebase origin main: Fast-forward
+[33m1edcfe8[m HEAD@{37}: commit: fixed all the path isses
+[33m9942050[m HEAD@{38}: pull --rebase origin main (finish): returning to refs/heads/main
+[33m9942050[m HEAD@{39}: pull --rebase origin main (pick): fixed issues
+[33mec6c003[m HEAD@{40}: pull --rebase origin main (start): checkout ec6c003c5d9677ec0e3d0a160698d7b12717b7a7
+[33mb08f0bf[m HEAD@{41}: commit: fixed issues
+[33mcd28dfc[m HEAD@{42}: commit: shifted ees html
+[33mf3d8840[m HEAD@{43}: commit: fixed minor issue
+[33m7467428[m HEAD@{44}: pull --rebase origin main (finish): returning to refs/heads/main
+[33m7467428[m HEAD@{45}: pull --rebase origin main (pick): ees shifting
+[33m555f50f[m HEAD@{46}: pull --rebase origin main (start): checkout 555f50f7becc0f40bd5c6ce9f2c060a436fa86a7
+[33m4040869[m HEAD@{47}: pull --rebase origin main (finish): returning to refs/heads/main
+[33m4040869[m HEAD@{48}: pull --rebase origin main (pick): ees shifting
+[33me0e8337[m HEAD@{49}: pull --rebase origin main (start): checkout e0e83374f97f11f9be2f41506008910cd2f87d0d
+[33mebb45ec[m HEAD@{50}: commit: ees shifting
+[33mb93835e[m HEAD@{51}: commit: shifted mic to its folder
+[33m320d40f[m HEAD@{52}: commit: fixed path
+[33m08cf53d[m HEAD@{53}: commit: fixed path issue
+[33meb0d0b6[m HEAD@{54}: pull --rebase origin main (finish): returning to refs/heads/main
+[33meb0d0b6[m HEAD@{55}: pull --rebase origin main (pick): shifted dcn code in folder
+[33m734ab1d[m HEAD@{56}: pull --rebase origin main (start): checkout 734ab1d120b04a41cfd47aa0ea755af5706531a4
+[33m07c9e24[m HEAD@{57}: commit: shifted dcn code in folder
+[33m73c92d1[m HEAD@{58}: pull origin main: Fast-forward
+[33m397e713[m HEAD@{59}: pull origin main: Fast-forward
+[33mb8f14cd[m HEAD@{60}: commit: added dcn folder
+[33md126c14[m HEAD@{61}: commit: fixed path issue
+[33m22df444[m HEAD@{62}: commit: fixed path
+[33md9f7482[m HEAD@{63}: commit: fixed path
+[33m4d3829f[m HEAD@{64}: commit: fixed minot issue
+[33mad64f00[m HEAD@{65}: commit: fixed path
+[33m3c255bb[m HEAD@{66}: commit: fixzed path
+[33me8cdba4[m HEAD@{67}: commit: fixed path
+[33me43c300[m HEAD@{68}: commit: fixed path
+[33mffa7478[m HEAD@{69}: pull origin main: Fast-forward
+[33m8d00854[m HEAD@{70}: commit: fixed path in java
+[33m6598e94[m HEAD@{71}: commit: java testing
+[33m68148b4[m HEAD@{72}: checkout: moving from testing to main
+[33mf7962db[m[33m ([m[1;32mtesting[m[33m)[m HEAD@{73}: commit: testing java new feature
+[33m68148b4[m HEAD@{74}: reset: moving to origin/main
+[33m68148b4[m HEAD@{75}: reset: moving to origin/main
+[33m68148b4[m HEAD@{76}: reset: moving to origin/main
+[33m68148b4[m HEAD@{77}: reset: moving to origin/main
+[33m68148b4[m HEAD@{78}: reset: moving to origin/main
+[33m68148b4[m HEAD@{79}: reset: moving to origin/main
+[33m68148b4[m HEAD@{80}: reset: moving to origin/main
+[33m68148b4[m HEAD@{81}: reset: moving to origin/main
+[33m68148b4[m HEAD@{82}: checkout: moving from main to testing
+[33m68148b4[m HEAD@{83}: reset: moving to origin/main
+[33m3b94ca1[m HEAD@{84}: commit: fixed minor issue
+[33m33c63ef[m HEAD@{85}: reset: moving to origin/main
+[33m33c63ef[m HEAD@{86}: reset: moving to origin/main
+[33m33c63ef[m HEAD@{87}: commit: fixed minor issue
+[33ma395702[m HEAD@{88}: commit: fixed minor issue
+[33m9d0d298[m HEAD@{89}: commit: added dcn q n a
+[33m539e995[m HEAD@{90}: commit: removed ees qb
+[33m2695eb1[m HEAD@{91}: reset: moving to origin/main
+[33m2695eb1[m HEAD@{92}: pull origin main: Fast-forward
+[33m95a8d99[m HEAD@{93}: commit: fixed confetti issue
+[33m2866ffa[m HEAD@{94}: reset: moving to origin/main
+[33mb2b59fa[m HEAD@{95}: commit: added popup
+[33m3546d0b[m HEAD@{96}: pull --rebase origin main (finish): returning to refs/heads/main
+[33m3546d0b[m HEAD@{97}: pull --rebase origin main (pick): added q&a exp 1
+[33mf4da14f[m HEAD@{98}: pull --rebase origin main (start): checkout f4da14f855336a5746d1f38adcd510af2923fe98
+[33m681a20a[m HEAD@{99}: commit: added q&a exp 1
+[33m490b5b2[m HEAD@{100}: commit: fixed minor isue
+[33m330dce4[m HEAD@{101}: commit: minor issue fixed
+[33m87fd6a0[m HEAD@{102}: commit: fixed issue
+[33m9010f64[m HEAD@{103}: commit: 7th feb udpate
+[33m52df71c[m HEAD@{104}: commit: fixed minor isues
+[33maf5e00b[m HEAD@{105}: reset: moving to origin/main
+[33maf5e00b[m HEAD@{106}: reset: moving to origin/main
+[33maf5e00b[m HEAD@{107}: commit: fixed minor issue
+[33m33cd88d[m HEAD@{108}: commit: fixed minor issue
+[33m20e54eb[m HEAD@{109}: commit: fixed issue
+[33me98759d[m HEAD@{110}: commit: 6th feb update
+[33m49e82a7[m HEAD@{111}: reset: moving to origin/main
+[33m49e82a7[m HEAD@{112}: reset: moving to origin/main
+[33m49e82a7[m HEAD@{113}: commit: java update
+[33m864c08d[m HEAD@{114}: commit: added hover effect to site
+[33mdd39170[m HEAD@{115}: commit: minro issue fixed
+[33m32bd1a9[m HEAD@{116}: commit: fixed minor issue
+[33m7e9a5d2[m HEAD@{117}: reset: moving to origin/main
+[33m7e9a5d2[m HEAD@{118}: commit: fixed grid layout
+[33m2d874c6[m HEAD@{119}: reset: moving to origin/main
+[33m2d874c6[m HEAD@{120}: commit: added hover effect
+[33mdcd4046[m HEAD@{121}: commit: fixed minor issue
+[33m6dd530b[m HEAD@{122}: commit: added some styles
+[33mfe9f2cb[m HEAD@{123}: reset: moving to origin/main
+[33mfe9f2cb[m HEAD@{124}: reset: moving to origin/main
+[33mfe9f2cb[m HEAD@{125}: commit: a
+[33meca9af4[m HEAD@{126}: commit: edited java qb
+[33m3d4d05f[m HEAD@{127}: commit: 4th feb update
+[33m08b242f[m HEAD@{128}: reset: moving to origin/main
+[33m08b242f[m HEAD@{129}: reset: moving to origin/main
+[33m08b242f[m HEAD@{130}: reset: moving to origin/main
+[33m08b242f[m HEAD@{131}: reset: moving to origin/main
+[33m08b242f[m HEAD@{132}: reset: moving to origin/main
+[33mfe28add[m HEAD@{133}: commit: added posthog header
+[33m34f2243[m HEAD@{134}: commit: fixed positon of the header tag of mixpanel
+[33mdb87896[m HEAD@{135}: commit: added mix panel header
+[33m0313616[m HEAD@{136}: commit: added amnplitude header tag
+[33m0a2e2db[m HEAD@{137}: commit: fixed minor issue
+[33mba49d65[m HEAD@{138}: commit: 3rd feb update
+[33m2f25070[m HEAD@{139}: commit: added dcn qb
+[33mcd2400e[m HEAD@{140}: reset: moving to origin/main
+[33mcd2400e[m HEAD@{141}: reset: moving to origin/main
+[33mcd2400e[m HEAD@{142}: commit: added usermaven analytics header tag
+[33m082fa6f[m HEAD@{143}: pull origin main --rebase (finish): returning to refs/heads/main
+[33m082fa6f[m HEAD@{144}: pull origin main --rebase (pick): added google analytics header tag to all pages
+[33m5e69204[m HEAD@{145}: pull origin main --rebase (start): checkout 5e6920421002f2c087fd5feccfd127daee7339bc
+[33ma716f42[m HEAD@{146}: commit: added google analytics header tag to all pages
+[33mb732d54[m HEAD@{147}: commit: abc
+[33ma796fa7[m HEAD@{148}: reset: moving to origin/main
+[33m24e6628[m HEAD@{149}: commit: minor issue fixed
+[33m6508aab[m HEAD@{150}: commit: fixed minor issues
+[33mb8377fc[m HEAD@{151}: commit: fixed minor issue
+[33m29fc547[m HEAD@{152}: commit: fixed minor issues
+[33m1adbca9[m HEAD@{153}: commit: fixed transition duration
+[33mfba553d[m HEAD@{154}: commit: fixed minor issue
+[33m0b856fb[m HEAD@{155}: commit: fixed minor issue
+[33ma5d1e01[m HEAD@{156}: commit: added link to nav bar
+[33me5f40b3[m HEAD@{157}: commit: fixed issue
+[33mbefe229[m HEAD@{158}: commit: fixed minor issue
+[33m834f9c2[m HEAD@{159}: commit: fixed minor issue
+[33m8e6f01a[m HEAD@{160}: commit: spelling correction
+[33me3bbe5d[m HEAD@{161}: commit: spelling mistake fixed
+[33m8e2da85[m HEAD@{162}: commit: added about us page
+[33m53c0bc6[m HEAD@{163}: reset: moving to origin/main
+[33m53c0bc6[m HEAD@{164}: reset: moving to origin/main
+[33m53c0bc6[m HEAD@{165}: reset: moving to origin/main
+[33m53c0bc6[m HEAD@{166}: reset: moving to origin/main
+[33m53c0bc6[m HEAD@{167}: reset: moving to origin/main
+[33mb0818cf[m HEAD@{168}: commit: sample chagne
+[33m53c0bc6[m HEAD@{169}: commit: fixed issue
+[33m7b5df6d[m HEAD@{170}: pull origin main: Fast-forward
+[33m9334b4a[m HEAD@{171}: commit: added pwp o/p
+[33mee499e0[m HEAD@{172}: reset: moving to origin/main
+[33m0f9518c[m HEAD@{173}: commit: added pwp o/p
+[33m54deb4d[m HEAD@{174}: commit: added mic notes
+[33mfb5cb19[m HEAD@{175}: reset: moving to origin/main
+[33mb74cbb8[m HEAD@{176}: reset: moving to origin/main
+[33ma5d090c[m HEAD@{177}: commit: minor fix
+[33m914a9bf[m HEAD@{178}: commit: updated java page
+[33mbeb9f5f[m HEAD@{179}: pull origin main: Fast-forward
+[33mafdc9c3[m HEAD@{180}: pull origin main: Fast-forward
+[33mf154c5f[m HEAD@{181}: commit: fixed logo path
+[33mb923de5[m HEAD@{182}: commit: fixed icon path
+[33m2868c56[m HEAD@{183}: commit: fixed icon folder
+[33m332c9a5[m HEAD@{184}: pull origin main: Fast-forward
+[33md70aa12[m HEAD@{185}: commit: uid code organised
+[33m06d3372[m HEAD@{186}: commit: organised mic page
+[33m763b05e[m HEAD@{187}: pull origin main: Fast-forward
+[33m6334752[m HEAD@{188}: pull origin main: Fast-forward
+[33mff7b419[m HEAD@{189}: pull origin main: Fast-forward
+[33m87dca86[m HEAD@{190}: commit: organised index page
+[33me50b521[m HEAD@{191}: pull origin main: Fast-forward
+[33mecd8db7[m HEAD@{192}: commit: sample
+[33m4648231[m HEAD@{193}: rebase (finish): returning to refs/heads/main
+[33m4648231[m HEAD@{194}: reset: moving to origin/main
+[33med6866b[m HEAD@{195}: commit: sample commit
+[33m4648231[m HEAD@{196}: reset: moving to origin/main
+[33ma3849b3[m HEAD@{197}: commit: sample command
+[33m4648231[m HEAD@{198}: reset: moving to origin/main
+[33mdd33f05[m HEAD@{199}: commit: sample command
+[33m5e5b529[m HEAD@{200}: pull --rebase (start): checkout 5e5b529e1096d2ee181bee746430d4cf2281a527
+[33m2869147[m HEAD@{201}: commit: sample commit
+[33mb6fee64[m HEAD@{202}: pull: Fast-forward
+[33m40ae060[m HEAD@{203}: commit: java qb uploaded
+[33me0cf0e5[m HEAD@{204}: commit: added java qb
+[33mce4d170[m HEAD@{205}: reset: moving to origin/main
+[33mce4d170[m HEAD@{206}: commit: fixed isue
+[33m45287fc[m HEAD@{207}: reset: moving to origin/main
+[33m45287fc[m HEAD@{208}: reset: moving to origin/main
+[33m45287fc[m HEAD@{209}: reset: moving to origin/main
+[33m45287fc[m HEAD@{210}: reset: moving to origin/main
+[33m45287fc[m HEAD@{211}: commit: 31 jan updat
+[33m312b5f7[m HEAD@{212}: commit: fixed notice
+[33mcaa97a0[m HEAD@{213}: commit: minor changes
+[33ma2956c2[m HEAD@{214}: commit: 30th jan update
+[33md626ea4[m HEAD@{215}: commit: fixed nav
+[33ma808ab6[m HEAD@{216}: commit: added ees assignment
+[33m21b2235[m HEAD@{217}: reset: moving to origin/main
+[33mb68edd3[m HEAD@{218}: commit: added ees asisgnemtn4
+[33m21b2235[m HEAD@{219}: commit: added dcn notes
+[33mbf1de64[m HEAD@{220}: clone: from https://github.com/sagarkemble/LESP-resources.git
