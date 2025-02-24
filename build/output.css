@@ -1102,6 +1102,10 @@
     --tw-translate-x: calc(var(--spacing) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+  .translate-y-\[0\.1rem\] {
+    --tw-translate-y: 0.1rem;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .translate-y-\[3rem\] {
     --tw-translate-y: 3rem;
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -1900,6 +1904,9 @@
   .bg-\[\#171D2B\] {
     background-color: #171D2B;
   }
+  .bg-\[\#171d2b\] {
+    background-color: #171d2b;
+  }
   .bg-\[\#000511\] {
     background-color: #000511;
   }
@@ -1908,6 +1915,9 @@
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
+  }
+  .bg-black {
+    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -2119,6 +2129,9 @@
   }
   .p-6 {
     padding: calc(var(--spacing) * 6);
+  }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
@@ -2754,6 +2767,9 @@
   .delay-150 {
     transition-delay: 150ms;
   }
+  .delay-200 {
+    transition-delay: 200ms;
+  }
   .delay-300 {
     transition-delay: 300ms;
   }
@@ -2986,11 +3002,6 @@
       margin-left: auto;
     }
   }
-  .md\:block {
-    @media (width >= 48rem) {
-      display: block;
-    }
-  }
   .md\:hidden {
     @media (width >= 48rem) {
       display: none;
@@ -3090,84 +3101,6 @@
     background-position: right;
   }
 }
-body {
-  background: #000511;
-  animation: fadeeffect 0.5s ease-in;
-  font-family: "Poppins", Arial;
-}
-.swiper .swiper-pagination-bullet {
-  background-color: #818181;
-  opacity: 0.8;
-}
-.swiper .swiper-pagination-bullet-active {
-  background-color: #ffffff;
-  opacity: 1;
-}
-.subject-card {
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-.subject-card:active {
-  background-color: #ffffff;
-  color: #000000;
-}
-.social-icon {
-  transition: color 0.3s ease;
-}
-.social-icon:active {
-  color: #9b9999;
-}
-.click-effect {
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-.click-effect-popup {
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-.click-effect-popup:active {
-  background-color: white;
-  color: #fb2c36;
-}
-.click-effect:active {
-  background-color: white;
-  color: #000000;
-}
-.submissions-cards-conteiner {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-.subject-cards-conteiner {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-.tag-line-container {
-  background: linear-gradient( to right, #4da7fa, #71fff3, #71ffa7, #e2ffad );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  background-size: 400%;
-  animation: animatedtext 3s linear infinite alternate;
-  color: white;
-}
-.hover-effect {
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-.hover-effect:hover {
-  background-color: #ffffff;
-  color: #000000;
-}
-.grid-auto-fit {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-@media (min-width: 768px) {
-  .grid-auto-fit {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
-  }
-}
 @keyframes glowanimation {
   0% {
     background-color: #171d2b;
@@ -3194,8 +3127,89 @@ body {
     color: white;
   }
 }
+body {
+  background: #000511;
+  animation: fadeeffect 0.5s ease-in;
+  font-family: "Poppins", Arial;
+}
+.swiper .swiper-pagination-bullet {
+  background-color: #818181;
+  opacity: 0.8;
+}
+.swiper .swiper-pagination-bullet-active {
+  background-color: #ffffff;
+  opacity: 1;
+}
+.social-icon {
+  transition: color 0.3s ease;
+}
+.social-icon:active {
+  color: #9b9999;
+}
+.click-effect {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.click-effect:active {
+  background-color: white;
+  color: #000000;
+}
+.click-effect-nobg {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.click-effect-nobg:active {
+  color: #ffffff;
+}
+.hover-effect {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.hover-effect:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.submissions-cards-conteiner {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.subject-cards-conteiner {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.tag-line-container {
+  background: linear-gradient( to right, #4da7fa, #71fff3, #71ffa7, #e2ffad );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 400%;
+  animation: animatedtext 3s linear infinite alternate;
+  color: white;
+}
+.grid-auto-fit {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+@media (min-width: 768px) {
+  .grid-auto-fit {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+  }
+}
 .glow {
   animation: glowanimation 2s ease-in-out;
+}
+.division-options li, .batch-options li {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.active-division {
+  background: white;
+  color: black;
+}
+.active-batch {
+  background: white;
+  color: black;
 }
 @keyframes spin {
   to {

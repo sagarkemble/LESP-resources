@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@theme {
-}
+
 @keyframes fadeeffect {
   from {
     opacity: 0;
@@ -16,106 +15,6 @@
   }
   100% {
     background-position: right;
-  }
-}
-
-body {
-  background: #000511;
-  animation: fadeeffect 0.5s ease-in;
-  font-family: "Poppins", Arial; /* Use the font family */
-}
-
-.swiper .swiper-pagination-bullet {
-  background-color: #818181;
-  opacity: 0.8;
-}
-.swiper .swiper-pagination-bullet-active {
-  background-color: #ffffff;
-  opacity: 1;
-}
-.subject-card {
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
-}
-
-.subject-card:active {
-  background-color: #ffffff;
-  color: #000000;
-}
-.social-icon {
-  transition: color 0.3s ease;
-}
-
-.social-icon:active {
-  color: #9b9999;
-}
-
-.click-effect {
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
-}
-.click-effect-popup {
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
-}
-.click-effect-popup:active {
-  background-color: white;
-  color: #fb2c36;
-}
-
-.click-effect:active {
-  background-color: white;
-  color: #000000;
-}
-.submissions-cards-conteiner {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-.subject-cards-conteiner {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-.tag-line-container {
-  background: linear-gradient(
-    to right,
-
-    #4da7fa,
-    #71fff3,
-    #71ffa7,
-    #e2ffad
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  background-size: 400%;
-  animation: animatedtext 3s linear infinite alternate;
-  color: white;
-}
-.hover-effect {
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
-}
-.hover-effect:hover {
-  background-color: #ffffff;
-  color: #000000;
-}
-.grid-auto-fit {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-
-@media (min-width: 768px) {
-  .grid-auto-fit {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
   }
 }
 @keyframes glowanimation {
@@ -144,6 +43,115 @@ body {
     color: white;
   }
 }
+
+body {
+  background: #000511;
+  animation: fadeeffect 0.5s ease-in;
+  font-family: "Poppins", Arial; /* Use the font family */
+}
+
+/* swiper */
+.swiper .swiper-pagination-bullet {
+  background-color: #818181;
+  opacity: 0.8;
+}
+.swiper .swiper-pagination-bullet-active {
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.social-icon {
+  transition: color 0.3s ease;
+}
+
+.social-icon:active {
+  color: #9b9999;
+}
+
+.click-effect {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+.click-effect:active {
+  background-color: white;
+  color: #000000;
+}
+.click-effect-nobg {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+.click-effect-nobg:active {
+  color: #ffffff;
+}
+.hover-effect {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+.hover-effect:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.submissions-cards-conteiner {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.subject-cards-conteiner {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.tag-line-container {
+  background: linear-gradient(
+    to right,
+
+    #4da7fa,
+    #71fff3,
+    #71ffa7,
+    #e2ffad
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 400%;
+  animation: animatedtext 3s linear infinite alternate;
+  color: white;
+}
+
+.grid-auto-fit {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+@media (min-width: 768px) {
+  .grid-auto-fit {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+  }
+}
+
 .glow {
   animation: glowanimation 2s ease-in-out;
+}
+
+.division-options li,
+.batch-options li {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+.active-division {
+  background: white;
+  color: black;
+}
+.active-batch {
+  background: white;
+  color: black;
 }

@@ -103,6 +103,41 @@
   </head>
   <body class="flex h-full flex-col bg-[#000511] text-white">
     <div
+      class="division-batch-popup-container absolute z-30 flex hidden h-full w-full items-center justify-center bg-[#00000090] opacity-0 transition-all delay-100 ease-in-out"
+    >
+      <div
+        class="card flex max-w-[75vw] flex-col gap-2 rounded-2xl bg-[#171D2B] p-5 sm:max-w-[350px]"
+      >
+        <div class="title-container flex flex-col items-start gap-2">
+          <div class="flex w-full items-center">
+            <div class="title text-xl font-bold">DIV</div>
+            <i
+              class="fa-solid fa-xmark click-effect-nobg mr-3 ml-auto text-xl text-gray-400"
+              id="division-batch-popup-container-close-btn"
+            ></i>
+          </div>
+          <ul class="division-options flex gap-3 text-base font-bold">
+            <li class="active-division rounded-md p-1" id="A">A</li>
+            <li class="rounded-md p-1" id="B">B</li>
+          </ul>
+          <div class="title text-xl font-bold">Batch</div>
+          <ul class="batch-options flex gap-3 text-base font-bold">
+            <li class="active-batch rounded-md p-1" id="S1">S1</li>
+            <li class="rounded-md p-1" id="S2">S2</li>
+            <li class="rounded-md p-1" id="S3">S3</li>
+            <li class="rounded-md p-1" id="S4">S4</li>
+            <li class="rounded-md p-1" id="S5">S5</li>
+            <li class="rounded-md p-1" id="S6">S6</li>
+          </ul>
+          <div
+            class="division-popup-okay-btn click-effect mt-1 flex w-20 cursor-pointer justify-center rounded-xl bg-red-500 p-2 font-bold text-white"
+          >
+            Okay
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div
       class="popup-container absolute z-30 flex h-full w-full items-center justify-center bg-[#00000090] transition-all delay-300 ease-in-out"
     >
       <div
@@ -126,7 +161,7 @@
           Okay
         </div>
       </div>
-    </div>
+    </div> -->
     <div
       class="timetable-popup absolute fixed z-30 hidden h-screen w-screen overflow-y-hidden bg-[#00000080] opacity-0 transition transition-opacity delay-100 ease-out"
     >
@@ -676,22 +711,22 @@
           </li>
           <li><a href="syllabus.html">Syllabus</a></li>
         </ul>
-        <!-- <img
-          src="src/icons/other/cal.png"
-          alt=""
-          class="md hidden h-6 w-6 md:block"
-        /> -->
       </div>
       <div
-        class="ml-auto flex gap-5 text-2xl text-white md:relative md:right-0 md:ml-0"
+        class="ml-auto flex items-center gap-5 text-2xl text-white md:relative md:right-0 md:ml-0"
       >
+        <div
+          class="division-toggle-button flex items-center rounded-lg bg-[#171d2b] p-1 px-2 text-center text-sm font-semibold"
+        >
+          DIV-A S1
+        </div>
         <img
           src="src/icons/other/cal.png"
           alt=""
           class="h-6 w-6"
           id="timetable-popup-open-btn"
         />
-        <div class="md:hidden">
+        <div class="translate-y-[0.1rem] text-2xl md:hidden">
           <i class="fa-solid fa-bars menu-button-wrapper"></i>
         </div>
       </div>
@@ -871,213 +906,7 @@
         <div class="submissions-cards-conteiner">
           <!-- / -->
           <!-- / -->
-          <a
-            href="dcn/DCN.html?highlight1=Assignment-4&highlight2=0&highlight3=0&highlight4=0"
-          >
-            <!-- dcn-card-start -->
-            <div
-              class="submission-card mx-autoo flex flex-col gap-3 rounded-2xl bg-[#171D2B] p-5"
-            >
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img
-                    src="src/icons/colored_bg_icons/DCN.png "
-                    alt=""
-                    class="h-12"
-                  />
-                </div>
-                <div class="title">
-                  <p>DCN</p>
-                </div>
-              </div>
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img src="src/icons/other/CAL.png" alt="" class="h-12" />
-                </div>
-                <div class="title">
-                  <p>25-Feb</p>
-                </div>
-              </div>
-              <div class="description">
-                <div class="">Assignment-4</div>
-                <!-- <div class="">Manual Exp-2</div> -->
-              </div>
-            </div>
-          </a>
-          <!-- dcn-card-end -->
 
-          <a
-            href="java/JAVA.html?highlight1=Experiment-5&highlight2=0&highlight3=0&highlight4=0"
-          >
-            <!-- JAVA-card-start -->
-            <div
-              class="submission-card mx-autoo flex flex-col gap-3 rounded-2xl bg-[#171D2B] p-5"
-            >
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img
-                    src="src/icons/colored_bg_icons/java.png "
-                    alt=""
-                    class="h-12"
-                  />
-                </div>
-                <div class="title">
-                  <p>JAVA</p>
-                </div>
-              </div>
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img src="src/icons/other/CAL.png " alt="" class="h-12" />
-                </div>
-                <div class="title">
-                  <p>26-Feb</p>
-                </div>
-              </div>
-              <div class="description">
-                <div class="">Experiment-5</div>
-                <!-- <div class="">Manual Exp-2</div> -->
-              </div>
-            </div>
-          </a>
-          <!-- JAVA-card-end -->
-
-          <!--PWP-card-start -->
-          <a
-            href="pwp/PWP.html?highlight1=Tutorial-1&highlight2=0&highlight3=0&highlight4=0"
-          >
-            <div
-              class="submission-card mx-autoo flex flex-col gap-3 rounded-2xl bg-[#171D2B] p-5"
-            >
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img
-                    src="src/icons/colored_bg_icons/pwp.png "
-                    alt=""
-                    class="h-12"
-                  />
-                </div>
-                <div class="title">
-                  <p>PWP</p>
-                </div>
-              </div>
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img src="src/icons/other/CAL.png" alt="" class="h-12" />
-                </div>
-                <div class="title">
-                  <p>30-Feb</p>
-                </div>
-              </div>
-              <div class="description">
-                <div class="">Tutorial-3</div>
-                <!-- <div class="">Manual Exp-2</div> -->
-              </div>
-            </div>
-          </a>
-          <!--PWP-card-end -->
-
-          <a
-            href="mic/MIC.html?highlight1=Assignment-2&highlight2=0&highlight3=0&highlight4=0"
-          >
-            <!--MIC-card-start -->
-            <div
-              class="submission-card mx-autoo flex flex-col gap-3 rounded-2xl bg-[#171D2B] p-5"
-            >
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img
-                    src="src/icons/colored_bg_icons/mic.png "
-                    alt=""
-                    class="h-12"
-                  />
-                </div>
-                <div class="title">
-                  <p>MIC</p>
-                </div>
-              </div>
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img src="src/icons/other/CAL.png " alt="" class="h-12" />
-                </div>
-                <div class="title">
-                  <p>25-Feb</p>
-                </div>
-              </div>
-              <div class="description">
-                <div class="">Assignment-2</div>
-              </div>
-            </div>
-          </a>
-          <!--MIC-card-end -->
-
-          <a
-            href="uid/UID.html?highlight1=Assignment-1&highlight2=0&highlight3=0&highlight4=0"
-          >
-            <!--UID-card-start -->
-            <div
-              class="submission-card mx-autoo flex flex-col gap-3 rounded-2xl bg-[#171D2B] p-5"
-            >
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img
-                    src="src/icons/colored_bg_icons/uid.png"
-                    alt=""
-                    class="h-12"
-                  />
-                </div>
-                <div class="title">
-                  <p>UID</p>
-                </div>
-              </div>
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img src="src/icons/other/CAL.png" alt="" class="h-12" />
-                </div>
-                <div class="title">
-                  <p>15-march</p>
-                </div>
-              </div>
-              <div class="description">
-                <div class="">Micro-project</div>
-              </div>
-            </div>
-          </a>
-          <!--UID-card-end -->
-
-          <a
-            href="ees/EES.html?highlight1=Assignment-3&highlight2=0&highlight3=0&highlight4=0"
-          >
-            <!--EES-card-start -->
-            <div
-              class="submission-card mx-autoo flex flex-col gap-3 rounded-2xl bg-[#171D2B] p-5"
-            >
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img
-                    src="src/icons/colored_bg_icons/ees.png "
-                    alt=""
-                    class="h-12"
-                  />
-                </div>
-                <div class="title">
-                  <p>EES</p>
-                </div>
-              </div>
-              <div class="icon-title-wrapper flex items-center gap-1">
-                <div class="icon -translate-x-1">
-                  <img src="src/icons/other/CAL.png" alt="" class="h-12" />
-                </div>
-                <div class="title">
-                  <p>2-Mar</p>
-                </div>
-              </div>
-              <div class="description">
-                <div class="">Assignment-3</div>
-                <!-- <div class="">Manual Exp-2</div> -->
-              </div>
-            </div>
-          </a>
-          <!--EES-card-end -->
           <!-- / -->
           <!-- / -->
         </div>
@@ -1124,7 +953,7 @@
               <div class="icon-title-wrapper flex items-center gap-1">
                 <div class="icon -translate-x-1">
                   <img
-                    src="src/icons/colored_bg_icons/java.png"
+                    src="src/icons/colored_bg_icons/JAVA.png"
                     alt=""
                     class="h-12"
                   />
@@ -1145,7 +974,7 @@
               <div class="icon-title-wrapper flex items-center gap-1">
                 <div class="icon -translate-x-1">
                   <img
-                    src="src/icons/colored_bg_icons/pwp.png"
+                    src="src/icons/colored_bg_icons/PWP.png"
                     alt=""
                     class="h-12"
                   />
@@ -1166,7 +995,7 @@
               <div class="icon-title-wrapper flex items-center gap-1">
                 <div class="icon -translate-x-1">
                   <img
-                    src="src/icons/colored_bg_icons/uid.png"
+                    src="src/icons/colored_bg_icons/UID.png"
                     alt=""
                     class="h-12"
                   />
@@ -1187,7 +1016,7 @@
               <div class="icon-title-wrapper flex items-center gap-1">
                 <div class="icon -translate-x-1">
                   <img
-                    src="src/icons/colored_bg_icons/ees.png"
+                    src="src/icons/colored_bg_icons/EES.png"
                     alt=""
                     class="h-12"
                   />
@@ -1208,7 +1037,7 @@
               <div class="icon-title-wrapper flex items-center gap-1">
                 <div class="icon -translate-x-1">
                   <img
-                    src="src/icons/colored_bg_icons/mic.png"
+                    src="src/icons/colored_bg_icons/MIC.png"
                     alt=""
                     class="h-12"
                   />
