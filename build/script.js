@@ -46,6 +46,7 @@ division_batch_btn_open.addEventListener("click", () => {
     division_batch_selection_container.style.opacity = "1";
   });
 });
+console.log(division_batch_btn_open);
 
 const division_selection_li = document.querySelectorAll(".division-options li");
 const batch_selection_container =
@@ -452,6 +453,7 @@ const submission = [
 
   {
     name: "UID",
+    sub1: "Exp-1 to 8",
     sub2: "0",
     sub3: "0",
     sub4: "0",
@@ -527,7 +529,7 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "25N/A",
+    date: "N/A",
     link: "build/ees/EES.html",
     batch: "S5",
   },
