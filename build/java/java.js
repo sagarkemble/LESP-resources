@@ -65,11 +65,19 @@ const content = {
     },
     exp7: {
       name: "Experiment-7",
-      link: "https://drive.google.com/file/d/18TX_CmLN9YPmJlMwSCsgyyjvYU2bXqMs/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1-C6FagBZ0BuDXSvqrXAT4n_ke07qJCdJ/view?usp=drivesdk",
     },
     exp9: {
       name: "Experiment-9",
       link: "https://drive.google.com/file/d/18TcOloCDdRBjh8croc1KZ2QmqIZHI52a/view?usp=drivesdk",
+    },
+    exp12: {
+      name: "Experiment-12",
+      link: "https://drive.google.com/file/d/1NJL1N5MJHd9juxpZxKWK6RmnlvK067Rd/view?usp=drivesdk",
+    },
+    exp13: {
+      name: "Experiment-13",
+      link: "https://drive.google.com/file/d/1NHBw3W_Yr2inOjsu1nmWh7BX2UmyVq2o/view?usp=drivesdk",
     },
   },
   other_resources_Obj: {
@@ -106,6 +114,10 @@ const content = {
     EX_9_OP: {
       name: "EX-9 O/P",
       link: "https://drive.google.com/file/d/1GzTlB5obcAd9ajD0gWvN-nvXqCxns8T1/view?usp=drivesdk",
+    },
+    EX_10_OP: {
+      name: "Ex-10 O/P",
+      link: "https://drive.google.com/file/d/15TQcq_oDGMAU1wPyMr7wIg7-IHTm1mjd/view?usp=drive_link",
     },
   },
   notes_obj: {
@@ -160,16 +172,16 @@ const content = {
 const contentb = {
   assignment_Obj: {
     assignemnt1: {
-      name: "Assignment-123",
-      link: "https://drive.google.com/file/d/1-4Jh8QLm5PmCkv9eG8FLC31hQuQBOLnT/view?usp=drivesdk",
+      name: "Assignment-1",
+      link: "https://drive.google.com/file/d/1PH3g2-7lbgA2yvZn5WKCMt7jDR_B8zEj/view?usp=drive_link",
     },
     assignemnt2: {
       name: "Assignment-2",
-      link: "https://drive.google.com/file/d/11eZVAujt3um-qreLZx8cq9JE7TFmXxJ9/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1PJHSGQFSFiiGThbNDDx8XWVrAIUVzgW5/view?usp=drive_link",
     },
     assignemnt3: {
       name: "Assignment-3",
-      link: "../notuploaded.html",
+      link: "https://drive.google.com/file/d/1PL2GHT4R0MA9Ka1CSra3w0AHYdB3SX5s/view?usp=drive_link",
     },
     assignemnt4: {
       name: "Assignment-4",

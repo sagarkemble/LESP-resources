@@ -186,7 +186,6 @@ function createCard(obj, container) {
 
     const link = document.createElement("a");
     link.href = item.link;
-    link.target = "_blank"; // Open in new tab
 
     const card = document.createElement("div");
     card.className =

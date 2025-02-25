@@ -31,7 +31,7 @@ const content = {
     },
     assignemnt5: {
       name: "Assignment-5",
-      link: "../notuploaded.html",
+      link: "https://docs.google.com/document/d/1kOnoXazTx1KP5BWG5yc3ichiKOkmcUnnyzykQRLruTo/edit?usp=sharing",
     },
     assignemnt6: {
       name: "Assignment-6",

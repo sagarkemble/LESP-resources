@@ -23,7 +23,7 @@ const content = {
       link: "https://drive.google.com/file/d/1HPTtCYuUpdMXeN_qvDmbqZp9_2t3anwa/view?usp=drivesdk",
     },
     exp3: {
-      name: "Experiment-2",
+      name: "Experiment-3",
       link: "https://drive.google.com/file/d/1HRScRhH3IIbbmSIEBvNSuDASmP3nWWqD/view?usp=drivesdk",
     },
     exp4: {
@@ -57,7 +57,7 @@ const content = {
   other_resources_Obj: {
     resrc: {
       name: "Syllabus",
-      link: "https://drive.google.com/file/d/1D-iREjzTepomydXUjDLEAU4eawktVBQ4/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1TCKxAJM26pr3m0GXahHINDsWRkN_cfy0/view?usp=drive_link",
     },
     resrc_1: {
       name: "MP INDEX",
