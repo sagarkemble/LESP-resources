@@ -19,6 +19,9 @@ const other_resources_container = document.querySelector(
 const Notes_resources_container = document.querySelector(
   ".Notes-resources-cards-container",
 );
+const output_resources_container = document.querySelector(
+  ".output-container-cards-container",
+);
 const content = {
   assignment_Obj: {
     assignemnt1: {
@@ -80,16 +83,7 @@ const content = {
       link: "https://drive.google.com/file/d/1NHBw3W_Yr2inOjsu1nmWh7BX2UmyVq2o/view?usp=drivesdk",
     },
   },
-  other_resources_Obj: {
-    qb: {
-      name: "QB UT-1",
-      link: "https://drive.google.com/file/d/1AOcT-RuSXDwNjtf3ahT88lTQIV1oaPX3/view?usp=drivesdk",
-    },
-    syllabus: {
-      name: "Syllabus",
-      link: "https://drive.google.com/file/d/1n1GKosTv0jxSdrgv0d7X5YyOi4qHRQKw/view?usp=drive_link",
-    },
-
+  ouput_obj: {
     EX_3_OP: {
       name: "EX-3 O/P",
       link: "https://drive.google.com/file/d/13BbCSxkLQJ3-U3bMKXgGBK0KlZD6Xkg4/view?usp=drivesdk",
@@ -118,6 +112,16 @@ const content = {
     EX_10_OP: {
       name: "Ex-10 O/P",
       link: "https://drive.google.com/file/d/15TQcq_oDGMAU1wPyMr7wIg7-IHTm1mjd/view?usp=drive_link",
+    },
+  },
+  other_resources_Obj: {
+    qb: {
+      name: "QB UT-1",
+      link: "https://drive.google.com/file/d/1AOcT-RuSXDwNjtf3ahT88lTQIV1oaPX3/view?usp=drivesdk",
+    },
+    syllabus: {
+      name: "Syllabus",
+      link: "https://drive.google.com/file/d/1n1GKosTv0jxSdrgv0d7X5YyOi4qHRQKw/view?usp=drive_link",
     },
   },
   notes_obj: {
@@ -232,8 +236,10 @@ function createCard(obj, container) {
 
 if (localStorage.getItem("DIV") == "A") {
   createCard(content.assignment_Obj, assignment_container);
+  createCard(content.ouput_obj, output_resources_container);
 } else {
   createCard(contentb.assignment_Obj, assignment_container);
+  output_resources_container.parentElement.style.display = "none";
 }
 // Load Assignments
 // createCard(content.assignment_Obj, assignment_container);

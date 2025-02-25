@@ -140,38 +140,43 @@
         </div>
       </div>
     </div>
-    <!-- <div
-      class="popup-container absolute z-30 flex h-full w-full items-center justify-center bg-[#00000090] transition-all delay-300 ease-in-out"
+    <div
+      class="popup-container absolute z-30 flex hidden h-full w-full items-center justify-center bg-[#00000090] opacity-0 transition-all delay-300 ease-in-out"
     >
       <div
         class="card flex max-w-[75vw] flex-col gap-2 rounded-2xl bg-[#171D2B] p-5 sm:max-w-[350px]"
       >
         <div class="title-container flex items-center gap-2">
           <div class="emoji">
-            <img src="src/icons/black_bg _icons/notice.png" class="w-12" />
+            <img src="src/icons/other/announcement.png" class="w-12" />
           </div>
-          <div class="title text-xl font-bold">22nd Feb update</div>
+          <div class="title text-xl font-bold">What's new in V2</div>
         </div>
         <div class="description">
-          DCN-Assignment-1 added <br />
-          MIC-Manual Exp-2 added <br />
-          DCN-Manual Exp-3 added<br />
-          JAVA-Assignment-1 added
+          <ul class="flex list-disc flex-col gap-1 pl-5">
+            <li>Added batch and division wise resource sepration</li>
+            <li>
+              domain changed from lesp-resources.vercel.app to lespresources.in
+            </li>
+            <li>Added PYQ section with all PYQ question papers</li>
+            <li>Added division wise Time-Table</li>
+            <li>Extended lesp resource team</li>
+          </ul>
         </div>
         <div
-          class="donate-btn click-effect-popup mt-1 flex w-20 cursor-pointer justify-center rounded-xl bg-red-500 p-2 font-medium text-white transition-all delay-150 ease-in-out"
+          class="donate-btn click-effect mt-1 flex w-20 cursor-pointer justify-center rounded-xl bg-red-500 p-2 font-bold text-white transition-all delay-200 ease-in-out"
         >
           Okay
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- a div timetable -->
     <div
       class="timetable-popup timetable-popup-div-a absolute fixed z-30 hidden h-screen w-screen overflow-y-hidden bg-[#00000080] opacity-0 transition transition-opacity delay-100 ease-out"
     >
       <div class="mt-[10vh]">
         <div class="timetable-popup-close-btn-a flex w-full gap-1">
-          <i class="fa-solid fa-xmark mr-3 ml-auto text-2xl"></i>
+          <i class="fa-solid fa-xmark mr-3 ml-auto text-2xl sm:mr-6"></i>
         </div>
         <div class="swiper" id="swiper-3">
           <!-- Additional required wrapper -->
@@ -677,7 +682,7 @@
       <div class="mt-[10vh]">
         <div class="flex w-full gap-1">
           <i
-            class="fa-solid fa-xmark timetable-popup-close-btn-b mr-3 ml-auto text-2xl"
+            class="fa-solid fa-xmark timetable-popup-close-btn-b mr-3 ml-auto text-2xl sm:mr-6"
           ></i>
         </div>
         <div class="swiper" id="swiper-3">

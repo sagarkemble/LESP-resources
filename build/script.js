@@ -32,6 +32,27 @@ subLinkToggleButton.addEventListener("click", () => {
 
 //navigation bar end
 
+// popup start
+document.addEventListener("DOMContentLoaded", () => {
+  const popup = document.querySelector(".popup-container");
+  const cbutton = document.querySelector(".donate-btn");
+
+  // Check if popup was already shown
+  if (!localStorage.getItem("popupShown")) {
+    popup.style.display = "flex"; // Make visible
+    setTimeout(() => {
+      popup.style.opacity = "1"; // Fade in
+    }, 10);
+  }
+
+  cbutton.addEventListener("click", () => {
+    popup.style.opacity = "0";
+    setTimeout(() => {
+      popup.style.display = "none";
+      localStorage.setItem("popupShown", "true"); // Store in localStorage
+    }, 400);
+  });
+});
 //division and batch selection
 const division_batch_selection_container = document.querySelector(
   ".division-batch-popup-container",
