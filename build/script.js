@@ -250,7 +250,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "Pending",
-    link: "build/dcn/DCN.html",
+    link: "build/java/JAVA.html",
     batch: "S1",
   },
   {
@@ -260,7 +260,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "01-Mar",
-    link: "build/dcn/DCN.html",
+    link: "build/pwp/PWP.html",
     batch: "S1",
   },
 
@@ -271,7 +271,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "28-Feb",
-    link: "build/dcn/DCN.html",
+    link: "build/uid/UID.html",
     batch: "S1",
   },
   {
@@ -281,7 +281,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "Pending",
-    link: "build/dcn/DCN.html",
+    link: "build/ees/EES.html",
     batch: "S1",
   },
 
@@ -292,7 +292,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/dcn/DCN.html",
+    link: "build/mic/MIC.html",
     batch: "S1",
   },
   {
@@ -312,7 +312,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/dcn/DCN.html",
+    link: "build/java/JAVA.html",
     batch: "S2",
   },
   {
@@ -322,7 +322,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "Next week",
-    link: "build/dcn/DCN.html",
+    link: "build/pwp/PWP.html",
     batch: "S2",
   },
 
@@ -333,7 +333,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "01-Mar",
-    link: "build/dcn/DCN.html",
+    link: "build/uid/UID.html",
     batch: "S2",
   },
   {
@@ -343,7 +343,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "Pending",
-    link: "build/dcn/DCN.html",
+    link: "build/ees/EES.html",
     batch: "S2",
   },
 
@@ -354,7 +354,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "01-Mar",
-    link: "build/dcn/DCN.html",
+    link: "build/mic/MIC.html",
     batch: "S2",
   },
   {
@@ -374,7 +374,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/dcn/DCN.html",
+    link: "build/java/JAVA.html",
     batch: "S3",
   },
   {
@@ -384,7 +384,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/dcn/DCN.html",
+    link: "build/pwp/PWP.html",
     batch: "S3",
   },
 
@@ -395,7 +395,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/dcn/DCN.html",
+    link: "build/uid/UID.html",
     batch: "S3",
   },
   {
@@ -405,7 +405,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "Pending",
-    link: "build/dcn/DCN.html",
+    link: "build/ees/EES.html",
     batch: "S3",
   },
 
@@ -416,7 +416,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "28-Feb",
-    link: "build/dcn/DCN.html",
+    link: "build/mic/MIC.html",
     batch: "S3",
   },
   {
@@ -436,7 +436,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/dcn/DCN.html",
+    link: "build/java/JAVA.html",
     batch: "S4",
   },
   {
@@ -446,18 +446,17 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/dcn/DCN.html",
+    link: "build/pwp/PWP.html",
     batch: "S4",
   },
 
   {
     name: "UID",
-    sub1: "Exp-1 to 8",
     sub2: "0",
     sub3: "0",
     sub4: "0",
     date: "04-Mar",
-    link: "build/dcn/DCN.html",
+    link: "build/uid/UID.html",
     batch: "S4",
   },
   {
@@ -467,7 +466,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/dcn/DCN.html",
+    link: "build/ees/EES.html",
     batch: "S4",
   },
 
@@ -478,7 +477,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/dcn/DCN.html",
+    link: "build/mic/MIC.html",
     batch: "S4",
   },
   {
@@ -498,7 +497,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "03-Mar",
-    link: "build/dcn/DCN.html",
+    link: "build/java/JAVA.html",
     batch: "S5",
   },
   {
@@ -508,7 +507,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/dcn/DCN.html",
+    link: "build/pwp/PWP.html",
     batch: "S5",
   },
 
@@ -519,7 +518,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/dcn/DCN.html",
+    link: "build/uid/UID.html",
     batch: "S5",
   },
   {
@@ -529,7 +528,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "25N/A",
-    link: "build/dcn/DCN.html",
+    link: "build/ees/EES.html",
     batch: "S5",
   },
 
@@ -540,7 +539,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "28-Feb",
-    link: "build/dcn/DCN.html",
+    link: "build/mic/MIC.html",
     batch: "S5",
   },
   {
@@ -560,7 +559,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/dcn/DCN.html",
+    link: "build/java/JAVA.html",
     batch: "S6",
   },
   {
@@ -570,7 +569,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "03-Mar",
-    link: "build/dcn/DCN.html",
+    link: "build/pwp/PWP.html",
     batch: "S6",
   },
 
@@ -581,7 +580,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/dcn/DCN.html",
+    link: "build/uid/UID.html",
     batch: "S6",
   },
   {
@@ -591,7 +590,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/dcn/DCN.html",
+    link: "build/ees/EES.html",
     batch: "S6",
   },
 
@@ -602,7 +601,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "28-Feb",
-    link: "build/dcn/DCN.html",
+    link: "build/mic/MIC.html",
     batch: "S6",
   },
 ];
