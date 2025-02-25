@@ -42,6 +42,6 @@ const swiper2 = new Swiper("#swiper-2", {
   },
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
+    dynamicBullets: true,
   },
 });
