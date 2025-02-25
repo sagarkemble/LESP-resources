@@ -147,6 +147,14 @@ body {
     background-color 0.3s ease,
     color 0.3s ease;
 }
+.temp-division {
+  background: white;
+  color: black;
+}
+.temp-batch {
+  background: white;
+  color: black;
+}
 .active-division {
   background: white;
   color: black;

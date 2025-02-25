@@ -150,7 +150,34 @@ const content = {
     },
   },
 };
-
+const contentb = {
+  assignment_Obj: {
+    assignemnt1: {
+      name: "Assignment-2",
+      link: "https://drive.google.com/file/d/1-4Jh8QLm5PmCkv9eG8FLC31hQuQBOLnT/view?usp=drivesdk",
+    },
+    assignemnt2: {
+      name: "Assignment-2",
+      link: "https://drive.google.com/file/d/11eZVAujt3um-qreLZx8cq9JE7TFmXxJ9/view?usp=drivesdk",
+    },
+    assignemnt3: {
+      name: "Assignment-3",
+      link: "../notuploaded.html",
+    },
+    assignemnt4: {
+      name: "Assignment-4",
+      link: "../notuploaded.html",
+    },
+    assignemnt5: {
+      name: "Assignment-5",
+      link: "../notuploaded.html",
+    },
+    assignemnt6: {
+      name: "Assignment-6",
+      link: "../notuploaded.html",
+    },
+  },
+};
 function createCard(obj, container) {
   if (!container) return; // Check if the container exists
 
@@ -183,6 +210,7 @@ function createCard(obj, container) {
 }
 
 // Load Assignments
+
 createCard(content.assignment_Obj, assignment_container);
 createCard(content.class_notes_obj, class_notes_container);
 createCard(content.other_resources_Obj, other_resources_container);

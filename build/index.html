@@ -117,18 +117,21 @@
             ></i>
           </div>
           <ul class="division-options flex gap-3 text-base font-bold">
-            <li class="active-division rounded-md p-1" id="A">A</li>
+            <li class="rounded-md p-1" id="A">A</li>
             <li class="rounded-md p-1" id="B">B</li>
           </ul>
           <div class="title text-xl font-bold">Batch</div>
           <ul class="batch-options flex gap-3 text-base font-bold">
-            <li class="active-batch rounded-md p-1" id="S1">S1</li>
+            <li class="rounded-md p-1" id="S1">S1</li>
             <li class="rounded-md p-1" id="S2">S2</li>
             <li class="rounded-md p-1" id="S3">S3</li>
             <li class="rounded-md p-1" id="S4">S4</li>
             <li class="rounded-md p-1" id="S5">S5</li>
             <li class="rounded-md p-1" id="S6">S6</li>
           </ul>
+          <p
+            class="error_msg text-xs text-red-600 transition-all delay-100 ease-in-out"
+          ></p>
           <div
             class="division-popup-okay-btn click-effect mt-1 flex w-20 cursor-pointer justify-center rounded-xl bg-red-500 p-2 font-bold text-white"
           >
@@ -162,15 +165,13 @@
         </div>
       </div>
     </div> -->
+    <!-- a div timetable -->
     <div
-      class="timetable-popup absolute fixed z-30 hidden h-screen w-screen overflow-y-hidden bg-[#00000080] opacity-0 transition transition-opacity delay-100 ease-out"
+      class="timetable-popup timetable-popup-div-a absolute fixed z-30 hidden h-screen w-screen overflow-y-hidden bg-[#00000080] opacity-0 transition transition-opacity delay-100 ease-out"
     >
       <div class="mt-[10vh]">
-        <div class="flex w-full gap-1">
-          <i
-            class="fa-solid fa-xmark mr-3 ml-auto text-2xl"
-            id="timetable-popup-close-btn"
-          ></i>
+        <div class="timetable-popup-close-btn-a flex w-full gap-1">
+          <i class="fa-solid fa-xmark mr-3 ml-auto text-2xl"></i>
         </div>
         <div class="swiper" id="swiper-3">
           <!-- Additional required wrapper -->
@@ -667,6 +668,515 @@
       </div>
     </div>
 
+    <!-- a div timetable end-->
+
+    <!-- b div timetable -->
+    <div
+      class="timetable-popup timetable-popup-div-b time-table-div-b absolute fixed z-30 hidden h-screen w-screen overflow-y-hidden bg-[#00000080] opacity-0 transition transition-opacity delay-100 ease-out"
+    >
+      <div class="mt-[10vh]">
+        <div class="flex w-full gap-1">
+          <i
+            class="fa-solid fa-xmark timetable-popup-close-btn-b mr-3 ml-auto text-2xl"
+          ></i>
+        </div>
+        <div class="swiper" id="swiper-3">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slide-start -->
+            <div class="swiper-slide max-w-[450px]">
+              <div
+                class="card m-2 flex flex-col rounded-md bg-[#171D2B] p-3 pb-6"
+              >
+                <div class="mb-1 flex w-full items-center">
+                  <div class="ml-2 flex items-center gap-2">
+                    <img src="src/icons/other/cal.png" alt="" class="h-6 w-6" />
+                    <p class="text-2xl font-bold">MONDAY</p>
+                  </div>
+                </div>
+                <table
+                  class="w-full border border-gray-600 text-left text-lg font-semibold text-white"
+                >
+                  <thead class="font-bold">
+                    <tr>
+                      <th class="border border-gray-600 p-2 text-center">
+                        No.
+                      </th>
+                      <th class="border border-gray-600 p-2">Time Slot</th>
+                      <th class="border border-gray-600 p-2">Subject</th>
+                    </tr>
+                  </thead>
+                  <tbody class="">
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">
+                        0 <br /><br />1
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        10:00 - 10:40 am <br />
+                        <br />
+                        10:40 - 11:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        S4 - JPR<br />
+                        S5 - PWP<br />
+                        S6 - MIC
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">2</td>
+                      <td class="border border-gray-600 p-2">
+                        11:40 - 12:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">DCN</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">3</td>
+                      <td class="border border-gray-600 p-2">
+                        01:10 - 02:10 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">JPR</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">4</td>
+                      <td class="border border-gray-600 p-2">
+                        02:10 - 03:10 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">MIC</td>
+                    </tr>
+
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">
+                        5 <br /><br />6
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        03:20 - 04:20 pm <br />
+                        <br />
+                        04:20 - 05:20 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        S4 - DCN<br />
+                        S5 - JPR<br />
+                        S6 - PWP
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide b max-w-[450px]">
+              <div
+                class="card m-2 flex flex-col rounded-md bg-[#171D2B] p-3 pb-6 lg:pb-9"
+              >
+                <div class="mb-1 flex w-full items-center">
+                  <div class="ml-2 flex items-center gap-2">
+                    <img src="src/icons/other/cal.png" alt="" class="h-6 w-6" />
+                    <p class="text-2xl font-bold">TUESDAY</p>
+                  </div>
+                </div>
+                <table
+                  class="w-full border border-gray-600 text-left text-lg font-semibold text-white"
+                >
+                  <thead class="font-bold">
+                    <tr>
+                      <th class="border border-gray-600 p-2 text-center">
+                        No.
+                      </th>
+                      <th class="border border-gray-600 p-2">Time Slot</th>
+                      <th class="border border-gray-600 p-2">Subject</th>
+                    </tr>
+                  </thead>
+                  <tbody class="">
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">0</td>
+                      <td class="border border-gray-600 p-2">
+                        10:00 - 10:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">JPR</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">1</td>
+                      <td class="border border-gray-600 p-2">
+                        10:40 - 11:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">JPR</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">2</td>
+                      <td class="border border-gray-600 p-2">
+                        11:40 - 12:40 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">MIC</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">
+                        3 <br /><br />4
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        01:10 - 02:10 pm <br />
+                        <br />
+                        02:10 - 03:10 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        S4 - UID<br />
+                        S5 - DCN<br />
+                        S6 - PWP
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">5</td>
+                      <td class="border border-gray-600 p-2">
+                        03:20 - 04:20 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">EES</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">6</td>
+                      <td class="border border-gray-600 p-2">
+                        04:20 - 05:40 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">DCN</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide max-w-[450px]">
+              <div
+                class="card m-2 flex flex-col rounded-md bg-[#171D2B] p-3 pb-6 lg:pb-9"
+              >
+                <div class="mb-1 flex w-full items-center">
+                  <div class="ml-2 flex items-center gap-2">
+                    <img src="src/icons/other/cal.png" alt="" class="h-6 w-6" />
+                    <p class="text-2xl font-bold">WEDNESDAY</p>
+                  </div>
+                </div>
+                <table
+                  class="w-full border border-gray-600 text-left text-lg font-semibold text-white"
+                >
+                  <thead class="font-bold">
+                    <tr>
+                      <th class="border border-gray-600 p-2 text-center">
+                        No.
+                      </th>
+                      <th class="border border-gray-600 p-2">Time Slot</th>
+                      <th class="border border-gray-600 p-2">Subject</th>
+                    </tr>
+                  </thead>
+                  <tbody class="">
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">0</td>
+                      <td class="border border-gray-600 p-2">
+                        10:00 - 10:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">DCN</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">1</td>
+                      <td class="border border-gray-600 p-2">
+                        10:40 - 11:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">JPR</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">2</td>
+                      <td class="border border-gray-600 p-2">
+                        11:40 - 12:40 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">PWP</td>
+                    </tr>
+
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">3</td>
+                      <td class="border border-gray-600 p-2">
+                        01:10 - 02:10 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">UID</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">4</td>
+                      <td class="border border-gray-600 p-2">
+                        01:10 - 03:10 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">DCN</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">
+                        5 <br /><br />6
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        03:20 - 04:20 pm <br />
+                        <br />
+                        04:20 - 05:40 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        S4 - PWP<br />
+                        S5 - DCN<br />
+                        S6 - JPR
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- slide-end -->
+
+            <!-- Slide-start -->
+            <div class="swiper-slide max-w-[450px]">
+              <div
+                class="card m-2 flex flex-col rounded-md bg-[#171D2B] p-3 pb-6"
+              >
+                <div class="mb-1 flex w-full items-center">
+                  <div class="ml-2 flex items-center gap-2">
+                    <img src="src/icons/other/cal.png" alt="" class="h-6 w-6" />
+                    <p class="text-2xl font-bold">THURSDAY</p>
+                  </div>
+                </div>
+                <table
+                  class="w-full border border-gray-600 text-left text-lg font-semibold text-white"
+                >
+                  <thead class="font-bold">
+                    <tr>
+                      <th class="border border-gray-600 p-2 text-center">
+                        No.
+                      </th>
+                      <th class="border border-gray-600 p-2">Time Slot</th>
+                      <th class="border border-gray-600 p-2">Subject</th>
+                    </tr>
+                  </thead>
+                  <tbody class="">
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">0</td>
+                      <td class="border border-gray-600 p-2">
+                        10:00 - 10:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">EES</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">1</td>
+                      <td class="border border-gray-600 p-2">
+                        10:40 - 11:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">EES</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">2</td>
+                      <td class="border border-gray-600 p-2">
+                        11:40 - 12:40 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">JPR</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">
+                        3 <br /><br />4
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        01:10 - 02:10 Pm <br />
+                        <br />
+                        02:10 - 03:10 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        S4 - JPR<br />
+                        S5 - PWP<br />
+                        S6 - DCN
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">
+                        5 <br /><br />6
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        03:20 - 04:20 pm <br />
+                        <br />
+                        04:20 - 05:20 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        S4 - MIC<br />
+                        S5 - UID<br />
+                        S6 - UID
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide max-w-[450px]">
+              <div
+                class="card m-2 flex flex-col rounded-md bg-[#171D2B] p-3 pb-6"
+              >
+                <div class="mb-1 flex w-full items-center">
+                  <div class="ml-2 flex items-center gap-2">
+                    <img src="src/icons/other/cal.png" alt="" class="h-6 w-6" />
+                    <p class="text-2xl font-bold">FRIDAY</p>
+                  </div>
+                </div>
+                <table
+                  class="w-full border border-gray-600 text-left text-lg font-semibold text-white"
+                >
+                  <thead class="font-bold">
+                    <tr>
+                      <th class="border border-gray-600 p-2 text-center">
+                        No.
+                      </th>
+                      <th class="border border-gray-600 p-2">Time Slot</th>
+                      <th class="border border-gray-600 p-2">Subject</th>
+                    </tr>
+                  </thead>
+                  <tbody class="">
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">
+                        0 <br /><br />1
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        10:00 - 10:40 am <br />
+                        <br />
+                        10:40 - 11:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        S4 - DCN<br />
+                        S5 - UID<br />
+                        S6 - JPR
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">2</td>
+                      <td class="border border-gray-600 p-2">
+                        11:40 - 12:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">MIC</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">3</td>
+                      <td class="border border-gray-600 p-2">
+                        01:10 - 02:10 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">PWP</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">4</td>
+                      <td class="border border-gray-600 p-2">
+                        02:10 - 03:10 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">JPR</td>
+                    </tr>
+
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">
+                        5 <br /><br />6
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        03:20 - 04:20 pm <br />
+                        <br />
+                        04:20 - 05:20 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        S4 - PWP<br />
+                        S5 - JPR<br />
+                        S6 - UID
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide max-w-[450px]">
+              <div
+                class="card m-2 flex flex-col rounded-md bg-[#171D2B] p-3 pb-6"
+              >
+                <div class="mb-1 flex w-full items-center">
+                  <div class="ml-2 flex items-center gap-2">
+                    <img src="src/icons/other/cal.png" alt="" class="h-6 w-6" />
+                    <p class="text-2xl font-bold">SATURDAY</p>
+                  </div>
+                </div>
+                <table
+                  class="w-full border border-gray-600 text-left text-lg font-semibold text-white"
+                >
+                  <thead class="font-bold">
+                    <tr>
+                      <th class="border border-gray-600 p-2 text-center">
+                        No.
+                      </th>
+                      <th class="border border-gray-600 p-2">Time Slot</th>
+                      <th class="border border-gray-600 p-2">Subject</th>
+                    </tr>
+                  </thead>
+                  <tbody class="">
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">0</td>
+                      <td class="border border-gray-600 p-2">
+                        10:00 - 10:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">PWP</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">1</td>
+                      <td class="border border-gray-600 p-2">
+                        10:40 - 11:40 am
+                      </td>
+                      <td class="border border-gray-600 p-2">EES</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">2</td>
+                      <td class="border border-gray-600 p-2">
+                        11:40 - 12:40 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">MIC</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">
+                        3 <br /><br />4
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        01:10 - 02:10 Pm <br />
+                        <br />
+                        02:10 - 03:10 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        S4 - UID<br />
+                        S5 - MIC<br />
+                        S6 - DCN
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="border border-gray-600 p-2 text-center">
+                        5 <br /><br />6
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        03:20 - 04:20 pm <br />
+                        <br />
+                        04:20 - 05:20 pm
+                      </td>
+                      <td class="border border-gray-600 p-2">
+                        S4 - UID<br />
+                        S5 - MIC<br />
+                        S6 - DCN
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- slide-end -->
+          </div>
+
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- b div timetable end-->
+
     <!-- nav bar start -->
     <nav class="flex items-center p-1 px-3 pt-2">
       <div class="logo-container flex gap-1">
@@ -717,9 +1227,7 @@
       >
         <div
           class="division-toggle-button flex items-center rounded-lg bg-[#171d2b] p-1 px-2 text-center text-sm font-semibold"
-        >
-          DIV-A S1
-        </div>
+        ></div>
         <img
           src="src/icons/other/cal.png"
           alt=""

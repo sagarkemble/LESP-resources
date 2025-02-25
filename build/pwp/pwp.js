@@ -162,14 +162,14 @@ const content = {
 };
 
 function createCard(obj, container) {
-  if (!container) return; // Check if the container exists
+  if (!container) return;
 
   for (let key in obj) {
     const item = obj[key];
 
     const link = document.createElement("a");
     link.href = item.link;
-    link.target = "_blank"; // Open in new tab
+    link.target = "_blank";
 
     const card = document.createElement("div");
     card.className =
@@ -180,7 +180,7 @@ function createCard(obj, container) {
       item.name == highlight3 ||
       item.name == highlight4
     ) {
-      card.classList.add("glow"); // Correct way to add a class
+      card.classList.add("glow");
     }
 
     const nameDiv = document.createElement("div");
