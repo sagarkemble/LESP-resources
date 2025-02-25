@@ -31,7 +31,7 @@ const content = {
     },
     assignemnt3: {
       name: "Assignment-3",
-      link: "../notuploaded.html",
+      link: "https://drive.google.com/file/d/1NMJUw1lhcZOzUBlVV_-Uhj8HN2cLks1d/view?usp=drivesdk",
     },
     assignemnt4: {
       name: "Assignment-4",
@@ -169,6 +169,7 @@ const content = {
     },
   },
 };
+
 const contentb = {
   assignment_Obj: {
     assignemnt1: {

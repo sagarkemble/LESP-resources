@@ -193,20 +193,6 @@ const swiper1 = new Swiper("#swiper-1", {
   },
 });
 
-const swiper2 = new Swiper("#swiper-2", {
-  direction: "horizontal",
-  loop: true,
-  centeredSlides: true,
-  slidesPerView: "auto", // Change this to auto
-  spaceBetween: 20,
-  autoplay: {
-    delay: 2500,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
 const swiper3 = new Swiper("#swiper-3", {
   direction: "horizontal",
   loop: true,
