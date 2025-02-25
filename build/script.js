@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cbutton = document.querySelector(".donate-btn");
 
   // Check if popup was already shown
-  if (!localStorage.getItem("popupShown")) {
+  if (!localStorage.getItem("updatepopupShown")) {
     popup.style.display = "flex"; // Make visible
     setTimeout(() => {
       popup.style.opacity = "1"; // Fade in
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     popup.style.opacity = "0";
     setTimeout(() => {
       popup.style.display = "none";
-      localStorage.setItem("popupShown", "true"); // Store in localStorage
+      localStorage.setItem("updatepopupShown", "true"); // Store in localStorage
     }, 400);
   });
 });
