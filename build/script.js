@@ -723,7 +723,7 @@ function createAllCards(content, container) {
     const icon2 = document.createElement("div");
     icon2.className = "icon -translate-x-1";
     const img2 = document.createElement("img");
-    img2.src = "src/icons/other/CAL.png";
+    img2.src = "src/icons/other/coloredcal.png";
     img2.alt = "";
     img2.className = "h-12";
     icon2.appendChild(img2);
