@@ -248,7 +248,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "4-Mar",
-    link: "build/dcn/DCN.html",
+    link: "dcn/DCNpage.html",
     batch: "S1",
   },
   {
@@ -258,7 +258,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "Pending",
-    link: "build/java/JAVApage.html",
+    link: "java/JAVApage.html",
     batch: "S1",
   },
   {
@@ -268,7 +268,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "01-Mar",
-    link: "build/pwp/PWPpage.html",
+    link: "pwp/PWPpage.html",
     batch: "S1",
   },
 
@@ -279,7 +279,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "28-Feb",
-    link: "build/uid/UIDpage.html",
+    link: "uid/UIDpage.html",
     batch: "S1",
   },
   {
@@ -289,7 +289,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "Pending",
-    link: "build/ees/EESpage.html",
+    link: "ees/EESpage.html",
     batch: "S1",
   },
 
@@ -300,7 +300,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/mic/MICpage.html",
+    link: "mic/MICpage.html",
     batch: "S1",
   },
   {
@@ -310,7 +310,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/dcn/DCNpage.html",
+    link: "dcn/DCNpage.html",
     batch: "S2",
   },
   {
@@ -320,7 +320,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/java/JAVApage.html",
+    link: "java/JAVApage.html",
     batch: "S2",
   },
   {
@@ -330,7 +330,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "Next week",
-    link: "build/pwp/PWPpage.html",
+    link: "pwp/PWPpage.html",
     batch: "S2",
   },
 
@@ -341,7 +341,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "01-Mar",
-    link: "build/uid/UIDpage.html",
+    link: "uid/UIDpage.html",
     batch: "S2",
   },
   {
@@ -351,7 +351,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "Pending",
-    link: "build/ees/EESpage.html",
+    link: "ees/EESpage.html",
     batch: "S2",
   },
 
@@ -362,7 +362,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "01-Mar",
-    link: "build/mic/MICpage.html",
+    link: "mic/MICpage.html",
     batch: "S2",
   },
   {
@@ -372,7 +372,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/dcn/DCNpage.html",
+    link: "dcn/DCNpage.html",
     batch: "S3",
   },
   {
@@ -382,7 +382,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/java/JAVApage.html",
+    link: "java/JAVApage.html",
     batch: "S3",
   },
   {
@@ -392,7 +392,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/pwp/PWPpage.html",
+    link: "pwp/PWPpage.html",
     batch: "S3",
   },
 
@@ -403,7 +403,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/uid/UIDpage.html",
+    link: "uid/UIDpage.html",
     batch: "S3",
   },
   {
@@ -413,7 +413,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "Pending",
-    link: "build/ees/EESpage.html",
+    link: "ees/EESpage.html",
     batch: "S3",
   },
 
@@ -424,7 +424,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "28-Feb",
-    link: "build/mic/MICpage.html",
+    link: "mic/MICpage.html",
     batch: "S3",
   },
   {
@@ -434,7 +434,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "28-Feb",
-    link: "build/dcn/DCNpage.html",
+    link: "dcn/DCNpage.html",
     batch: "S4",
   },
   {
@@ -444,7 +444,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/java/JAVApage.html",
+    link: "java/JAVApage.html",
     batch: "S4",
   },
   {
@@ -454,7 +454,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/pwp/PWPpage.html",
+    link: "pwp/PWPpage.html",
     batch: "S4",
   },
 
@@ -465,7 +465,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "04-Mar",
-    link: "build/uid/UIDpage.html",
+    link: "uid/UIDpage.html",
     batch: "S4",
   },
   {
@@ -475,7 +475,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/ees/EESpage.html",
+    link: "ees/EESpage.html",
     batch: "S4",
   },
 
@@ -486,7 +486,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/mic/MICpage.html",
+    link: "mic/MICpage.html",
     batch: "S4",
   },
   {
@@ -496,7 +496,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/dcn/DCNpage.html",
+    link: "dcn/DCNpage.html",
     batch: "S5",
   },
   {
@@ -506,7 +506,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "03-Mar",
-    link: "build/java/JAVApage.html",
+    link: "java/JAVApage.html",
     batch: "S5",
   },
   {
@@ -516,7 +516,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/pwp/PWPpage.html",
+    link: "pwp/PWPpage.html",
     batch: "S5",
   },
 
@@ -527,7 +527,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/uid/UIDpage.html",
+    link: "uid/UIDpage.html",
     batch: "S5",
   },
   {
@@ -537,7 +537,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/ees/EESpage.html",
+    link: "ees/EESpage.html",
     batch: "S5",
   },
 
@@ -548,7 +548,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "28-Feb",
-    link: "build/mic/MICpage.html",
+    link: "mic/MICpage.html",
     batch: "S5",
   },
   {
@@ -558,7 +558,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "27-Feb",
-    link: "build/dcn/DCNpage.html",
+    link: "dcn/DCNpage.html",
     batch: "S6",
   },
   {
@@ -568,7 +568,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/java/JAVApage.html",
+    link: "java/JAVApage.html",
     batch: "S6",
   },
   {
@@ -578,7 +578,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "03-Mar",
-    link: "build/pwp/PWPpage.html",
+    link: "pwp/PWPpage.html",
     batch: "S6",
   },
 
@@ -589,7 +589,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/uid/UIDpage.html",
+    link: "uid/UIDpage.html",
     batch: "S6",
   },
   {
@@ -599,7 +599,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "N/A",
-    link: "build/ees/EESpage.html",
+    link: "ees/EESpage.html",
     batch: "S6",
   },
 
@@ -610,7 +610,7 @@ const submission = [
     sub3: "0",
     sub4: "0",
     date: "28-Feb",
-    link: "build/mic/MICpage.html",
+    link: "mic/MICpage.html",
     batch: "S6",
   },
 ];
@@ -631,7 +631,7 @@ const upcomingSubmissionContent = {
     sub2: "Assignment-2",
     sub3: "0",
     sub4: "0",
-    link: "build/dcn/DCN.html",
+    link: "build/dcn/DCNpage.html",
   },
   JAVAobj: {
     name: "JAVA",
@@ -675,22 +675,107 @@ const upcomingSubmissionContent = {
   },
 };
 
+// function createAllCards(content, container) {
+//   if (!container) return;
+
+//   for (const key in content) {
+//     const obj = content[key];
+
+//     // Construct the URL with query parameters
+//     const url = new URL(obj.link, window.location.origin);
+//     url.searchParams.append("highlight1", obj.sub1 || "0");
+//     url.searchParams.append("highlight2", obj.sub2 || "0");
+//     url.searchParams.append("highlight3", obj.sub3 || "0");
+//     url.searchParams.append("highlight4", obj.sub4 || "0");
+
+//     // Create the anchor element
+//     const link = document.createElement("a");
+//     link.href = url.toString();
+
+//     // Create the card container
+//     const card = document.createElement("div");
+//     card.className =
+//       "submission-card mx-auto flex flex-col gap-3 rounded-2xl bg-[#171D2B] p-5";
+
+//     // First row: Icon and title
+//     const iconTitleWrapper1 = document.createElement("div");
+//     iconTitleWrapper1.className = "icon-title-wrapper flex items-center gap-1";
+
+//     const icon1 = document.createElement("div");
+//     icon1.className = "icon -translate-x-1";
+//     const img1 = document.createElement("img");
+//     img1.src = `src/icons/colored_bg_icons/${obj.name}.png`; // Dynamic icon name
+//     img1.alt = obj.name;
+//     img1.className = "h-12";
+//     icon1.appendChild(img1);
+
+//     const title1 = document.createElement("div");
+//     title1.className = "title";
+//     title1.innerHTML = `<p>${obj.name}</p>`;
+
+//     iconTitleWrapper1.appendChild(icon1);
+//     iconTitleWrapper1.appendChild(title1);
+
+//     // Second row: Date icon and text
+//     const iconTitleWrapper2 = document.createElement("div");
+//     iconTitleWrapper2.className = "icon-title-wrapper flex items-center gap-1";
+
+//     const icon2 = document.createElement("div");
+//     icon2.className = "icon -translate-x-1";
+//     const img2 = document.createElement("img");
+//     img2.src = "src/icons/other/coloredcal.png";
+//     img2.alt = "";
+//     img2.className = "h-12";
+//     icon2.appendChild(img2);
+
+//     const title2 = document.createElement("div");
+//     title2.className = "title";
+//     title2.innerHTML = obj.date;
+
+//     iconTitleWrapper2.appendChild(icon2);
+//     iconTitleWrapper2.appendChild(title2);
+
+//     // Description section
+//     const description = document.createElement("div");
+//     description.className = "description";
+//     description.innerHTML = `<div class=""> ${obj.sub1}</div>`;
+//     let descriptionContent = `<div class=""> ${obj.sub1}</div>`;
+
+//     if (obj.sub2 !== "0") {
+//       descriptionContent += `<div class=""> ${obj.sub2}</div>`;
+//     }
+//     if (obj.sub3 !== "0") {
+//       descriptionContent += `<div class=""> ${obj.sub3}</div>`;
+//     }
+//     if (obj.sub4 !== "0") {
+//       descriptionContent += `<div class=""> ${obj.sub4}</div>`;
+//     }
+
+//     description.innerHTML = descriptionContent;
+
+//     // Append everything to the card
+//     card.appendChild(iconTitleWrapper1);
+//     card.appendChild(iconTitleWrapper2);
+//     card.appendChild(description);
+
+//     // Wrap card inside the link
+//     link.appendChild(card);
+
+//     // Append to container
+//     container.appendChild(link);
+//   }
+// }
+
+// Assuming upcomingSectionContainer is already defined in your HTML
 function createAllCards(content, container) {
   if (!container) return;
 
   for (const key in content) {
     const obj = content[key];
 
-    // Construct the URL with query parameters
-    const url = new URL(obj.link, window.location.origin);
-    url.searchParams.append("highlight1", obj.sub1 || "");
-    url.searchParams.append("highlight2", obj.sub2 || "0");
-    url.searchParams.append("highlight3", obj.sub3 || "0");
-    url.searchParams.append("highlight4", obj.sub4 || "0");
-
     // Create the anchor element
     const link = document.createElement("a");
-    link.href = url.toString();
+    link.href = obj.link;
 
     // Create the card container
     const card = document.createElement("div");
@@ -766,7 +851,6 @@ function createAllCards(content, container) {
   }
 }
 
-// Assuming upcomingSectionContainer is already defined in your HTML
 createAllCards(objvar, upcomingSectionContainer);
 
 //upcoming submissions end
