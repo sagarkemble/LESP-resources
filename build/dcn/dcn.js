@@ -153,12 +153,12 @@ const content = {
 const contentb = {
   assignment_Obj: {
     assignemnt1: {
-      name: "Assignment-2",
-      link: "https://drive.google.com/file/d/1-4Jh8QLm5PmCkv9eG8FLC31hQuQBOLnT/view?usp=drivesdk",
+      name: "Assignment-1",
+      link: "https://drive.google.com/file/d/1OJOgpjfUlpXvZKIBhaxIOSwRjlAST57A/view?usp=drivesdk",
     },
     assignemnt2: {
       name: "Assignment-2",
-      link: "https://drive.google.com/file/d/11eZVAujt3um-qreLZx8cq9JE7TFmXxJ9/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1OTSTqiD8KF-BSi3_54ULAr2Qs1Wg38a4/view?usp=drivesdk",
     },
     assignemnt3: {
       name: "Assignment-3",
@@ -210,7 +210,12 @@ function createCard(obj, container) {
 
 // Load Assignments
 
-createCard(content.assignment_Obj, assignment_container);
+if (localStorage.getItem("DIV") == "A") {
+  createCard(content.assignment_Obj, assignment_container);
+} else {
+  createCard(contentb.assignment_Obj, assignment_container);
+}
+
 createCard(content.class_notes_obj, class_notes_container);
 createCard(content.other_resources_Obj, other_resources_container);
 createCard(content.notes_obj, notes_container);

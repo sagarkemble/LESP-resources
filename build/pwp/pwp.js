@@ -16,7 +16,9 @@ const other_resources_container = document.querySelector(
 const Notes_resources_container = document.querySelector(
   ".Notes-resources-cards-container",
 );
-
+const manual_questionandanswer_container = document.querySelector(
+  ".manaul-question-answer-cards-container",
+);
 const content = {
   assignment_Obj: {
     Tutorial_1: {
@@ -159,8 +161,65 @@ const content = {
       link: "https://drive.google.com/file/d/1qF9tAU5DvLWgBnoAqqiFkD49jMuNBcPS/view?usp=drive_link",
     },
   },
+  manual_questionandanswer_obj: {
+    exp1: {
+      name: "Experiment-1",
+      link: "https://drive.google.com/file/d/1Ovrspy3m3D69amV_V5-f6pQyC2Pmcslz/view?usp=drivesdk",
+    },
+    exp2: {
+      name: "Experiment-2",
+      link: "https://drive.google.com/file/d/1P-S1aymSBkVdHsSr8roQelmJ8lvORmjN/view?usp=drivesdk",
+    },
+    exp3: {
+      name: "Experiment-3",
+      link: "https://drive.google.com/file/d/1P-UNmC0hsn3fKVCC6L_6h2h-MD_8T3zv/view?usp=drivesdk",
+    },
+    exp4: {
+      name: "Experiment-4",
+      link: "https://drive.google.com/file/d/1P0Lu6nIVu4VdNf2yQhaUflNNWfxemaqj/view?usp=drivesdk",
+    },
+    exp5: {
+      name: "Experiment-5",
+      link: "",
+    },
+    exp6: {
+      name: "Experiment-6",
+      link: "https://drive.google.com/file/d/1P2tF69sNlQEdCBirMXYa1pwDTuN1tsey/view?usp=drivesdk",
+    },
+    exp7: {
+      name: "Experiment-7",
+      link: "https://drive.google.com/file/d/1P4M1IEEjQwISStc2B56hoe0e16BFrOOm/view?usp=drivesdk",
+    },
+  },
 };
-
+const contentb = {
+  assignment_Obj: {
+    assignemnt1: {
+      name: "Assignment-1",
+      link: "https://drive.google.com/file/d/1OBoFr655X6ObMHaznCgBIZJpCBRvMts3/view?usp=drivesdk",
+    },
+    assignemnt2: {
+      name: "Assignment-2",
+      link: "https://drive.google.com/file/d/1OBpZqMRdYbt3HheoR-lHankaG-Sz_PJD/view?usp=drivesdk",
+    },
+    assignemnt3: {
+      name: "Assignment-3",
+      link: "../notuploaded.html",
+    },
+    assignemnt4: {
+      name: "Assignment-4",
+      link: "../notuploaded.html",
+    },
+    assignemnt5: {
+      name: "Assignment-5",
+      link: "../notuploaded.html",
+    },
+    assignemnt6: {
+      name: "Assignment-6",
+      link: "../notuploaded.html",
+    },
+  },
+};
 function createCard(obj, container) {
   if (!container) return;
 
@@ -192,8 +251,16 @@ function createCard(obj, container) {
   }
 }
 
+if (localStorage.getItem("DIV") == "A") {
+  createCard(content.assignment_Obj, assignment_container);
+} else {
+  createCard(contentb.assignment_Obj, assignment_container);
+}
 // Load Assignments
-createCard(content.assignment_Obj, assignment_container);
 createCard(content.notes_obj, notes_container);
 createCard(content.other_resources_Obj, other_resources_container);
 createCard(content.manaul_obj, manual_container);
+createCard(
+  content.manual_questionandanswer_obj,
+  manual_questionandanswer_container,
+);
