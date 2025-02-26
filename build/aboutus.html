@@ -100,7 +100,7 @@
     />
     <title>Lesp resources</title>
   </head>
-  <body class="bg-[#000511] text-white">
+  <body class="flex h-full flex-col bg-[#000511] text-white">
     <!-- nav bar start -->
     <nav class="flex items-center p-1 px-3 pt-2">
       <div class="logo-container flex gap-1">
@@ -154,43 +154,58 @@
     >
       LET’S MAKE LEARNING MORE EASIER
     </div>
+    <div class="mx-4 flex justify-center pb-6 md:gap-8">
+      <div
+        class="about-us-container flex max-w-[800px] items-center justify-center"
+      >
+        <div class="card flex h-full flex-col rounded-3xl bg-[#171D2B] p-6">
+          <div class="content-container flex flex-grow flex-col gap-2">
+            <div class="title text-2xl font-bold text-[#00B5F8]">
+              <p>About us</p>
+            </div>
 
-    <div class="about-us-container my-4 flex items-center justify-center">
-      <div class="card mx-3 w-full rounded-3xl bg-[#171D2B] p-6">
-        <div class="content-container flex flex-col gap-2">
-          <div class="title text-2xl font-bold text-[#00B5F8]">
-            <p>About us</p>
+            <div class="content-description-wrapper text-sm font-medium">
+              <p>
+                We provide well-structured, cloud based and easily accessible
+                study materials. Maintained by SY CO-A students, LESP resources
+                are updated daily, capturing every important development and
+                activity that takes place in class. Our goal is to ensure that
+                students always have access to the latest information and
+                resources for their academic success.
+              </p>
+            </div>
           </div>
+        </div>
+      </div>
+      <!-- / -->
+      <div
+        class="working-container flex max-w-[800px] items-center justify-center"
+      >
+        <div
+          class="card hidden h-full flex-col rounded-3xl bg-[#171D2B] p-6 md:flex"
+        >
+          <div class="content-container flex flex-grow flex-col gap-2">
+            <div class="title text-2xl font-bold text-[#00B5F8]">
+              <p>How we work</p>
+            </div>
 
-          <div class="content-description-wrapper text-sm font-medium">
-            <p>
-              We provide well-structured, cloud based and easily accessible
-              study materials . Maintained by SY CO-A students , LESP resources
-              are updated daily, capturing every important development and
-              activity that takes place in class. Our goal is to ensure that
-              students always have access to the latest information and
-              resources for their academic success.
-            </p>
+            <div class="content-description-wrapper text-sm font-medium">
+              <p>
+                Each resource provider takes care of their subject and provides
+                daily updates to the maintainer. The maintainer then updates the
+                site in an organized manner. The site is up-to-date daily before
+                6:30 PM, ensuring that the study material is always ready for
+                students at their study hour.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- <div
-      class="card flex flex-col items-center gap-2 rounded-2xl bg-[#171D2B] p-3 py-6 pb-9"
-    >
-      <div class="icon-wrapper w-24">
-        <img src="src/icons/avatars/avatar-1.png" alt="" />
-      </div>
-      <div class="flex flex-col items-center">
-        <div class="name-wrapper text-lg font-bold">Memeber-name</div>
-        <div class="role-wrapper text-sm">Subject-Resource-Provider</div>
-      </div>
-    </div> -->
-
     <!-- out team container -->
     <div
-      class="our-team-container my-6 flex flex-col items-center gap-2 border-y-2 border-[#171D2B] py-4 pb-6"
+      class="our-team-container flex flex-col items-center gap-2 border-y-2 border-[#171D2B] py-4 pb-6 md:border-y-0 md:border-t-2"
     >
       <div class="title text-2xl font-bold text-[#00B5F8]">
         <p>Our team</p>
@@ -437,6 +452,21 @@
               class="card flex w-[230px] flex-col items-center gap-2 rounded-2xl bg-[#171D2B] py-9"
             >
               <div class="icon-wrapper w-24">
+                <img src="src/avatars/sakshi.png" alt="" />
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="name-wrapper text-lg font-bold">Roza Mushrif</div>
+                <div class="role-wrapper text-sm">S2-Batch-Update-Provider</div>
+              </div>
+            </div>
+          </div>
+          <!-- slide-end -->
+          <!-- slide-start -->
+          <div class="swiper-slide !w-auto">
+            <div
+              class="card flex w-[230px] flex-col items-center gap-2 rounded-2xl bg-[#171D2B] py-9"
+            >
+              <div class="icon-wrapper w-24">
                 <img src="src/avatars/yash.png" alt="" />
               </div>
               <div class="flex flex-col items-center">
@@ -463,6 +493,21 @@
             </div>
           </div>
           <!-- slide-end -->
+          <!-- slide-start -->
+          <div class="swiper-slide !w-auto">
+            <div
+              class="card flex w-[230px] flex-col items-center gap-2 rounded-2xl bg-[#171D2B] py-9"
+            >
+              <div class="icon-wrapper w-24">
+                <img src="src/avatars/kais.png" alt="" />
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="name-wrapper text-lg font-bold">Parshwa Patil</div>
+                <div class="role-wrapper text-sm">DCN-Resources-Provider</div>
+              </div>
+            </div>
+          </div>
+          <!-- slide-end -->
 
           <!-- Repeat for other slides -->
         </div>
@@ -473,8 +518,10 @@
     </div>
 
     <!-- / -->
-    <div class="working-container my-5 mb-6 flex items-center justify-center">
-      <div class="card mx-3 w-full rounded-3xl bg-[#171D2B] p-6">
+    <div
+      class="working-container mx-4 flex items-center justify-center py-6 md:hidden"
+    >
+      <div class="card w-full max-w-[600px] rounded-3xl bg-[#171D2B] p-6">
         <div class="content-container flex flex-col gap-2">
           <div class="title text-2xl font-bold text-[#00B5F8]">
             <p>How we work</p>
@@ -484,7 +531,7 @@
             <p>
               Each resource provider takes care of their subject and provides
               daily updates to the maintainer. The maintainer then updates the
-              site and in an organized manner.The site is daily is up-to-date
+              site and in an organized manner. The site is daily is up-to-date
               before 6:30 pm keeping the study material ready for students at
               their study hour
             </p>
@@ -492,6 +539,147 @@
         </div>
       </div>
     </div>
+
+    <!-- subject-navigation-container-start -->
+    <div
+      class="subject-navigation-container flex flex-col border-t-2 border-[#171D2B] px-3 py-6 text-base font-semibold text-white"
+    >
+      <div class="title mb-3 text-2xl font-bold">&nbsp;Subjects Maintained</div>
+
+      <!-- card-container-wrapper-start -->
+      <div class="subject-cards-conteiner">
+        <!-- card-start -->
+        <a href="dcn/DCNpage.html" class="subject-card-link-wrapper">
+          <div
+            class="subject-card click-effect md:hover-effect flex cursor-pointer flex-col items-center gap-3 rounded-2xl bg-[#171D2B] p-3"
+          >
+            <div class="icon-title-wrapper flex items-center gap-1">
+              <div class="icon -translate-x-1">
+                <img
+                  src="src/icons/colored_bg_icons/DCN.png"
+                  alt=""
+                  class="h-12"
+                />
+              </div>
+              <div class="title">
+                <p>DCN</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- card-end -->
+
+        <!-- card-start  -->
+        <a href="java/JAVApage.html" class="subject-card-link-wrapper">
+          <div
+            class="subject-card click-effect md:hover-effect flex cursor-pointer flex-col items-center gap-3 rounded-2xl bg-[#171D2B] p-3"
+          >
+            <div class="icon-title-wrapper flex items-center gap-1">
+              <div class="icon -translate-x-1">
+                <img
+                  src="src/icons/colored_bg_icons/JAVA.png"
+                  alt=""
+                  class="h-12"
+                />
+              </div>
+              <div class="title">
+                <p>JAVA</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- card-end -->
+
+        <!-- card-start  -->
+        <a href="pwp/PWPpage.html" class="subject-card-link-wrapper">
+          <div
+            class="subject-card click-effect md:hover-effect flex cursor-pointer flex-col items-center gap-3 rounded-2xl bg-[#171D2B] p-3"
+          >
+            <div class="icon-title-wrapper flex items-center gap-1">
+              <div class="icon -translate-x-1">
+                <img
+                  src="src/icons/colored_bg_icons/PWP.png"
+                  alt=""
+                  class="h-12"
+                />
+              </div>
+              <div class="title">
+                <p>PWP</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- card-end -->
+
+        <!-- card-start  -->
+        <a href="uid/UIDpage.html" class="subject-card-link-wrapper">
+          <div
+            class="subject-card click-effect md:hover-effect flex cursor-pointer flex-col items-center gap-3 rounded-2xl bg-[#171D2B] p-3"
+          >
+            <div class="icon-title-wrapper flex items-center gap-1">
+              <div class="icon -translate-x-1">
+                <img
+                  src="src/icons/colored_bg_icons/UID.png"
+                  alt=""
+                  class="h-12"
+                />
+              </div>
+              <div class="title">
+                <p>UID</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- card-end -->
+
+        <!-- card-start  -->
+        <a href="ees/EESpage.html" class="subject-card-link-wrapper">
+          <div
+            class="subject-card click-effect md:hover-effect flex cursor-pointer flex-col items-center gap-3 rounded-2xl bg-[#171D2B] p-3"
+          >
+            <div class="icon-title-wrapper flex items-center gap-1">
+              <div class="icon -translate-x-1">
+                <img
+                  src="src/icons/colored_bg_icons/EES.png"
+                  alt=""
+                  class="h-12"
+                />
+              </div>
+              <div class="title">
+                <p>EES</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- card-end -->
+
+        <!-- card-start  -->
+        <a href="mic/MICpage.html" class="subject-card-link-wrapper">
+          <div
+            class="subject-card click-effect md:hover-effect flex cursor-pointer flex-col items-center gap-3 rounded-2xl bg-[#171D2B] p-3"
+          >
+            <div class="icon-title-wrapper flex items-center gap-1">
+              <div class="icon -translate-x-1">
+                <img
+                  src="src/icons/colored_bg_icons/MIC.png"
+                  alt=""
+                  class="h-12"
+                />
+              </div>
+              <div class="title">
+                <p>MIC</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- card-end -->
+
+        <!-- / -->
+        <!-- / -->
+      </div>
+      <!-- card-container-wrapper-end-->
+    </div>
+    <!-- subject-navigation-container-end -->
 
     <footer
       class="mt-auto flex flex-col gap-4 border-t-2 border-[#171D2A] px-3 py-5"
