@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../output.css" />
+    <link href="../output.css" rel="stylesheet" />
     <script>
       window.va =
         window.va ||
@@ -102,12 +102,12 @@
     <nav class="flex items-center p-1 px-3 pt-2">
       <div class="logo-container flex gap-1">
         <div class="logo w-10">
-          <img src="../src/icons/colored_bg_icons/PWP.png" alt="" class="" />
+          <img src="../src/icons/colored_bg_icons/JAVA.png" alt="" class="" />
         </div>
         <div
           class="name-wrapper flex flex-col justify-center text-sm leading-4 font-semibold text-white"
         >
-          <p>PWP</p>
+          <p>JAVA</p>
           <!-- <p>Resources</p> -->
         </div>
       </div>
@@ -122,6 +122,7 @@
         >
           <li><a href="../index.html"> Home</a></li>
           <li><a href="../aboutus.html">About us</a></li>
+          <li><a href="../pyq/pyq.html">PYQ</a></li>
 
           <li class="flex flex-col md:hidden">
             <div class="sublink-toggle-button flex items-center gap-1 text-end">
@@ -133,15 +134,15 @@
             <ul
               class="sublink hover:text z-20 flex max-h-0 flex-col items-center gap-3 overflow-hidden opacity-0 transition-all duration-300 ease-in-out"
             >
-              <a href="../dcn/DCN.html"><li>DCN</li></a>
-              <a href="PWP.html"><li>PWP</li></a>
-              <a href="../java/java.html"><li>JAVA</li></a>
-              <a href="../uid/UID.html"><li>UID</li></a>
-              <a href="../mic/MIC.html"><li>MIC</li></a>
-              <a href="../ees/EES.html"><li>EES</li></a>
+              <a href="../dcn/DCNpage.html"><li>DCN</li></a>
+              <a href="../pwp/PWPpage.html"><li>PWP</li></a>
+              <a href="../java/JAVApage.html"><li>JAVA</li></a>
+              <a href="../UIDpage.html"><li>UID</li></a>
+              <a href="../MICpage.html"><li>MIC</li></a>
+              <a href="../EESpage.html"><li>EES</li></a>
             </ul>
           </li>
-          <li><a href="../syllabus.html">Syllabus</a></li>
+          <li><a href="syllabus.html">Syllabus</a></li>
         </ul>
       </div>
     </nav>
@@ -152,7 +153,7 @@
           <div class="icon-title-wrapper flex items-center gap-1">
             <div class="icon -translate-x-1">
               <img
-                src="../src/icons/black_bg _icons/notice.png "
+                src="../src/icons/black_bg _icons/notice.png"
                 alt=""
                 class="h-12"
               />
@@ -162,37 +163,71 @@
             </div>
           </div>
           <div class="content-description-wrapper text-base font-medium">
-            <p>
-              Micro-project index uploaded <br />
-              Refrence report and proposal added
-            </p>
-            <p>Experiment no.11,13 output added</p>
-            <p>Notes added</p>
+            <p>Manual Q&A uploaded</p>
+            <p>Experiment 12,13 output added</p>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Assignment container start -->
     <div
       class="Assignments-container my-3 mb-6 flex flex-col px-3 text-base font-semibold text-white"
     >
       <div class="title mb-3 text-2xl font-bold">&nbsp;Assignments</div>
       <!-- card container start -->
-      <div class="assignment-cards-container grid-auto-fit"></div>
+      <div class="assignment-cards-container grid-auto-fit">
+        <!-- card start -->
+        <!-- <a
+          href="https://drive.google.com/file/d/1WdPYQMr2wvV9CpT-dexxeZe9BILX0GJ1/view?usp=drive_link"
+          class="assignment-card-link-wrapper"
+        >
+          <div
+            class="assignment-card click-effect md:hover-effect flex cursor-pointer justify-center rounded-2xl bg-[#171D2B] py-4"
+          >
+            <p>Assignment-1</p>
+          </div>
+        </a> -->
+        <!-- card end -->
+      </div>
       <!-- card container end -->
     </div>
     <!-- Assignment container end -->
 
-    <!-- Notes container start -->
+    <!-- Manual Q&A container start -->
     <div
-      class="notes-container my-3 mb-6 flex flex-col px-3 text-base font-semibold text-white"
+      class="Manual-Q&A-container my-3 mb-6 flex flex-col px-3 text-base font-semibold text-white"
     >
-      <div class="title mb-3 text-2xl font-bold">&nbsp;Notes</div>
-      <!-- Card container start-->
-      <div class="Notes-resources-cards-container grid-auto-fit"></div>
-      <!-- Card container end-->
+      <div class="title mb-3 text-2xl font-bold">&nbsp;Manual Q&A</div>
+      <!-- card container start -->
+      <div class="manaul-question-answer-cards-container grid-auto-fit">
+        <!-- card start -->
+        <!-- <a
+          href="https://drive.google.com/file/d/1DAT-0_d5YZYYHjJSne6TmMCS4biZXtNy/view?usp=sharing"
+          class="manaul-q&a-card-link-wrapper"
+        >
+          <div
+            class="card click-effect md:hover-effect flex cursor-pointer justify-center rounded-2xl bg-[#171D2B] py-4"
+          >
+            <p>Experiment-1</p>
+          </div>
+        </a> -->
+        <!-- card end -->
+      </div>
+      <!-- card container end -->
     </div>
-    <!-- Notes container end -->
+    <!-- Manual Q&A  container end -->
+
+    <!-- Other resources container start -->
+    <div
+      class="output-container my-3 mb-6 flex flex-col px-3 text-base font-semibold text-white"
+    >
+      <div class="title mb-3 text-2xl font-bold">&nbsp;Outputs</div>
+      <!-- card container start -->
+      <div class="output-container-cards-container grid-auto-fit"></div>
+      <!-- card container end -->
+    </div>
+    <!-- Other resources container end -->
 
     <!-- Manual container start -->
     <div
@@ -205,16 +240,26 @@
     </div>
     <!-- Manual container end -->
 
-    <!-- Other resources container  -->
+    <!-- Notes container start -->
+    <div
+      class="Notes-resources-container my-3 mb-6 flex flex-col px-3 text-base font-semibold text-white"
+    >
+      <div class="title mb-3 text-2xl font-bold">&nbsp;Notes</div>
+      <!-- card container start -->
+      <div class="Notes-resources-cards-container grid-auto-fit"></div>
+      <!-- card container end -->
+    </div>
+    <!-- Notes container end -->
+    <!-- Other resources container start -->
     <div
       class="Other-resources-container my-3 mb-6 flex flex-col px-3 text-base font-semibold text-white"
     >
       <div class="title mb-3 text-2xl font-bold">&nbsp;Other resources</div>
-
+      <!-- card container start -->
       <div class="other-resources-cards-container grid-auto-fit"></div>
+      <!-- card container end -->
     </div>
     <!-- Other resources container end -->
-
     <footer
       class="mt-auto flex flex-col gap-4 border-t-2 border-[#171D2A] px-3 py-5"
     >
@@ -246,6 +291,6 @@
       </p>
     </footer>
     <script src="../script.js"></script>
-    <script src="pwp.js"></script>
+    <script src="../java/java.js"></script>
   </body>
 </html>

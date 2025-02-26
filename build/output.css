@@ -1550,9 +1550,6 @@
   .gap-6 {
     gap: calc(var(--spacing) * 6);
   }
-  .gap-32 {
-    gap: calc(var(--spacing) * 32);
-  }
   .space-y-reverse {
     :where(& > :not(:last-child)) {
       --tw-space-y-reverse: 1;
@@ -1918,9 +1915,6 @@
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
-  }
-  .bg-black {
-    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -2770,9 +2764,6 @@
   .delay-100 {
     transition-delay: 100ms;
   }
-  .delay-150 {
-    transition-delay: 150ms;
-  }
   .delay-200 {
     transition-delay: 200ms;
   }
@@ -2976,11 +2967,6 @@
       @media (hover: hover) {
         text-decoration-line: underline;
       }
-    }
-  }
-  .sm\:mr-4 {
-    @media (width >= 40rem) {
-      margin-right: calc(var(--spacing) * 4);
     }
   }
   .sm\:mr-6 {
