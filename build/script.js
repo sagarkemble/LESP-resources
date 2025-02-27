@@ -305,7 +305,7 @@ const submission = [
     batch: "S1",
   },
   //s1 batch upcoming submissions end
-  //S2
+  //s2 batch upcoming submissions start
   {
     name: "DCN",
     sub1: "N/A",
@@ -318,7 +318,7 @@ const submission = [
   },
   {
     name: "JAVA",
-    sub1: "N/A",
+    sub1: "Exp-1 to 10",
     sub2: "0",
     sub3: "0",
     sub4: "0",
@@ -328,7 +328,7 @@ const submission = [
   },
   {
     name: "PWP",
-    sub1: "Exp-1 to 7",
+    sub1: "Exp-1 to 16",
     sub2: "0",
     sub3: "0",
     sub4: "0",
@@ -339,11 +339,11 @@ const submission = [
 
   {
     name: "UID",
-    sub1: "N/A",
+    sub1: "Exp-1 to 7",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "29-Feb",
     link: "uid/UIDpage.html",
     batch: "S2",
   },
@@ -364,10 +364,12 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "28-Feb",
+    date: "29-Feb",
     link: "mic/MICpage.html",
     batch: "S2",
   },
+  //s2 batch upcoming submissions end
+  //s3 batch upcoming submissions start
   {
     name: "DCN",
     sub1: "Exp-1 to 8",
@@ -430,6 +432,8 @@ const submission = [
     link: "mic/MICpage.html",
     batch: "S3",
   },
+  //s3 batch upcoming submissions end
+  //s4 batch upcoming submissions start
   {
     name: "DCN",
     sub1: "Exp-1 to 8",
@@ -492,6 +496,7 @@ const submission = [
     link: "mic/MICpage.html",
     batch: "S4",
   },
+  //s5 batch upcoming submissions start
   {
     name: "DCN",
     sub1: "N/A",
@@ -525,14 +530,15 @@ const submission = [
 
   {
     name: "UID",
-    sub1: "N/A",
+    sub1: "Exp-1 to 7",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "28-Feb",
     link: "uid/UIDpage.html",
     batch: "S5",
   },
+
   {
     name: "EES",
     sub1: "N/A",
@@ -554,6 +560,7 @@ const submission = [
     link: "mic/MICpage.html",
     batch: "S5",
   },
+
   {
     name: "DCN",
     sub1: "0",
@@ -587,11 +594,11 @@ const submission = [
 
   {
     name: "UID",
-    sub1: "Exp-1 to 7",
+    sub1: "0",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "28-Feb",
+    date: "0",
     link: "uid/UIDpage.html",
     batch: "S6",
   },
