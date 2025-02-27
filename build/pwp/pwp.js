@@ -123,6 +123,10 @@ const content = {
       link: "https://drive.google.com/file/d/16qd1aC-DROBHeLlFXxZ8EsA4lIvd2HSY/view?usp=drivesdk",
     },
     resrc16: {
+      name: "EX-12 O/P",
+      link: "https://drive.google.com/file/d/1aasZCzvvNiyKbsoVH9piDhRtlvG8uoYX/view?usp=sharing",
+    },
+    resrc17: {
       name: "EX-13 O/P",
       link: "https://drive.google.com/file/d/16qlEWYNXc1TB9edSR0s6O7HhaBjhvPLk/view?usp=drivesdk",
     },
