@@ -91,6 +91,38 @@ const content = {
       name: "Experiment-5",
       link: "https://drive.google.com/file/d/1CzqCzhURCUU6huZUeq007Za9T8B4o3ci/view?usp=drivesdk",
     },
+    exp6: {
+      name: "Experiment-6",
+      link: "https://drive.google.com/file/d/1QsVlmR-nCwzJTFYHoL8L8UH8cZL_CW2m/view?usp=drivesdk",
+    },
+    exp7: {
+      name: "Experiment-7",
+      link: "https://drive.google.com/file/d/1Qu5HBfDSX9tY0CYyCHjx5y01S9TTuhLt/view?usp=drivesdk",
+    },
+    exp8: {
+      name: "Experiment-8",
+      link: "https://drive.google.com/file/d/1QuHyV9GGESz_SHDH3vQiS44Z-F18h5Td/view?usp=drivesdk",
+    },
+    exp9: {
+      name: "Experiment-9",
+      link: "https://drive.google.com/file/d/1QyqK7R1tHuGxXJxg-ifM6xybkfeDOhn4/view?usp=drivesdk",
+    },
+    exp10: {
+      name: "Experiment-10",
+      link: "https://drive.google.com/file/d/1R5I9iGqpPhQgxqnL5h1KuOZjS2-A4J8b/view?usp=drivesdk",
+    },
+    exp11: {
+      name: "Experiment-11",
+      link: "https://drive.google.com/file/d/1R68vJ2IryQWaUV7Z2OcZfE5GnLrFnXh9/view?usp=drivesdk",
+    },
+    exp13: {
+      name: "Experiment-13",
+      link: "https://drive.google.com/file/d/1R8gTo9xBgmyP6PR5Wd83qFZeeK7CN50q/view?usp=drivesdk",
+    },
+    exp14: {
+      name: "Experiment-14",
+      link: "https://drive.google.com/file/d/1RBhDz39hfxHl36J3DoogDClpQT-pCA_2/view?usp=drivesdk",
+    },
   },
   other_resources_Obj: {
     qb: {
