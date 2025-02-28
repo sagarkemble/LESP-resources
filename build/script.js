@@ -254,7 +254,7 @@ const submission = [
   },
   {
     name: "JAVA",
-    sub1: "Exp-12 to 13",
+    sub1: "Exp-1 to 13",
     sub2: "0",
     sub3: "0",
     sub4: "0",
