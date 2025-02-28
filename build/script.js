@@ -264,7 +264,7 @@ const submission = [
   },
   {
     name: "PWP",
-    sub1: "Exp-1 to 7",
+    sub1: "Exp-1 to 10",
     sub2: "0",
     sub3: "0",
     sub4: "0",
@@ -339,7 +339,7 @@ const submission = [
 
   {
     name: "UID",
-    sub1: "Exp-1 to 7",
+    sub1: "Exp-1 to 9",
     sub2: "0",
     sub3: "0",
     sub4: "0",
@@ -424,11 +424,11 @@ const submission = [
 
   {
     name: "MIC",
-    sub1: "Exp-1 to 7",
+    sub1: "Exp-1 to 10",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "28-Feb",
+    date: "6-Mar",
     link: "mic/MICpage.html",
     batch: "S3",
   },
