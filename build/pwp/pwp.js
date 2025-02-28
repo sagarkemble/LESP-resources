@@ -188,7 +188,7 @@ const content = {
     },
     exp6: {
       name: "Experiment-6",
-      link: "https://drive.google.com/file/d/1P2tF69sNlQEdCBirMXYa1pwDTuN1tsey/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1P3ChQttJ3aK1ZoryGGpZ7Ep_BzL5JwA6/view?usp=drive_link",
     },
     exp7: {
       name: "Experiment-7",
