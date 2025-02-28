@@ -328,11 +328,11 @@ const submission = [
   },
   {
     name: "PWP",
-    sub1: "Exp-1 to 16",
+    sub1: "Exp-1 to 15",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "1-Mar",
+    date: "3-Mar",
     link: "pwp/PWPpage.html",
     batch: "S2",
   },
