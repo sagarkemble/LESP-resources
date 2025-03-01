@@ -29,22 +29,6 @@ const content = {
       name: "Assignment-2",
       link: "https://drive.google.com/file/d/11eZVAujt3um-qreLZx8cq9JE7TFmXxJ9/view?usp=drivesdk",
     },
-    assignemnt3: {
-      name: "Assignment-3",
-      link: "../notuploaded.html",
-    },
-    assignemnt4: {
-      name: "Assignment-4",
-      link: "../notuploaded.html",
-    },
-    assignemnt5: {
-      name: "Assignment-5",
-      link: "../notuploaded.html",
-    },
-    assignemnt6: {
-      name: "Assignment-6",
-      link: "../notuploaded.html",
-    },
   },
   class_notes_obj: {
     unit1: {

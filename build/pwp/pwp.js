@@ -29,22 +29,6 @@ const content = {
       name: "Tutorial-2",
       link: "https://drive.google.com/file/d/10_fISMOeguC0GGMnn9Fl_EbezagDounH/view?usp=sharing",
     },
-    Tutorial_3: {
-      name: "Tutorial-3",
-      link: "../notuploaded.html",
-    },
-    Tutorial_4: {
-      name: "Tutorial-4",
-      link: "../notuploaded.html",
-    },
-    Tutorial_5: {
-      name: "Tutorial-5",
-      link: "../notuploaded.html",
-    },
-    Tutorial_6: {
-      name: "Tutorial-6",
-      link: "../notuploaded.html",
-    },
   },
 
   notes_obj: {
