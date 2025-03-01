@@ -59,9 +59,9 @@ const content = {
       name: "Subtraction",
       link: "https://drive.google.com/file/d/19g9epyn61D1RFn2usUM8-qJLPDR8o1E_/view?usp=drivesdk",
     },
-    code7: {
+    code8: {
       name: "Sum-of-series 2",
-      link: "https://drive.google.com/file/d/19g9epyn61D1RFn2usUM8-qJLPDR8o1E_/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/19LxJcKJHIHY0kbWeJ0FcNZjsD1yD2mzl/view?usp=drive_link",
     },
   },
 
