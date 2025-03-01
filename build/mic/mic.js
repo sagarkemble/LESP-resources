@@ -48,7 +48,7 @@ const content = {
       link: "https://drive.google.com/file/d/19tIE3YRbJmFdhD53UToUfw1xf6od21Nw/view?usp=drivesdk",
     },
     code5: {
-      name: "Sum-of-series",
+      name: "Sum-of-series 1",
       link: "https://drive.google.com/file/d/19Roo8foo-2q6fgRMU3J3G08LjO24yIeo/view?usp=drivesdk",
     },
     code6: {
@@ -57,6 +57,10 @@ const content = {
     },
     code7: {
       name: "Subtraction",
+      link: "https://drive.google.com/file/d/19g9epyn61D1RFn2usUM8-qJLPDR8o1E_/view?usp=drivesdk",
+    },
+    code7: {
+      name: "Sum-of-series 2",
       link: "https://drive.google.com/file/d/19g9epyn61D1RFn2usUM8-qJLPDR8o1E_/view?usp=drivesdk",
     },
   },
