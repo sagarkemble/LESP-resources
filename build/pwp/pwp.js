@@ -19,6 +19,9 @@ const Notes_resources_container = document.querySelector(
 const manual_questionandanswer_container = document.querySelector(
   ".manaul-question-answer-cards-container",
 );
+const output_resources_container = document.querySelector(
+  ".output-container-cards-container",
+);
 const content = {
   assignment_Obj: {
     Tutorial_1: {
@@ -60,59 +63,6 @@ const content = {
     resrc4: {
       name: "Sample Report",
       link: "https://drive.google.com/file/d/1OZ0plFmcTCkwu-m13cozUmVpN_BkE1ja/view?usp=drive_link",
-    },
-    resrc5: {
-      name: "EX-1 O/P",
-      link: "https://drive.google.com/file/d/13TBvcNEzWMTYulDDGKr3i2xH-DQ-b_5o/view?usp=drivesdk",
-    },
-    resrc6: {
-      name: "EX-2 O/P",
-      link: "https://drive.google.com/file/d/13a7lAlH1lZwdlv5BnaCtEv4ItSm6I6MR/view?usp=drivesdk",
-    },
-
-    resrc7: {
-      name: "EX-3 O/P",
-      link: "https://drive.google.com/file/d/13_xeuf9emJT_poBxxAoMpEpf-dP8rtVX/view?usp=drivesdk",
-    },
-    resrc8: {
-      name: "EX-4 O/P",
-      link: "https://drive.google.com/file/d/14kTSc4kRigB95RIJKKwqjz3aOiSeas2O/view?usp=drivesdk",
-    },
-    resrc9: {
-      name: "EX-5 O/P",
-      link: "https://drive.google.com/file/d/14kX8-Gmj0fu9VJ5GM9AnhGnXcNFLfxJt/view?usp=drivesdk",
-    },
-    resrc10: {
-      name: "EX-6 O/P",
-      link: "https://drive.google.com/file/d/14oFy40XRZVnKl0wSdItleXg7FK7YnfsE/view?usp=drivesdk",
-    },
-    resrc11: {
-      name: "EX-7 O/P",
-      link: "https://drive.google.com/file/d/16Eeza492-aZPX5hmYn5LkBCXu4tqDKmw/view?usp=drivesdk",
-    },
-    resrc12: {
-      name: "EX-8 O/P",
-      link: "https://drive.google.com/file/d/16Pdy8Yk79M8IRddEPcrcWsyyZq0K1efE/view?usp=drivesdk",
-    },
-    resrc13: {
-      name: "EX-9 O/P",
-      link: "https://drive.google.com/file/d/16WWijIIZO9FSThuA0tt_knd_D7MrULu5/view?usp=drivesdk",
-    },
-    resrc14: {
-      name: "EX-10 O/P",
-      link: "https://drive.google.com/file/d/16gs3ZFA8dGe8Ln4XszviSSA5fFZrrlgX/view?usp=drivesdk",
-    },
-    resrc15: {
-      name: "EX-11 O/P",
-      link: "https://drive.google.com/file/d/16qd1aC-DROBHeLlFXxZ8EsA4lIvd2HSY/view?usp=drivesdk",
-    },
-    resrc16: {
-      name: "EX-12 O/P",
-      link: "https://drive.google.com/file/d/1aasZCzvvNiyKbsoVH9piDhRtlvG8uoYX/view?usp=sharing",
-    },
-    resrc17: {
-      name: "EX-13 O/P",
-      link: "https://drive.google.com/file/d/16qlEWYNXc1TB9edSR0s6O7HhaBjhvPLk/view?usp=drivesdk",
     },
   },
   manaul_obj: {
@@ -177,6 +127,61 @@ const content = {
     exp7: {
       name: "Experiment-7",
       link: "https://drive.google.com/file/d/1P4M1IEEjQwISStc2B56hoe0e16BFrOOm/view?usp=drivesdk",
+    },
+  },
+  output_obj: {
+    output1: {
+      name: "EX-1 O/P",
+      link: "https://drive.google.com/file/d/13TBvcNEzWMTYulDDGKr3i2xH-DQ-b_5o/view?usp=drivesdk",
+    },
+    output2: {
+      name: "EX-2 O/P",
+      link: "https://drive.google.com/file/d/13a7lAlH1lZwdlv5BnaCtEv4ItSm6I6MR/view?usp=drivesdk",
+    },
+
+    output3: {
+      name: "EX-3 O/P",
+      link: "https://drive.google.com/file/d/13_xeuf9emJT_poBxxAoMpEpf-dP8rtVX/view?usp=drivesdk",
+    },
+    output4: {
+      name: "EX-4 O/P",
+      link: "https://drive.google.com/file/d/14kTSc4kRigB95RIJKKwqjz3aOiSeas2O/view?usp=drivesdk",
+    },
+    output5: {
+      name: "EX-5 O/P",
+      link: "https://drive.google.com/file/d/14kX8-Gmj0fu9VJ5GM9AnhGnXcNFLfxJt/view?usp=drivesdk",
+    },
+    output6: {
+      name: "EX-6 O/P",
+      link: "https://drive.google.com/file/d/14oFy40XRZVnKl0wSdItleXg7FK7YnfsE/view?usp=drivesdk",
+    },
+    output7: {
+      name: "EX-7 O/P",
+      link: "https://drive.google.com/file/d/16Eeza492-aZPX5hmYn5LkBCXu4tqDKmw/view?usp=drivesdk",
+    },
+    output8: {
+      name: "EX-8 O/P",
+      link: "https://drive.google.com/file/d/16Pdy8Yk79M8IRddEPcrcWsyyZq0K1efE/view?usp=drivesdk",
+    },
+    output9: {
+      name: "EX-9 O/P",
+      link: "https://drive.google.com/file/d/16WWijIIZO9FSThuA0tt_knd_D7MrULu5/view?usp=drivesdk",
+    },
+    output10: {
+      name: "EX-10 O/P",
+      link: "https://drive.google.com/file/d/16gs3ZFA8dGe8Ln4XszviSSA5fFZrrlgX/view?usp=drivesdk",
+    },
+    output11: {
+      name: "EX-11 O/P",
+      link: "https://drive.google.com/file/d/16qd1aC-DROBHeLlFXxZ8EsA4lIvd2HSY/view?usp=drivesdk",
+    },
+    output12: {
+      name: "EX-12 O/P",
+      link: "https://drive.google.com/file/d/1aasZCzvvNiyKbsoVH9piDhRtlvG8uoYX/view?usp=sharing",
+    },
+    output13: {
+      name: "EX-13 O/P",
+      link: "https://drive.google.com/file/d/16qlEWYNXc1TB9edSR0s6O7HhaBjhvPLk/view?usp=drivesdk",
     },
   },
 };
@@ -248,6 +253,7 @@ if (localStorage.getItem("DIV") == "A") {
 createCard(content.notes_obj, notes_container);
 createCard(content.other_resources_Obj, other_resources_container);
 createCard(content.manaul_obj, manual_container);
+createCard(content.output_obj, output_resources_container);
 createCard(
   content.manual_questionandanswer_obj,
   manual_questionandanswer_container,

@@ -232,11 +232,8 @@ function createCard(obj, container) {
 
 if (localStorage.getItem("DIV") == "A") {
   createCard(content.assignment_Obj, assignment_container);
-  createCard(content.ouput_obj, output_resources_container);
-} else {
-  createCard(contentb.assignment_Obj, assignment_container);
-  output_resources_container.parentElement.style.display = "none";
 }
+createCard(content.ouput_obj, output_resources_container);
 // Load Assignments
 // createCard(content.assignment_Obj, assignment_container);
 createCard(
