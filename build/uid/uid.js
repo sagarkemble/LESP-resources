@@ -30,6 +30,23 @@ const content = {
       name: "Experiment-4",
       link: "https://drive.google.com/file/d/1HV1A4f4TDmX2V4IjLjErT7quc4lMVVnL/view?usp=drivesdk",
     },
+    exp5: {
+      name: "Experiment-5",
+      link: "https://drive.google.com/file/d/1CAYEPbggBhMOTKEYBgcFiKQcQY4GFi39/view?usp=drive_link",
+    },
+    exp6: {
+      name: "Experiment-6",
+      link: "https://drive.google.com/file/d/17u-3IpfqhwS2yT5A_WHktDNkCvNqnV1F/view?usp=drive_link",
+    },
+    exp7: {
+      name: "Experiment-7",
+      link: "https://drive.google.com/file/d/1IWojxIE7a1MKCSmZSMYjHN59JMyzX0Da/view?usp=drive_link",
+    },
+    exp8: {
+      name: "Experiment-8",
+      link: "https://drive.google.com/file/d/1HV1A4f4TDmX2V4IjLjErT7quc4lMVVnL/view?usp=drivesdk",
+    },
+    
   },
   manual_Obj: {
     manual_0: {
