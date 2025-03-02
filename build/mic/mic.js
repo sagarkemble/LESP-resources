@@ -63,6 +63,34 @@ const content = {
       name: "Sum-of-series 2",
       link: "https://drive.google.com/file/d/19LxJcKJHIHY0kbWeJ0FcNZjsD1yD2mzl/view?usp=drive_link",
     },
+    code9: {
+      name: "Asc-Desc-order",
+      link: "https://drive.google.com/file/d/1Z25g7O70JxD9hfILiyp9FA3Clncjjcu6/view?usp=drivesdk",
+    },
+    code10: {
+      name: "Compare-two-string",
+      link: "https://drive.google.com/file/d/1Z5_sGcKxxwutt8cSUmvTx8V2fPSlNG9d/view?usp=drivesdk",
+    },
+    code11: {
+      name: "Count-Zero-Once",
+      link: "https://drive.google.com/file/d/1ZCeJJHnGTURNJP_ZXngqmXClpHeAhRPp/view?usp=drivesdk",
+    },
+    code12: {
+      name: "Find-Pos-Neg-num",
+      link: "https://drive.google.com/file/d/1ZDzQrTlYIlKJ_L70K36uVWvMt3UnMaJP/view?usp=drivesdk",
+    },
+    code13: {
+      name: "Find-even/odd-num",
+      link: "https://drive.google.com/file/d/1ZEny2b23E7EIME8IO09ybGFTL2WWpSsj/view?usp=drivesdk",
+    },
+    code14: {
+      name: "Smallest-Largest",
+      link: "https://drive.google.com/file/d/1ZF7KkNAAOM2vAgK0ccGd6IP0KoaB6Azl/view?usp=drivesdk",
+    },
+    code15: {
+      name: "String-related",
+      link: "https://drive.google.com/file/d/1ZS1eZuM_VSByVUs-zPA-y-Ec-ms8_1GZ/view?usp=drivesdk",
+    },
   },
 
   other_resources_Obj: {

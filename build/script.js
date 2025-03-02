@@ -37,7 +37,7 @@ subLinkToggleButton.addEventListener("click", () => {
 
 // popup start
 document.addEventListener("DOMContentLoaded", () => {
-  let popupversion = "2.6";
+  let popupversion = "2.8";
   const localStorageData = localStorage.getItem("updatepopupShown");
   console.log(localStorageData);
 
@@ -328,21 +328,21 @@ const submission = [
   },
   {
     name: "JAVA",
-    sub1: "N/A",
+    sub1: "Exp-11 to 17",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "10-Mar",
     link: "java/JAVApage.html",
     batch: "S2",
   },
   {
     name: "PWP",
-    sub1: "N/A",
+    sub1: "Exp-1 to 19",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "12-Mar",
     link: "pwp/PWPpage.html",
     batch: "S2",
   },
@@ -446,31 +446,31 @@ const submission = [
   //s4 batch upcoming submissions start
   {
     name: "DCN",
-    sub1: "N/A",
+    sub1: "Exp-1 to 10",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "7-Mar",
     link: "dcn/DCNpage.html",
     batch: "S4",
   },
   {
     name: "JAVA",
-    sub1: "N/A",
+    sub1: "Exp-14 to 22",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "10-Mar",
     link: "java/JAVApage.html",
     batch: "S4",
   },
   {
     name: "PWP",
-    sub1: "N/A",
+    sub1: "Exp-1 to 12",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "7-Mar",
     link: "pwp/PWPpage.html",
     batch: "S4",
   },

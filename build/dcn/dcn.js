@@ -32,6 +32,10 @@ const content = {
       name: "Assignment-2",
       link: "https://drive.google.com/file/d/11eZVAujt3um-qreLZx8cq9JE7TFmXxJ9/view?usp=drivesdk",
     },
+    assignemnt3: {
+      name: "Assignment-3",
+      link: "https://drive.google.com/file/d/1YbJg5KRXL-_kvPLhb98BXsgLB-jfbuyw/view?usp=drivesdk",
+    },
   },
   class_notes_obj: {
     unit1: {
