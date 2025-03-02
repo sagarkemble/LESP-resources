@@ -19,10 +19,28 @@ const other_resources_container = document.querySelector(
 const Notes_resources_container = document.querySelector(
   ".Notes-resources-cards-container",
 );
+const ppt_resources_container = document.querySelector(
+  ".ppt-resources-container",
+);
 const output_resources_container = document.querySelector(
   ".output-container-cards-container",
 );
+
 const content = {
+  ppt_Obj: {
+    assignemnt1: {
+      name: "Assignment-1",
+      link: "https://drive.google.com/file/d/1WdPYQMr2wvV9CpT-dexxeZe9BILX0GJ1/view?usp=drive_link",
+    },
+    assignemnt2: {
+      name: "Assignment-2",
+      link: "https://drive.google.com/file/d/14NTu0mNJWAAi438wRlFAJaQsC9WaX4f3/view?usp=drivesdk",
+    },
+    assignemnt3: {
+      name: "Assignment-3",
+      link: "https://drive.google.com/file/d/1dItGZi_bQEB5Vch8QP9jtWYXyTNcwDrp/view?usp=drive_link",
+    },
+  },
   assignment_Obj: {
     assignemnt1: {
       name: "Assignment-1",
@@ -247,3 +265,4 @@ createCard(
 createCard(content.other_resources_Obj, other_resources_container);
 createCard(content.notes_obj, Notes_resources_container);
 createCard(content.manual_obj, manual_container);
+createCard(content.ppt_obj, ppt_resources_container);
