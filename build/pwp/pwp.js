@@ -152,7 +152,28 @@ const content = {
       name: "Experiment-13",
       link: "https://drive.google.com/file/d/1GgflnealzAVmvMk9U1tEeYhvVkKCuHsn/view?usp=drive_link",
     },
+    exp14: {
+      name: "Experiment-14",
+      link: "https://drive.google.com/file/d/1spo9GRfbu1Tcq6lrFDOO4E719PcQozTv/view?usp=drive_link",
+    },
+    exp15: {
+      name: "Experiment-15",
+      link: "https://drive.google.com/file/d/11G_I-X8powsxJEeknYfy_GKUdy1aOCVh/view?usp=drive_link",
+    },
+    exp16: {
+      name: "Experiment-16",
+      link: "https://drive.google.com/file/d/1T8Vrj2VwrcElwYMOgJ3GLXIw5qMj6VK-/view?usp=drive_link",
+    },
+    exp17: {
+      name: "Experiment-17",
+      link: "https://drive.google.com/file/d/1AwYQjcMDo44W21-aBvI01BG73Xd-DzhX/view?usp=drive_link",
+    },
+    exp18: {
+      name: "Experiment-18",
+      link: "https://drive.google.com/file/d/1CnOTpuHJ12oBk3jOWC-5wy__MB6Pom6V/view?usp=drive_link",
+    },
   },
+
   output_obj: {
     output1: {
       name: "EX-1 O/P",
@@ -207,6 +228,23 @@ const content = {
       name: "EX-13 O/P",
       link: "https://drive.google.com/file/d/16qlEWYNXc1TB9edSR0s6O7HhaBjhvPLk/view?usp=drivesdk",
     },
+    output15: {
+      name: "EX-15 O/P",
+      link: "https://drive.google.com/file/d/1dTBrhI-vA5gic1jIF6b7vkPCRm0Lu_r0/view?usp=drive_link",
+    },
+    output16: {
+      name: "EX-16 O/P",
+      link: "https://drive.google.com/file/d/1GBPxUiooC6OKHy_gvmHUv4naub4-7Jb9/view?usp=drive_link",
+    },
+    output17: {
+      name: "EX-17 O/P",
+      link: "https://drive.google.com/file/d/1ca7YGxurAVYSc4xz5SCxGZtP3nK8h4XS/view?usp=drive_link",
+    },
+    output18: {
+      name: "EX-18 O/P",
+      link: "https://drive.google.com/file/d/1_stZgzcjSd6Tgyml1AXjcX-wBRCWGZfl/view?usp=drive_link",
+    },
+    
   },
 };
 const contentb = {
