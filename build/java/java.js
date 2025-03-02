@@ -28,17 +28,21 @@ const output_resources_container = document.querySelector(
 
 const content = {
   ppt_Obj: {
-    assignemnt1: {
-      name: "Assignment-1",
-      link: "https://drive.google.com/file/d/1WdPYQMr2wvV9CpT-dexxeZe9BILX0GJ1/view?usp=drive_link",
+    Unit1: {
+      name: "Unit-1",
+      link: "https://drive.google.com/file/d/1OauttuaihVi4x0AthyHx-FZMPePy59IY/view?usp=drive_link",
     },
-    assignemnt2: {
-      name: "Assignment-2",
-      link: "https://drive.google.com/file/d/14NTu0mNJWAAi438wRlFAJaQsC9WaX4f3/view?usp=drivesdk",
+    Unit2: {
+      name: "Unit-2",
+      link: "https://drive.google.com/file/d/1OekV07kmZTIBI3T_va0yr4dZMeuu2CMU/view?usp=drive_link",
     },
-    assignemnt3: {
-      name: "Assignment-3",
-      link: "https://drive.google.com/file/d/1dItGZi_bQEB5Vch8QP9jtWYXyTNcwDrp/view?usp=drive_link",
+    Unit3: {
+      name: "Unit-3",
+      link: "https://drive.google.com/file/d/1OewD7Ln9Z94iun0k9QJ-TBrCNSnpxGlG/view?usp=drive_link",
+    },
+    Unit4: {
+      name: "Unit-4",
+      link: "https://drive.google.com/file/d/1OiQ3LEI30izecl9_LSzOng_v9T2A0YYQ/view?usp=drive_link",
     },
   },
   assignment_Obj: {
