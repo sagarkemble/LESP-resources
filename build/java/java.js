@@ -20,7 +20,7 @@ const Notes_resources_container = document.querySelector(
   ".Notes-resources-cards-container",
 );
 const ppt_resources_container = document.querySelector(
-  ".ppt-resources-container",
+  ".ppt-resources-cards-container",
 );
 const output_resources_container = document.querySelector(
   ".output-container-cards-container",
