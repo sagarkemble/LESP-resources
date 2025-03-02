@@ -269,4 +269,4 @@ createCard(
 createCard(content.other_resources_Obj, other_resources_container);
 createCard(content.notes_obj, Notes_resources_container);
 createCard(content.manual_obj, manual_container);
-createCard(content.ppt_obj, ppt_resources_container);
+createCard(content.ppt_Obj,ppt_resources_container);
