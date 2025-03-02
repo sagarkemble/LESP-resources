@@ -44,9 +44,8 @@ const content = {
     },
     exp8: {
       name: "Experiment-8",
-      link: "https://drive.google.com/file/d/1HV1A4f4TDmX2V4IjLjErT7quc4lMVVnL/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1GvUfySCYg_ASVpMybiwaUzzQhGCCRXZ3/view?usp=drive_link",
     },
-    
   },
   manual_Obj: {
     manual_0: {
