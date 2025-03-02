@@ -49,7 +49,7 @@ const content = {
     },
     code5: {
       name: "Sum-of-series 1",
-      link: "https://drive.google.com/file/d/19Roo8foo-2q6fgRMU3J3G08LjO24yIeo/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/19LxJcKJHIHY0kbWeJ0FcNZjsD1yD2mzl/view?usp=sharing",
     },
     code6: {
       name: "Multiplication",
