@@ -101,6 +101,10 @@ const content = {
       name: "Ex-10 O/P",
       link: "https://drive.google.com/file/d/15TQcq_oDGMAU1wPyMr7wIg7-IHTm1mjd/view?usp=drive_link",
     },
+    EX_11_OP: {
+      name: "Ex-11 O/P",
+      link: "https://drive.google.com/file/d/15TQcq_oDGMAU1wPyMr7wIg7-IHTm1mjd/view?usp=drive_link",
+    },
     EX_12_OP: {
       name: "Ex-12 O/P",
       link: "https://drive.google.com/file/d/11i57t4cgFGTikqvmWccfZJIVO9v0OXIa/view?usp=sharing",
