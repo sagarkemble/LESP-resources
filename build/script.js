@@ -4,6 +4,9 @@ const navLinks = document.querySelector(".links-container");
 const navMenuIcon = document.querySelector(".menu-button-wrapper");
 const subLink = document.querySelector(".sublink");
 const subLinkToggleButton = document.querySelector(".sublink-toggle-button");
+const updatePopupButton = document.querySelector(".updateShowBtn");
+const popup = document.querySelector(".popup-container");
+const cbutton = document.querySelector(".donate-btn");
 navMenuIcon.addEventListener("click", () => {
   if (navLinks.style.maxHeight) {
     navLinks.style.maxHeight = null;
@@ -34,11 +37,12 @@ subLinkToggleButton.addEventListener("click", () => {
 
 // popup start
 document.addEventListener("DOMContentLoaded", () => {
-  const popup = document.querySelector(".popup-container");
-  const cbutton = document.querySelector(".donate-btn");
+  let popupversion = "2.4";
+  const localStorageData = localStorage.getItem("updatepopupShown");
+  console.log(localStorageData);
 
   // Check if popup was already shown
-  if (!localStorage.getItem("updatepopupShown")) {
+  if (localStorage.getItem("updatepopupShown") != popupversion) {
     popup.style.display = "flex"; // Make visible
     setTimeout(() => {
       popup.style.opacity = "1"; // Fade in
@@ -49,9 +53,15 @@ document.addEventListener("DOMContentLoaded", () => {
     popup.style.opacity = "0";
     setTimeout(() => {
       popup.style.display = "none";
-      localStorage.setItem("updatepopupShown", "true"); // Store in localStorage
+      localStorage.setItem("updatepopupShown", popupversion); // Store in localStorage
     }, 400);
   });
+});
+updatePopupButton.addEventListener("click", () => {
+  popup.style.display = "flex"; // Make visible
+  setTimeout(() => {
+    popup.style.opacity = "1"; // Fade in
+  }, 10);
 });
 //division and batch selection
 const division_batch_selection_container = document.querySelector(

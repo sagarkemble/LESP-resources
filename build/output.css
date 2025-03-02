@@ -755,15 +755,6 @@
   .my-3 {
     margin-block: calc(var(--spacing) * 3);
   }
-  .my-4 {
-    margin-block: calc(var(--spacing) * 4);
-  }
-  .my-5 {
-    margin-block: calc(var(--spacing) * 5);
-  }
-  .my-6 {
-    margin-block: calc(var(--spacing) * 6);
-  }
   .my-7 {
     margin-block: calc(var(--spacing) * 7);
   }
@@ -967,6 +958,9 @@
   }
   .w-6 {
     width: calc(var(--spacing) * 6);
+  }
+  .w-7 {
+    width: calc(var(--spacing) * 7);
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
@@ -1889,17 +1883,8 @@
   .border-\[\#171D2B\] {
     border-color: #171D2B;
   }
-  .border-gray-200 {
-    border-color: var(--color-gray-200);
-  }
-  .border-gray-400 {
-    border-color: var(--color-gray-400);
-  }
   .border-gray-600 {
     border-color: var(--color-gray-600);
-  }
-  .border-gray-800 {
-    border-color: var(--color-gray-800);
   }
   .bg-\(--my_variable\) {
     background-color: var(--my_variable);
@@ -1930,9 +1915,6 @@
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
-  }
-  .bg-black {
-    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -2782,8 +2764,9 @@
   .delay-200 {
     transition-delay: 200ms;
   }
-  .delay-300 {
-    transition-delay: 300ms;
+  .duration-150 {
+    --tw-duration: 150ms;
+    transition-duration: 150ms;
   }
   .duration-300 {
     --tw-duration: 300ms;
@@ -3060,16 +3043,6 @@
       gap: calc(var(--spacing) * 3);
     }
   }
-  .md\:gap-4 {
-    @media (width >= 48rem) {
-      gap: calc(var(--spacing) * 4);
-    }
-  }
-  .md\:gap-6 {
-    @media (width >= 48rem) {
-      gap: calc(var(--spacing) * 6);
-    }
-  }
   .md\:gap-8 {
     @media (width >= 48rem) {
       gap: calc(var(--spacing) * 8);
@@ -3082,12 +3055,6 @@
         margin-inline-start: calc(calc(var(--spacing) * 4) * var(--tw-space-x-reverse));
         margin-inline-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-x-reverse)));
       }
-    }
-  }
-  .md\:border-x-0 {
-    @media (width >= 48rem) {
-      border-inline-style: var(--tw-border-style);
-      border-inline-width: 0px;
     }
   }
   .md\:border-y-0 {
