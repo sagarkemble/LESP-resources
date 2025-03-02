@@ -103,7 +103,7 @@ const content = {
     },
     EX_11_OP: {
       name: "Ex-11 O/P",
-      link: "https://drive.google.com/file/d/15TQcq_oDGMAU1wPyMr7wIg7-IHTm1mjd/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1TZnnsYI5LWr-ATJSvs3asiwwS3zEwQDK/view?usp=drive_link",
     },
     EX_12_OP: {
       name: "Ex-12 O/P",
