@@ -58,10 +58,6 @@ const content = {
       name: "Assignment-3",
       link: "https://drive.google.com/file/d/1dItGZi_bQEB5Vch8QP9jtWYXyTNcwDrp/view?usp=drive_link",
     },
-    assignemnt4: {
-      name: "Assignment-4",
-      link: "https://drive.google.com/file/d/1W-3xJzdtbnvuKGOKQhwKbT3GM-xmqKDh/view?usp=drivesdk",
-    },
   },
   manual_questionandanswer_obj: {
     exp1: {
@@ -217,18 +213,6 @@ const contentb = {
     assignemnt3: {
       name: "Assignment-3",
       link: "https://drive.google.com/file/d/1PL2GHT4R0MA9Ka1CSra3w0AHYdB3SX5s/view?usp=drive_link",
-    },
-    assignemnt4: {
-      name: "Assignment-4",
-      link: "../notuploaded.html",
-    },
-    assignemnt5: {
-      name: "Assignment-5",
-      link: "../notuploaded.html",
-    },
-    assignemnt6: {
-      name: "Assignment-6",
-      link: "../notuploaded.html",
     },
   },
 };
