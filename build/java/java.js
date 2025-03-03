@@ -58,6 +58,10 @@ const content = {
       name: "Assignment-3",
       link: "https://drive.google.com/file/d/1dItGZi_bQEB5Vch8QP9jtWYXyTNcwDrp/view?usp=drive_link",
     },
+    assignemnt4: {
+      name: "Assignment-4",
+      link: "https://drive.google.com/file/d/1W-3xJzdtbnvuKGOKQhwKbT3GM-xmqKDh/view?usp=drivesdk",
+    },
   },
   manual_questionandanswer_obj: {
     exp1: {
@@ -273,4 +277,4 @@ createCard(
 createCard(content.other_resources_Obj, other_resources_container);
 createCard(content.notes_obj, Notes_resources_container);
 createCard(content.manual_obj, manual_container);
-createCard(content.ppt_Obj,ppt_resources_container);
+createCard(content.ppt_Obj, ppt_resources_container);
