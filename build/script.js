@@ -254,11 +254,11 @@ const upcomingSectionContainer = document.querySelector(
 const submission = [
   {
     name: "DCN",
-    sub1: "Exp-1 to 6",
+    sub1: "Exp-1 to 12",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "Pending",
+    date: "4-Mar",
     link: "dcn/DCNpage.html",
     batch: "S1",
   },
@@ -329,7 +329,7 @@ const submission = [
   {
     name: "JAVA",
     sub1: "Exp-11 to 13",
-    sub2: "Assignment no.3",
+    sub2: "0",
     sub3: "0",
     sub4: "0",
     date: "4-Mar",
@@ -393,7 +393,7 @@ const submission = [
   {
     name: "JAVA",
     sub1: "Exp-11 to 13",
-    sub2: "Assignment no.3",
+    sub2: "0",
     sub3: "0",
     sub4: "0",
     date: "6-Mar",
