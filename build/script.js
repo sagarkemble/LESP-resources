@@ -342,7 +342,7 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "4-Mar",
     link: "pwp/PWPpage.html",
     batch: "S2",
   },
