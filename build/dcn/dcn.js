@@ -110,10 +110,6 @@ const content = {
       name: "Experiment-14",
       link: "https://drive.google.com/file/d/1RBhDz39hfxHl36J3DoogDClpQT-pCA_2/view?usp=drivesdk",
     },
-    exp15: {
-      name: "Experiment-15",
-      link: "https://drive.google.com/file/d/1VSQSCs1l_c96_z4cuIoxmvgYMZgZj5Jk/view?usp=drivesdkk",
-    },
   },
   other_resources_Obj: {
     qb: {

@@ -35,7 +35,7 @@ const content = {
     },
     assignemnt6: {
       name: "Assignment-6",
-      link: "https://drive.google.com/file/d/1V4_X_XaYf39kUJOT__Ac67SX7wbk3rnL/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1VugfNbFxxDmMwT5fzl_s6uphLslY0_Xq/view?usp=drivesdk",
     },
   },
 
