@@ -265,8 +265,8 @@ function createCard(obj, container) {
 }
 
 if (localStorage.getItem("DIV") == "A") {
-  createCard(content.assignment_Obj, assignment_container);
 }
+createCard(content.assignment_Obj, assignment_container);
 createCard(content.ouput_obj, output_resources_container);
 // Load Assignments
 // createCard(content.assignment_Obj, assignment_container);
