@@ -33,6 +33,10 @@ const content = {
       name: "Assignment-5",
       link: "https://docs.google.com/document/d/1kOnoXazTx1KP5BWG5yc3ichiKOkmcUnnyzykQRLruTo/edit?usp=sharing",
     },
+    assignemnt6: {
+      name: "Assignment-6",
+      link: "https://drive.google.com/file/d/1V4_X_XaYf39kUJOT__Ac67SX7wbk3rnL/view?usp=drivesdk",
+    },
   },
 
   other_resources_Obj: {
