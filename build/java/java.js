@@ -266,15 +266,15 @@ function createCard(obj, container) {
 
 if (localStorage.getItem("DIV") == "A") {
   createCard(content.assignment_Obj, assignment_container);
-  createCard(content.ouput_obj, output_resources_container);
-  // Load Assignments
-  // createCard(content.assignment_Obj, assignment_container);
-  createCard(
-    content.manual_questionandanswer_obj,
-    manual_questionandanswer_container,
-  );
-  createCard(content.other_resources_Obj, other_resources_container);
-  createCard(content.notes_obj, Notes_resources_container);
-  createCard(content.manual_obj, manual_container);
-  createCard(content.ppt_Obj, ppt_resources_container);
 }
+createCard(content.ouput_obj, output_resources_container);
+// Load Assignments
+// createCard(content.assignment_Obj, assignment_container);
+createCard(
+  content.manual_questionandanswer_obj,
+  manual_questionandanswer_container,
+);
+createCard(content.other_resources_Obj, other_resources_container);
+createCard(content.notes_obj, Notes_resources_container);
+createCard(content.manual_obj, manual_container);
+createCard(content.ppt_Obj, ppt_resources_container);
