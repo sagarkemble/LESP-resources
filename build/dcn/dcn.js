@@ -19,6 +19,9 @@ const manual_container = document.querySelector(".manual-cards-container");
 const other_resources_container = document.querySelector(
   ".other-resources-cards-container",
 );
+const output_resources_container = document.querySelector(
+  ".output-container-cards-container",
+);
 const content = {
   assignment_Obj: {
     assignemnt1: {
@@ -107,6 +110,10 @@ const content = {
       name: "Experiment-14",
       link: "https://drive.google.com/file/d/1RBhDz39hfxHl36J3DoogDClpQT-pCA_2/view?usp=drivesdk",
     },
+    exp15: {
+      name: "Experiment-15",
+      link: "https://drive.google.com/file/d/1VSQSCs1l_c96_z4cuIoxmvgYMZgZj5Jk/view?usp=drivesdkk",
+    },
   },
   other_resources_Obj: {
     qb: {
@@ -129,6 +136,20 @@ const content = {
     PYQ3: {
       name: "PYQ-2022",
       link: "https://drive.google.com/file/d/1w0g_c4BY3zq01SabYY0TnTXI_P90gCUz/view?usp=drive_link",
+    },
+  },
+  output_Obj: {
+    Exp_1_OP: {
+      name: "EXP-1 O/P",
+      link: "https://drive.google.com/file/d/1VVgBcxgJPPVRxMF0E7Hgbhgw3u-M9UNv/view?usp=drivesdk",
+    },
+    Exp_2_OP: {
+      name: "EXP-2 O/P",
+      link: "https://drive.google.com/file/d/1Ve6k1ZjW2xRI1H6jF763XSS_AvSxRERY/view?usp=drivesdk",
+    },
+    Exp_3_OP: {
+      name: "EXP-3 O/P",
+      link: "https://drive.google.com/file/d/1VSQSCs1l_c96_z4cuIoxmvgYMZgZj5Jk/view?usp=drivesdk",
     },
   },
   manual_Obj: {
@@ -240,3 +261,4 @@ createCard(
   content.manual_questionandanswer_obj,
   manual_questionandanswer_container,
 );
+createCard(content.output_Obj, output_resources_container);
