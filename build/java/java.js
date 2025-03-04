@@ -139,6 +139,10 @@ const content = {
       name: "Ex-13 O/P",
       link: "https://drive.google.com/file/d/1UWizGXAqrXEFTd4aIbCfUtRhJ4en2owz/view?usp=drive_link",
     },
+    EX_14_OP: {
+      name: "Ex-14 O/P",
+      link: "https://drive.google.com/file/d/1WI_gmeFliA-QHfa0Px2xfqAuV2gQse5P/view?usp=drivesdk",
+    },
   },
   other_resources_Obj: {
     qb: {
