@@ -370,7 +370,7 @@ const submission = [
 
   {
     name: "MIC",
-    sub1: "Exp-1 to 7",
+    sub1: "Exp-1 to 7g",
     sub2: "0",
     sub3: "0",
     sub4: "0",
