@@ -102,6 +102,10 @@ const content = {
       name: "Experiment-11",
       link: "https://drive.google.com/file/d/1R68vJ2IryQWaUV7Z2OcZfE5GnLrFnXh9/view?usp=drivesdk",
     },
+    exp12: {
+      name: "Experiment-12",
+      link: "https://drive.google.com/file/d/1YR0eP_EB4tb8lIgUmQH4eEKezMc_6wqp/view?usp=drivesdk",
+    },
     exp13: {
       name: "Experiment-13",
       link: "https://drive.google.com/file/d/1R8gTo9xBgmyP6PR5Wd83qFZeeK7CN50q/view?usp=drivesdk",
@@ -109,6 +113,18 @@ const content = {
     exp14: {
       name: "Experiment-14",
       link: "https://drive.google.com/file/d/1RBhDz39hfxHl36J3DoogDClpQT-pCA_2/view?usp=drivesdk",
+    },
+    exp15: {
+      name: "Experiment-15",
+      link: "https://drive.google.com/file/d/1YJ9ssVl8ai347LdcoUcSIaIhmHk_9090/view?usp=drivesdk",
+    },
+    exp16: {
+      name: "Experiment-16",
+      link: "https://drive.google.com/file/d/1YLwta6ApQxAAyYdipwgq9DpGjSDYAHgv/view?usp=drivesdk",
+    },
+    exp17: {
+      name: "Experiment-17",
+      link: "https://drive.google.com/file/d/1YO69dfRkWNJ0bIgn8uSM03iXmXRbY4wb/view?usp=drivesdk",
     },
   },
   other_resources_Obj: {

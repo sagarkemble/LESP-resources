@@ -84,11 +84,11 @@ const content = {
     },
     manual_4: {
       name: "Manual 16-20",
-      link: "https://drive.google.com/file/d/10SotUjYqryGYBMWota3qqn_rSRroXUOL/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1kVRUcirWHmVLQEAm2W3m3-KS3jrTryMf/view?usp=drive_link",
     },
     manual_5: {
       name: "Manual 21-25",
-      link: "https://drive.google.com/file/d/1kVRUcirWHmVLQEAm2W3m3-KS3jrTryMf/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1gO_W9xgGFM1WOtiyDoZaPSGe2o5xDL9C/view?usp=drive_link",
     },
     manual_6: {
       name: "Manual 26-30",
@@ -244,7 +244,6 @@ const content = {
       name: "EX-18 O/P",
       link: "https://drive.google.com/file/d/1_stZgzcjSd6Tgyml1AXjcX-wBRCWGZfl/view?usp=drive_link",
     },
-    
   },
 };
 const contentb = {
