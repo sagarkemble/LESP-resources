@@ -228,6 +228,10 @@ const content = {
       name: "EX-13 O/P",
       link: "https://drive.google.com/file/d/16qlEWYNXc1TB9edSR0s6O7HhaBjhvPLk/view?usp=drivesdk",
     },
+    output14: {
+      name: "EX-14 O/P",
+      link: "https://drive.google.com/file/d/1YX3M0i9gTkbtn_q_X6Ha5rIr0OQcWxgn/view?usp=drivesdk",
+    },
     output15: {
       name: "EX-15 O/P",
       link: "https://drive.google.com/file/d/1dTBrhI-vA5gic1jIF6b7vkPCRm0Lu_r0/view?usp=drive_link",
@@ -244,7 +248,6 @@ const content = {
       name: "EX-18 O/P",
       link: "https://drive.google.com/file/d/1_stZgzcjSd6Tgyml1AXjcX-wBRCWGZfl/view?usp=drive_link",
     },
-    
   },
 };
 const contentb = {
