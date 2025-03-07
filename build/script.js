@@ -370,7 +370,7 @@ const submission = [
 
   {
     name: "MIC",
-    sub1: "Exp-1 to 7g",
+    sub1: "Exp-1 to 7",
     sub2: "0",
     sub3: "0",
     sub4: "0",
@@ -523,7 +523,7 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "10-Mar",
     link: "java/JAVApage.html",
     batch: "S5",
   },
@@ -570,7 +570,7 @@ const submission = [
     link: "mic/MICpage.html",
     batch: "S5",
   },
-
+  //s6 batch upcoming submissions start
   {
     name: "DCN",
     sub1: "N/A",
@@ -604,7 +604,7 @@ const submission = [
 
   {
     name: "UID",
-    sub1: "Exp-1 to 7",
+    sub1: "Exp-1 to 8",
     sub2: "0",
     sub3: "0",
     sub4: "0",
@@ -629,7 +629,7 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "10-Mar",
     link: "mic/MICpage.html",
     batch: "S6",
   },
