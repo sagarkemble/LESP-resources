@@ -46,7 +46,7 @@ const content = {
   },
   other_resources_Obj: {
     resrc1: {
-      name: "Syllbus",
+      name: "Syllabus",
       link: "https://drive.google.com/file/d/1KAqoNHgr4M1qnucW5a7BWJxWKpZj6K3s/view?usp=drive_link",
     },
 

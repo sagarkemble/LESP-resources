@@ -608,7 +608,7 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "7-Mar",
+    date: "13-Mar",
     link: "uid/UIDpage.html",
     batch: "S6",
   },
