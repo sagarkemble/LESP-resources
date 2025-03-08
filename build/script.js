@@ -285,11 +285,11 @@ const submission = [
 
   {
     name: "UID",
-    sub1: "Exp 1 to 8",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "07-Mar",
+    date: "N/A",
     link: "uid/UIDpage.html",
     batch: "S1",
   },
@@ -370,11 +370,11 @@ const submission = [
 
   {
     name: "MIC",
-    sub1: "Exp-1 to 7",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "8-Mar",
+    date: "N/A",
     link: "mic/MICpage.html",
     batch: "S2",
   },
@@ -540,11 +540,11 @@ const submission = [
 
   {
     name: "UID",
-    sub1: "Exp-1 to 8",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "8-Mar",
+    date: "N/A",
     link: "uid/UIDpage.html",
     batch: "S5",
   },
@@ -583,11 +583,11 @@ const submission = [
   },
   {
     name: "JAVA",
-    sub1: "Exp-1 to 22",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "7-Mar",
+    date: "N/A",
     link: "java/JAVApage.html",
     batch: "S6",
   },
