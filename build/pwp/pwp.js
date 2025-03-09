@@ -172,6 +172,10 @@ const content = {
       name: "Experiment-18",
       link: "https://drive.google.com/file/d/1CnOTpuHJ12oBk3jOWC-5wy__MB6Pom6V/view?usp=drive_link",
     },
+    exp19: {
+      name: "Experiment-19",
+      link: "https://drive.google.com/file/d/1a3ugTOsabkZAGVYcFPcNOXk9CKF0x6G7/view?usp=drivesdk",
+    },
   },
 
   output_obj: {
@@ -247,6 +251,10 @@ const content = {
     output18: {
       name: "EX-18 O/P",
       link: "https://drive.google.com/file/d/1_stZgzcjSd6Tgyml1AXjcX-wBRCWGZfl/view?usp=drive_link",
+    },
+    output19: {
+      name: "EX-19 O/P",
+      link: "https://drive.google.com/file/d/1a-CKDAPJTuwo0iglrl6SLCU1uW9eXhOS/view?usp=drivesdk",
     },
   },
 };
