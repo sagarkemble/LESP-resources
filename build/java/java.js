@@ -44,6 +44,16 @@ const content = {
       name: "Unit-4",
       link: "https://drive.google.com/file/d/1OiQ3LEI30izecl9_LSzOng_v9T2A0YYQ/view?usp=drive_link",
     },
+    //Here temporary unit 5 written
+    Unit5: {
+      name: "AWT",
+      link: "https://drive.google.com/file/d/1ae3OAjNnZzrH5tv50l7OvKA6Rxv_uhN1/view?usp=drivesdk",
+    },
+    //Here temporary unit 6 written
+    Unit6: {
+      name: "SWING",
+      link: "https://drive.google.com/file/d/1aiH6O9nMNmfwXNtv2a9ocjTdv-IvQXMI/view?usp=drivesdk",
+    },
   },
   assignment_Obj: {
     assignemnt1: {
@@ -57,6 +67,10 @@ const content = {
     assignemnt3: {
       name: "Assignment-3",
       link: "https://drive.google.com/file/d/1dItGZi_bQEB5Vch8QP9jtWYXyTNcwDrp/view?usp=drive_link",
+    },
+    assignemnt4: {
+      name: "Assignment-4",
+      link: "https://drive.google.com/file/d/1alkwI6tfLHDQnXfW0sfrrH-lu9edgQLD/view?usp=drivesdk",
     },
   },
   manual_questionandanswer_obj: {
