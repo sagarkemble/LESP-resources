@@ -446,11 +446,11 @@ const submission = [
   //s4 batch upcoming submissions start
   {
     name: "DCN",
-    sub1: "N/A",
+    sub1: "Exp-1 to 14",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "13-Mar",
     link: "dcn/DCNpage.html",
     batch: "S4",
   },
@@ -477,11 +477,11 @@ const submission = [
 
   {
     name: "UID",
-    sub1: "N/A",
+    sub1: "Exp-1 to 9",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "11-Mar",
     link: "uid/UIDpage.html",
     batch: "S4",
   },

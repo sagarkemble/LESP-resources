@@ -55,6 +55,31 @@ const content = {
   },
 };
 
+const contentb = {
+  assignment_Obj: {
+    assignemnt1: {
+      name: "Assignment-1",
+      link: "https://drive.google.com/file/d/1IMuN3JJ2tnPjlYBmBYJ9MoEaRCOp279i/view?usp=sharing",
+    },
+    assignemnt2: {
+      name: "Assignment-2",
+      link: "https://drive.google.com/file/d/1NN9MOrZ6oLV4YO6NRWeot3ygdNp_758Z/view?usp=sharing",
+    },
+    assignemnt3: {
+      name: "Assignment-3",
+      link: "https://drive.google.com/file/d/17adr0i0GsjAVc0hSlSPjhaWNsoqnoIW0/view?usp=sharing",
+    },
+    assignemnt4: {
+      name: "Assignment-4",
+      link: "https://drive.google.com/file/d/1caClAYhVE0NrVpHi7THGln4l0cVtX6Uj/view?usp=sharing",
+    },
+    assignemnt5: {
+      name: "Assignment-5",
+      link: "https://drive.google.com/file/d/1i4MG7lKmVXW7impFwpWDIXaWdVi4fjHn/view?usp=sharing",
+    },
+  },
+};
+
 function createCard(obj, container) {
   if (!container) return; // Check if the container exists
 
@@ -85,7 +110,10 @@ function createCard(obj, container) {
     container.appendChild(link);
   }
 }
-
+if (localStorage.getItem("DIV") == "A") {
+  createCard(content.assignment_Obj, assignment_container);
+} else {
+  createCard(contentb.assignment_Obj, assignment_container);
+}
 // Load Assignments
-createCard(content.assignment_Obj, assignment_container);
 createCard(content.other_resources_Obj, other_resources_container);
