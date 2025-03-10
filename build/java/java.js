@@ -110,6 +110,10 @@ const content = {
       name: "Experiment-13",
       link: "https://drive.google.com/file/d/1NHBw3W_Yr2inOjsu1nmWh7BX2UmyVq2o/view?usp=drivesdk",
     },
+    exp16: {
+      name: "Experiment-16",
+      link: "https://drive.google.com/file/d/1b4KBQJFZU3ZTnA6Ah7uWCEBANNsXSLpi/view?usp=drivesdk",
+    },
   },
   ouput_obj: {
     EX_3_OP: {
@@ -168,6 +172,22 @@ const content = {
     EX_18_OP: {
       name: "Ex-18 O/P",
       link: "https://drive.google.com/file/d/1WyWeMLgS3Xrj9i0XIBSuVFIj3apZRseH/view?usp=drivesdk",
+    },
+    EX_19_OP: {
+      name: "Ex-19 O/P",
+      link: "https://drive.google.com/file/d/1b5ajgflKSikdq7hyhLQqcXLlYYL1lvqa/view?usp=drivesdk",
+    },
+    EX_20_OP: {
+      name: "Ex-20 O/P",
+      link: "https://drive.google.com/file/d/1aoAI10wC8Q5vO3Zw1oGQh4lTqISH4STC/view?usp=drivesdk",
+    },
+    EX_21_OP: {
+      name: "Ex-21 O/P",
+      link: "https://drive.google.com/file/d/1arp2jpl46E4dyjiq-PpQanQhfpTJ-Sll/view?usp=drivesdk",
+    },
+    EX_22_OP: {
+      name: "Ex-22 O/P",
+      link: "https://drive.google.com/file/d/1at6XpgKedTAszGU8LwN3GjTCdS6Vx8JV/view?usp=drivesdk",
     },
   },
   other_resources_Obj: {

@@ -37,7 +37,7 @@ subLinkToggleButton.addEventListener("click", () => {
 
 // popup start
 document.addEventListener("DOMContentLoaded", () => {
-  let popupversion = "2.10";
+  let popupversion = "2.11";
   const localStorageData = localStorage.getItem("updatepopupShown");
   console.log(localStorageData);
 
@@ -328,11 +328,11 @@ const submission = [
   },
   {
     name: "JAVA",
-    sub1: "Exp-11 to 17",
+    sub1: "Exp-11 to 19",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "10-Mar",
+    date: "11-Mar",
     link: "java/JAVApage.html",
     batch: "S2",
   },
@@ -402,11 +402,11 @@ const submission = [
   },
   {
     name: "PWP",
-    sub1: "Exp-1 to 18",
+    sub1: "Exp-11 to 19",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "10-Mar",
+    date: "11-Mar",
     link: "pwp/PWPpage.html",
     batch: "S3",
   },
@@ -446,21 +446,21 @@ const submission = [
   //s4 batch upcoming submissions start
   {
     name: "DCN",
-    sub1: "Exp-14 to 22",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "10-Mar",
+    date: "N/A",
     link: "dcn/DCNpage.html",
     batch: "S4",
   },
   {
     name: "JAVA",
-    sub1: "Exp-14 to 22",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "10-Mar",
+    date: "N/A",
     link: "java/JAVApage.html",
     batch: "S4",
   },
@@ -519,11 +519,11 @@ const submission = [
   },
   {
     name: "JAVA",
-    sub1: "Exp-1 to 22",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "10-Mar",
+    date: "N/A",
     link: "java/JAVApage.html",
     batch: "S5",
   },
@@ -593,11 +593,11 @@ const submission = [
   },
   {
     name: "PWP",
-    sub1: "Exp-1 to 10",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "10-Mar",
+    date: "N/A",
     link: "pwp/PWPpage.html",
     batch: "S6",
   },
@@ -625,11 +625,11 @@ const submission = [
 
   {
     name: "MIC",
-    sub1: "Exp-1 to 10",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "10-Mar",
+    date: "N/A",
     link: "mic/MICpage.html",
     batch: "S6",
   },
