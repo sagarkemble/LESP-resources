@@ -81,7 +81,7 @@ const content = {
   other_resources_Obj: {
     resrc: {
       name: "Syllabus",
-      link: "https://drive.google.com/file/d/1D-iREjzTepomydXUjDLEAU4eawktVBQ4/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1TCKxAJM26pr3m0GXahHINDsWRkN_cfy0/view?usp=drivesdk",
     },
     resrc_1: {
       name: "MP INDEX",

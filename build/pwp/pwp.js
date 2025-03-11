@@ -285,6 +285,17 @@ const contentb = {
       link: "../notuploaded.html",
     },
   },
+
+  notes_obj: {
+    unit_1: {
+      name: "Unit-1",
+      link: "https://drive.google.com/file/d/1c2yNa0f5a4Zow36cv8ZKZuzKJu1xHAcv/view?usp=drivesd",
+    },
+    unit_2: {
+      name: "Unit-2",
+      link: "https://drive.google.com/file/d/1c4qVR--MwwO3kW7CP3hw1pM658F8nR4a/view?usp=drivesdk",
+    },
+  },
 };
 function createCard(obj, container) {
   if (!container) return;
@@ -319,11 +330,13 @@ function createCard(obj, container) {
 
 if (localStorage.getItem("DIV") == "A") {
   createCard(content.assignment_Obj, assignment_container);
+  createCard(content.notes_obj, notes_container);
 } else {
   createCard(contentb.assignment_Obj, assignment_container);
+  createCard(contentb.notes_obj, notes_container);
 }
 // Load Assignments
-createCard(content.notes_obj, notes_container);
+
 createCard(content.other_resources_Obj, other_resources_container);
 createCard(content.manaul_obj, manual_container);
 createCard(content.output_obj, output_resources_container);
