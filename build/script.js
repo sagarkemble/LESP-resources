@@ -37,7 +37,7 @@ subLinkToggleButton.addEventListener("click", () => {
 
 // popup start
 document.addEventListener("DOMContentLoaded", () => {
-  let popupversion = "2.13";
+  let popupversion = "2.14";
   const localStorageData = localStorage.getItem("updatepopupShown");
   console.log(localStorageData);
 
@@ -254,21 +254,21 @@ const upcomingSectionContainer = document.querySelector(
 const submission = [
   {
     name: "DCN",
-    sub1: "Exp-1 to 15",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "11-Mar",
+    date: "N/A",
     link: "dcn/DCNpage.html",
     batch: "S1",
   },
   {
     name: "JAVA",
-    sub1: "Exp-1 to 17",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "11-Mar",
+    date: "N/A",
     link: "java/JAVApage.html",
     batch: "S1",
   },
@@ -328,21 +328,21 @@ const submission = [
   },
   {
     name: "JAVA",
-    sub1: "Exp-11 to 19",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "11-Mar",
+    date: "N/A",
     link: "java/JAVApage.html",
     batch: "S2",
   },
   {
     name: "PWP",
-    sub1: "Exp-1 to 19",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "12-Mar",
+    date: "N/A",
     link: "pwp/PWPpage.html",
     batch: "S2",
   },
@@ -382,17 +382,17 @@ const submission = [
   //s3 batch upcoming submissions start
   {
     name: "DCN",
-    sub1: "Exp-1 to 14",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "11-Mar",
+    date: "N/A",
     link: "dcn/DCNpage.html",
     batch: "S3",
   },
   {
     name: "JAVA",
-    sub1: "Exp-11 to 18",
+    sub1: "Exp-11 to 18",//java assign 4 update
     sub2: "0",
     sub3: "0",
     sub4: "0",
@@ -402,22 +402,22 @@ const submission = [
   },
   {
     name: "PWP",
-    sub1: "Exp-11 to 19",
+    sub1: "Exp-15 to 22",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "11-Mar",
+    date: "17-Mar",
     link: "pwp/PWPpage.html",
     batch: "S3",
   },
 
   {
     name: "UID",
-    sub1: "Exp-1 to 8",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "12-Mar",
+    date: "N/A",
     link: "uid/UIDpage.html",
     batch: "S3",
   },
@@ -456,32 +456,32 @@ const submission = [
   },
   {
     name: "JAVA",
-    sub1: "N/A",
+    sub1: "Exp-14 to 24",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "N/A",
+    date: "13-Mar",
     link: "java/JAVApage.html",
     batch: "S4",
   },
   {
     name: "PWP",
-    sub1: "Exp-1 to 14",
+    sub1: "Exp-1 to 18",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "12-Mar",
+    date: "14-Mar",
     link: "pwp/PWPpage.html",
     batch: "S4",
   },
 
   {
     name: "UID",
-    sub1: "Exp-1 to 9",
+    sub1: "N/A",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "11-Mar",
+    date: "N/A",
     link: "uid/UIDpage.html",
     batch: "S4",
   },
@@ -583,11 +583,11 @@ const submission = [
   },
   {
     name: "JAVA",
-    sub1: "Exp-1 to 22",
+    sub1: "Exp-1 to 25",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "12-Mar",
+    date: "17-Mar",
     link: "java/JAVApage.html",
     batch: "S6",
   },
