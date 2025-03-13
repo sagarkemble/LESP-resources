@@ -179,6 +179,10 @@ const content = {
       name: "EXP-3 O/P",
       link: "https://drive.google.com/file/d/1VSQSCs1l_c96_z4cuIoxmvgYMZgZj5Jk/view?usp=drivesdk",
     },
+    Exp_11_OP: {
+      name: "EXP-11 O/P",
+      link: "https://drive.google.com/file/d/1dkwDv0VwdF510Nk3xWtFdFapyzqDwbMP/view?usp=drivesdk",
+    },
   },
   manual_Obj: {
     manual0: {
