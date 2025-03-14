@@ -37,7 +37,7 @@ subLinkToggleButton.addEventListener("click", () => {
 
 // popup start
 document.addEventListener("DOMContentLoaded", () => {
-  let popupversion = "2.13";
+  let popupversion = "2.14";
   const localStorageData = localStorage.getItem("updatepopupShown");
   console.log(localStorageData);
 
@@ -438,7 +438,7 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "14-Mar",
+    date: "17-Mar",
     link: "mic/MICpage.html",
     batch: "S3",
   },
