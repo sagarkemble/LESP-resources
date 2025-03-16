@@ -280,6 +280,10 @@ const content = {
       name: "EX-22 O/P",
       link: "https://drive.google.com/file/d/1fCydMsB4XHNVwmel6DA6MpJbDoCHCYg_/view?usp=drivesdk",
     },
+    output23: {
+      name: "EX-23 O/P",
+      link: "https://drive.google.com/file/d/1fxFPz7JTOIWTi83y-TqIWUKpLUIwqFVL/view?usp=drivesdk",
+    },
   },
 };
 const contentb = {
