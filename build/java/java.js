@@ -70,7 +70,7 @@ const content = {
     },
     assignemnt4: {
       name: "Assignment-4",
-      link: "https://drive.google.com/file/d/1hx2HDTq1OfaJpV3KYffQYdGK-kF6cdyj/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1hxcou6R-bbKbn_NqS1f7XJ4szB8NjYh5/view?usp=drivesdk",
     },
   },
   manual_questionandanswer_obj: {
@@ -191,15 +191,15 @@ const content = {
     },
     EX_23_OP: {
       name: "Ex-23 O/P",
-      link: "https://drive.google.com/file/d/1hep5Y3KGgrkyHPPImGxX17AuEkg5_WNj/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1iGAJMxh5sYWYWtw67UYJDpBIF7opUi6D/view?usp=drivesdk",
     },
     EX_24_OP: {
       name: "Ex-24 O/P",
-      link: "https://drive.google.com/file/d/1hkAAdy8upnaeY9fYtijR_86rxaWFvi0z/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1iPe4SVh-EkvQ7BEN_td23Gz7zT99bOKQ/view?usp=drivesdk",
     },
     EX_25_OP: {
       name: "Ex-25 O/P",
-      link: "https://drive.google.com/file/d/1hmdlg9szPuXhg6fT2YzC8k6ZrZGi6DjH/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1iS3d1lu62brtaUvZ97kwGui4Ip7QuiBL/view?usp=drivesdk",
     },
   },
   other_resources_Obj: {
