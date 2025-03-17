@@ -70,7 +70,7 @@ const content = {
     },
     assignemnt4: {
       name: "Assignment-4",
-      link: "https://drive.google.com/file/d/1alkwI6tfLHDQnXfW0sfrrH-lu9edgQLD/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1hx2HDTq1OfaJpV3KYffQYdGK-kF6cdyj/view?usp=drivesdk",
     },
   },
   manual_questionandanswer_obj: {
