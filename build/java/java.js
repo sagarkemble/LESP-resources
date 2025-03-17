@@ -189,6 +189,18 @@ const content = {
       name: "Ex-22 O/P",
       link: "https://drive.google.com/file/d/1at6XpgKedTAszGU8LwN3GjTCdS6Vx8JV/view?usp=drivesdk",
     },
+    EX_23_OP: {
+      name: "Ex-23 O/P",
+      link: "https://drive.google.com/file/d/1hep5Y3KGgrkyHPPImGxX17AuEkg5_WNj/view?usp=drivesdk",
+    },
+    EX_24_OP: {
+      name: "Ex-24 O/P",
+      link: "https://drive.google.com/file/d/1hkAAdy8upnaeY9fYtijR_86rxaWFvi0z/view?usp=drivesdk",
+    },
+    EX_25_OP: {
+      name: "Ex-25 O/P",
+      link: "https://drive.google.com/file/d/1hmdlg9szPuXhg6fT2YzC8k6ZrZGi6DjH/view?usp=drivesdk",
+    },
   },
   other_resources_Obj: {
     qb: {
