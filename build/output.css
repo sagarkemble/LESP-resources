@@ -3216,6 +3216,12 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
   }
 }
+.grid-auto-fit > * {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: clamp(0.75rem, 4vw, 1rem);
+}
 .glow {
   animation: glowanimation 2s ease-in-out;
 }
