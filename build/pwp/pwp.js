@@ -188,6 +188,18 @@ const content = {
       name: "Experiment-23",
       link: "https://drive.google.com/file/d/1f2FfIK2bKZOaC7Ny_PDcu0tCuVE75AiV/view?usp=drivesdk",
     },
+    exp24: {
+      name: "Experiment-24",
+      link: "https://drive.google.com/file/d/1kXkHDOKwUmLcolvg0SZyFaFgR18ve6h1/view?usp=drivesdk",
+    },
+    exp25: {
+      name: "Experiment-25",
+      link: "https://drive.google.com/file/d/1kbN71GpDRz0kAhHt3OWzXMcDM4QPp_m1/view?usp=drivesdk",
+    },
+    exp26: {
+      name: "Experiment-26",
+      link: "https://drive.google.com/file/d/1kfSAner9vix5a2KrsvSF_dharhbrORdB/view?usp=drivesdk",
+    },
   },
 
   output_obj: {
@@ -283,6 +295,14 @@ const content = {
     output23: {
       name: "EX-23 O/P",
       link: "https://drive.google.com/file/d/1fxFPz7JTOIWTi83y-TqIWUKpLUIwqFVL/view?usp=drivesdk",
+    },
+    output26: {
+      name: "EX-26 O/P",
+      link: "https://drive.google.com/file/d/1kdXWVVuyHO_ysfy5Hlpq3YRPuBFFksJE/view?usp=drivesdk",
+    },
+    output27: {
+      name: "EX-27 O/P",
+      link: "https://drive.google.com/file/d/1kcSoPxFxC2_aQ52K53zHZz8cr6KSLdhR/view?usp=drivesdk",
     },
   },
 };

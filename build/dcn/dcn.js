@@ -231,7 +231,7 @@ const contentb = {
     },
     assignemnt3: {
       name: "Assignment-3",
-      link: "../notuploaded.html",
+      link: "https://drive.google.com/file/d/1kOTNv7Zbo9ddLf3QjangtMeCd5DoVfFP/view?usp=drivesdk",
     },
     assignemnt4: {
       name: "Assignment-4",
