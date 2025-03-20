@@ -179,7 +179,7 @@ const content = {
     },
     EX_19_OP: {
       name: "Ex-19 O/P",
-      link: "https://drive.google.com/file/d/1b5ajgflKSikdq7hyhLQqcXLlYYL1lvqa/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1i-Ll1TBTfgMXvqdq3lCfr80lUtdN2UYa/view?usp=drivesdk",
     },
     EX_20_OP: {
       name: "Ex-20 O/P",
