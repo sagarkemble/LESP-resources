@@ -37,7 +37,7 @@ subLinkToggleButton.addEventListener("click", () => {
 
 // popup start
 document.addEventListener("DOMContentLoaded", () => {
-  let popupversion = "2.19";
+  let popupversion = "2.20";
   const localStorageData = localStorage.getItem("updatepopupShown");
   console.log(localStorageData);
 
@@ -274,11 +274,11 @@ const submission = [
   },
   {
     name: "PWP",
-    sub1: "Exp-20 to 27",
+    sub1: "Exp-20 to 28",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "21-Mar",
+    date: "27-Mar",
     link: "pwp/PWPpage.html",
     batch: "S1",
   },
@@ -289,7 +289,7 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "21-Mar",
+    date: "24-Mar",
     link: "uid/UIDpage.html",
     batch: "S1",
   },

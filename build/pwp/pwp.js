@@ -200,6 +200,14 @@ const content = {
       name: "Experiment-26",
       link: "https://drive.google.com/file/d/1kfSAner9vix5a2KrsvSF_dharhbrORdB/view?usp=drivesdk",
     },
+    exp27: {
+      name: "Experiment-27",
+      link: "https://drive.google.com/file/d/1m9JY153PF9Dm4ZDeXnmJTcuj9r-_9BTZ/view?usp=drivesdk",
+    },
+    exp28: {
+      name: "Experiment-28",
+      link: "https://drive.google.com/file/d/1mCrbK5ZJRRACzSqv7k_pRF4VKKoMX4r1/view?usp=drivesdk",
+    },
   },
 
   output_obj: {

@@ -130,6 +130,18 @@ const content = {
       name: "Experiment-17",
       link: "https://drive.google.com/file/d/1YO69dfRkWNJ0bIgn8uSM03iXmXRbY4wb/view?usp=drivesdk",
     },
+    exp18: {
+      name: "Experiment-18",
+      link: "https://drive.google.com/file/d/1m2xTyQVHoT7GY0gaDRl3u9c0KWywjLYg/view?usp=drivesdk",
+    },
+    exp19: {
+      name: "Experiment-19",
+      link: "https://drive.google.com/file/d/1m4BO76DHwYZcRQKIzAuSipJkrSwzitop/view?usp=drivesdk",
+    },
+    exp_20: {
+      name: "Experiment-20",
+      link: "https://drive.google.com/file/d/1m4nWC8wJe69XgjkZbD9_leXman533wCV/view?usp=drivesdk",
+    },
     exp23: {
       name: "Experiment-23",
       link: "https://drive.google.com/file/d/1cozhSdk7Tu-ClXelcXfdxBoaUAAjLA_z/view?usp=drivesdk",
