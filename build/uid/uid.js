@@ -54,6 +54,10 @@ const content = {
       name: "Experiment-10",
       link: "https://drive.google.com/file/d/1a8zF0AmxNgdL0xaW86G5Jm-88O5Xq1AT/view?usp=drivesdk",
     },
+    exp11: {
+      name: "Experiment-11",
+      link: "https://drive.google.com/file/d/1noR4f8madZ5iaQLeqCoS-bSHR9c34MVF/view?usp=drivesdk",
+    },
   },
   manual_Obj: {
     manual_0: {

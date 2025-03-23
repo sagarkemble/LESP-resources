@@ -304,6 +304,14 @@ const content = {
       name: "EX-23 O/P",
       link: "https://drive.google.com/file/d/1fxFPz7JTOIWTi83y-TqIWUKpLUIwqFVL/view?usp=drivesdk",
     },
+    output24: {
+      name: "EX-24 O/P",
+      link: "https://drive.google.com/file/d/1nvgHOx1_DFbxAwxJQuswZVzsyPnfZn2c/view?usp=drivesdk",
+    },
+    output25: {
+      name: "EX-25 O/P",
+      link: "https://drive.google.com/file/d/1nrBDpfDhAFkNwi8pvDexA6LsMpR9-wfu/view?usp=drivesdk",
+    },
     output26: {
       name: "EX-26 O/P",
       link: "https://drive.google.com/file/d/1kdXWVVuyHO_ysfy5Hlpq3YRPuBFFksJE/view?usp=drivesdk",
@@ -311,6 +319,10 @@ const content = {
     output27: {
       name: "EX-27 O/P",
       link: "https://drive.google.com/file/d/1kcSoPxFxC2_aQ52K53zHZz8cr6KSLdhR/view?usp=drivesdk",
+    },
+    output28: {
+      name: "EX-28 O/P",
+      link: "https://drive.google.com/file/d/1now2zdalJwgnBjdpoqJkJa2665iMMF50/view?usp=drivesdk",
     },
   },
 };
