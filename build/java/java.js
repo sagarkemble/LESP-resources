@@ -209,6 +209,10 @@ const content = {
       name: "Ex-27 O/P",
       link: "https://drive.google.com/file/d/1nRbkjFYvKIlwiRBU9OtuVYjI3IsJjcUm/view?usp=drivesdk",
     },
+    EX_28_OP: {
+      name: "Ex-28 O/P",
+      link: "https://drive.google.com/file/d/1ouFH59QbJW7bTW9cwlv0vFXXowIkWdp0/view?usp=drivesdk",
+    },
   },
   other_resources_Obj: {
     qb: {
