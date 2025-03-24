@@ -322,7 +322,7 @@ const content = {
     },
     output28: {
       name: "EX-28 O/P",
-      link: "https://drive.google.com/file/d/1now2zdalJwgnBjdpoqJkJa2665iMMF50/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1piAKYcjPo0GU6H05UHgL4BQqDvUTJO13/view?usp=drivesdk",
     },
   },
 };
