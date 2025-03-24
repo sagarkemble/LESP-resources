@@ -45,6 +45,10 @@ const content = {
       name: "Assignment-8",
       link: "https://drive.google.com/file/d/1hqOogrEtHxjMAUKi5KYZHgKW8L1ODSxk/view?usp=drivesdk",
     },
+    assignemnt9: {
+      name: "Assignment-9",
+      link: "https://drive.google.com/file/d/1pnuHIo6E_GVp529y_avdy2v5_1GVazTD/view?usp=drivesdk",
+    },
   },
 
   other_resources_Obj: {
