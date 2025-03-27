@@ -29,6 +29,18 @@ const content = {
       name: "Assignment-2",
       link: "https://drive.google.com/file/d/18u56d3aGjLdUv8BkZ0oYEKeDq9xk0KBy/view?usp=drive_link",
     },
+    assignemnt3: {
+      name: "Assignment-3",
+      link: "https://drive.google.com/file/d/1sPatYHvaBi15GWZTD_p8g5vS-MeWDNhm/view?usp=drivesdk",
+    },
+    assignemnt4: {
+      name: "Assignment-4",
+      link: "https://drive.google.com/file/d/1saP2CPPh0g0sGTQ0Um6WH-jgnLawgsm7/view?usp=drivesdk",
+    },
+    assignemnt5: {
+      name: "Assignment-5",
+      link: "https://drive.google.com/file/d/1sbYlDVZciQxhwnU4UK5uqVRwrK1bGg3-/view?usp=drivesdk",
+    },
   },
   code_Obj: {
     code1: {
@@ -90,6 +102,10 @@ const content = {
     code15: {
       name: "String-related",
       link: "https://drive.google.com/file/d/1ZS1eZuM_VSByVUs-zPA-y-Ec-ms8_1GZ/view?usp=drivesdk",
+    },
+    code16: {
+      name: "Count 0's & 1's",
+      link: "https://drive.google.com/file/d/1skPCiY3TnnLDLBkqh8uOE0TiIpbGx-L2/view?usp=drivesdk",
     },
   },
 

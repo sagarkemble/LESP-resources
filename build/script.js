@@ -37,7 +37,7 @@ subLinkToggleButton.addEventListener("click", () => {
 
 // popup start
 document.addEventListener("DOMContentLoaded", () => {
-  let popupversion = "2.25";
+  let popupversion = "2.26";
   const localStorageData = localStorage.getItem("updatepopupShown");
   console.log(localStorageData);
 
@@ -322,7 +322,7 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "27-Mar",
+    date: "3-Apr",
     link: "dcn/DCNpage.html",
     batch: "S2",
   },
@@ -353,7 +353,7 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "29-Mar",
+    date: "1-Apr",
     link: "uid/UIDpage.html",
     batch: "S2",
   },
@@ -402,22 +402,22 @@ const submission = [
   },
   {
     name: "PWP",
-    sub1: "Exp-20 to 26",
+    sub1: "Exp-15 to 26",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "26-Mar",
+    date: "29-Mar",
     link: "pwp/PWPpage.html",
     batch: "S3",
   },
 
   {
     name: "UID",
-    sub1: "Exp-1 to 10",
+    sub1: "Exp-8 to 11",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "19-Mar",
+    date: "2-Apr",
     link: "uid/UIDpage.html",
     batch: "S3",
   },
@@ -434,11 +434,11 @@ const submission = [
 
   {
     name: "MIC",
-    sub1: "Exp-7 to 16",
+    sub1: "Exp-10 to 16",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "24-Mar",
+    date: "28-Mar",
     link: "mic/MICpage.html",
     batch: "S3",
   },
