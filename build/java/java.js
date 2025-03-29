@@ -76,6 +76,14 @@ const content = {
       name: "Assignment-4",
       link: "https://drive.google.com/file/d/1hxcou6R-bbKbn_NqS1f7XJ4szB8NjYh5/view?usp=drivesdk",
     },
+    assignemnt5: {
+      name: "Assignment-5",
+      link: "https://drive.google.com/file/d/1uHH2B9UmQ82Rju9KzsXrvet2XYY8RHJw/view?usp=drivesdk",
+    },
+    assignemnt6: {
+      name: "Assignment-6",
+      link: "https://drive.google.com/file/d/1uHJZGNXF2FRMEJfYLSLRF2rFoxali5qp/view?usp=drivesdk",
+    },
   },
   manual_questionandanswer_obj: {
     exp1: {

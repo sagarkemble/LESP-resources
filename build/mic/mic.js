@@ -107,6 +107,14 @@ const content = {
       name: "Count 0's & 1's",
       link: "https://drive.google.com/file/d/1skPCiY3TnnLDLBkqh8uOE0TiIpbGx-L2/view?usp=drivesdk",
     },
+    code17: {
+      name: "Macro Program",
+      link: "https://drive.google.com/file/d/1uBnBBYLSd-jI5Fyjw22S78Kjc3_uK9A3/view?usp=drivesdk",
+    },
+    code18: {
+      name: "Procedure Program",
+      link: "https://drive.google.com/file/d/1u6f6rd8cCNfOocmNmqHB9x1xJ9kOXEFN/view?usp=drivesdk",
+    },
   },
 
   other_resources_Obj: {
@@ -146,6 +154,10 @@ const content = {
     unit_3: {
       name: "Unit-3",
       link: "https://drive.google.com/file/d/1Jn83xsTlvDrKs7_PBxG9lsQ0UrmWGNpN/view?usp=sharing",
+    },
+    unit_5: {
+      name: "Unit-5",
+      link: "https://drive.google.com/file/d/1u1f1-ywQ0ryEKPDwh_D4FSybuvSEOCgK/view?usp=drivesdk",
     },
   },
   manual_obj: {
