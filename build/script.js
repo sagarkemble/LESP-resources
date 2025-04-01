@@ -370,11 +370,11 @@ const submission = [
 
   {
     name: "MIC",
-    sub1: "Exp-1 to 16",
+    sub1: "Exp-1 to 18",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "27-Mar",
+    date: "2-Apr",
     link: "mic/MICpage.html",
     batch: "S2",
   },
