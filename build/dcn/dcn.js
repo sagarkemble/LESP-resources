@@ -46,6 +46,10 @@ const content = {
       name: "Unit-2",
       link: "https://drive.google.com/file/d/170nl0aRgmmbnUysrlWhus1iZ4W1wCj7n/view?usp=drivesdk",
     },
+    unit3: {
+      name: "Unit-3",
+      link: "https://drive.google.com/file/d/1YljrQ94i5a8bH6f0cCiV74OODKydWx3l/view?usp=drive_link",
+    },
   },
   notes_obj: {
     unit1: {
@@ -156,9 +160,13 @@ const content = {
     },
   },
   other_resources_Obj: {
-    qb: {
+    qb1: {
       name: "QB UT-1",
       link: "https://drive.google.com/file/d/163Xzoq9CbS2uG_xz8DGvaLnn3OqeSx6j/view?usp=drivesdk",
+    },
+    qb2: {
+      name: "QB UT-2",
+      link: "https://drive.google.com/file/d/1zMRDIbq38fc3Ml-lLGOlo39Z4kXcRRZe/view?usp=drive_link",
     },
     syllabus: {
       name: "Syllabus",
@@ -191,10 +199,19 @@ const content = {
       name: "EXP-3 O/P",
       link: "https://drive.google.com/file/d/1VSQSCs1l_c96_z4cuIoxmvgYMZgZj5Jk/view?usp=drivesdk",
     },
+    Exp_8_OP: {
+      name: "EXP-8 O/P",
+      link: "https://drive.google.com/file/d/19oLL2tCsh19nCA2kYnhxpUPfXAel_pUA/view?usp=drive_link",
+    },
     Exp_11_OP: {
       name: "EXP-11 O/P",
       link: "https://drive.google.com/file/d/1dkwDv0VwdF510Nk3xWtFdFapyzqDwbMP/view?usp=drivesdk",
     },
+    Exp_12_OP: {
+      name: "EXP-12 O/P",
+      link: "https://drive.google.com/file/d/1LWykyzo-WybUJvyyG22T5S-SHn3wvTpp/view?usp=drive_link",
+    },
+
   },
   manual_Obj: {
     manual0: {

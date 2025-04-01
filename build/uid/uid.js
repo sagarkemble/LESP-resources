@@ -95,6 +95,10 @@ const content = {
       name: "MP FORMAT",
       link: "https://docs.google.com/document/d/1-yvNy-JvlkRkJRZP87k-x8vIN-o7YOqY/edit?usp=sharing&ouid=113726029866302553507&rtpof=true&sd=true",
     },
+    resrc_3: {
+      name: "CERTIFICATE",
+      link: "https://drive.google.com/file/d/1-Be30W_zMDLOOcSO1GTX6gvvnBzdCb6f/view?usp=drive_link",
+    },
   },
 };
 
