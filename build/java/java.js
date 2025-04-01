@@ -223,9 +223,13 @@ const content = {
     },
   },
   other_resources_Obj: {
-    qb: {
+    qb1: {
       name: "QB UT-1",
       link: "https://drive.google.com/file/d/1AOcT-RuSXDwNjtf3ahT88lTQIV1oaPX3/view?usp=drivesdk",
+    },
+    qb2: {
+      name: "QB UT-2",
+      link: "https://drive.google.com/file/d/1HLZXIgTTTsC_KF7bJ_9C7iI852hGXriC/view?usp=drive_link",
     },
     syllabus: {
       name: "Syllabus",
