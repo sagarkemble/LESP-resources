@@ -43,6 +43,14 @@ const content = {
       name: "Unit-2",
       link: "https://drive.google.com/file/d/1y66SJ2958pgOskMx9bMaCrKC6jxEvIYk/view?usp=drive_link",
     },
+    unit_3: {
+      name: "Unit-3",
+      link: "https://drive.google.com/file/d/1wutO0uhj6sr4SjotpfZ8EexG65XDgNe-/view?usp=drivesdk",
+    },
+    unit_5: {
+      name: "Unit-5",
+      link: "https://drive.google.com/file/d/1wwk1rJd15XRj1dI3Km_1zPEyiQFk6BUn/view?usp=drivesdk",
+    },
   },
   other_resources_Obj: {
     resrc1: {
