@@ -58,6 +58,14 @@ const content = {
       name: "Experiment-11",
       link: "https://drive.google.com/file/d/1noR4f8madZ5iaQLeqCoS-bSHR9c34MVF/view?usp=drivesdk",
     },
+    exp12: {
+      name: "Experiment-11",
+      link: "https://drive.google.com/file/d/1whl8gg7E3dH4iiNsA1roY4GIbg_FVTWI/view?usp=drivesdk",
+    },
+    exp13: {
+      name: "Experiment-11",
+      link: "https://drive.google.com/file/d/1wjesRDS8fpLxTenjCQ0E3R8Km-CDKzO3/view?usp=drivesdk",
+    },
   },
   manual_Obj: {
     manual_0: {
