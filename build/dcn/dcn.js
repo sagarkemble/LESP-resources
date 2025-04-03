@@ -36,6 +36,14 @@ const content = {
       name: "Assignment-3",
       link: "https://drive.google.com/file/d/1YbJg5KRXL-_kvPLhb98BXsgLB-jfbuyw/view?usp=drivesdk",
     },
+    assignemnt4: {
+      name: "Assignment-4",
+      link: "",
+    },
+    assignemnt5: {
+      name: "Assignment-5",
+      link: "",
+    },
   },
   class_notes_obj: {
     unit1: {
@@ -71,6 +79,10 @@ const content = {
     unit4: {
       name: "Network Topology",
       link: "https://drive.google.com/file/d/1xJ5GD6PQrZjaf9stb6OaJeddoEcw_ps3/view?usp=drivesdk",
+    },
+    unit5: {
+      name: " networking device",
+      link: "https://drive.google.com/file/d/1xK7fNIpiw8oPQuOTD0qma4M7shekMilG/view?usp=drivesdk",
     },
   },
   manual_questionandanswer_obj: {
@@ -219,7 +231,6 @@ const content = {
       name: "EXP-12 O/P",
       link: "https://drive.google.com/file/d/1LWykyzo-WybUJvyyG22T5S-SHn3wvTpp/view?usp=drive_link",
     },
-
   },
   manual_Obj: {
     manual0: {

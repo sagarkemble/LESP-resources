@@ -59,12 +59,20 @@ const content = {
       link: "https://drive.google.com/file/d/1noR4f8madZ5iaQLeqCoS-bSHR9c34MVF/view?usp=drivesdk",
     },
     exp12: {
-      name: "Experiment-11",
+      name: "Experiment-12",
       link: "https://drive.google.com/file/d/1whl8gg7E3dH4iiNsA1roY4GIbg_FVTWI/view?usp=drivesdk",
     },
     exp13: {
-      name: "Experiment-11",
+      name: "Experiment-13",
       link: "https://drive.google.com/file/d/1wjesRDS8fpLxTenjCQ0E3R8Km-CDKzO3/view?usp=drivesdk",
+    },
+    exp14: {
+      name: "Experiment-14",
+      link: "https://drive.google.com/file/d/1y60W9uYgh1dQX_w4s6EAOO3qKH2Z3EjN/view?usp=drivesdk",
+    },
+    exp15: {
+      name: "Experiment-15",
+      link: "https://drive.google.com/file/d/1yHb27hbLsEQANh2yXJMbZzmGgfZjv2_z/view?usp=drivesdk",
     },
   },
   manual_Obj: {

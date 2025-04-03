@@ -37,7 +37,7 @@ subLinkToggleButton.addEventListener("click", () => {
 
 // popup start
 document.addEventListener("DOMContentLoaded", () => {
-  let popupversion = "2.30";
+  let popupversion = "2.31";
   const localStorageData = localStorage.getItem("updatepopupShown");
   console.log(localStorageData);
 
@@ -254,11 +254,11 @@ const upcomingSectionContainer = document.querySelector(
 const submission = [
   {
     name: "DCN",
-    sub1: "Exp-1 to 24",
+    sub1: "Exp-1 to 27",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "2-Apr",
+    date: "7-Apr",
     link: "dcn/DCNpage.html",
     batch: "S1",
   },
@@ -268,7 +268,7 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "2-Apr",
+    date: "5-Apr",
     link: "java/JAVApage.html",
     batch: "S1",
   },
@@ -278,7 +278,7 @@ const submission = [
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "3-Apr",
+    date: "5-Apr",
     link: "pwp/PWPpage.html",
     batch: "S1",
   },
@@ -318,11 +318,11 @@ const submission = [
   //s2 batch upcoming submissions start
   {
     name: "DCN",
-    sub1: "Exp-1 to 20",
+    sub1: "Exp-1 to 27",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "3-Apr",
+    date: "8-Apr",
     link: "dcn/DCNpage.html",
     batch: "S2",
   },
@@ -382,7 +382,7 @@ const submission = [
   //s3 batch upcoming submissions start
   {
     name: "DCN",
-    sub1: "Exp-15 to 25",
+    sub1: "Exp-25 to 27",
     sub2: "0",
     sub3: "0",
     sub4: "0",
@@ -392,11 +392,11 @@ const submission = [
   },
   {
     name: "JAVA",
-    sub1: "Exp-15 to 22",
+    sub1: "Exp-25 to 30",
     sub2: "0",
     sub3: "0",
     sub4: "0",
-    date: "24-Mar",
+    date: "5-Apr",
     link: "java/JAVApage.html",
     batch: "S3",
   },
