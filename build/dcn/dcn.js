@@ -38,11 +38,11 @@ const content = {
     },
     assignemnt4: {
       name: "Assignment-4",
-      link: "",
+      link: "https://drive.google.com/file/d/1yke7ypakeuJtygmut-m8KVjiJU81rdWv/view?usp=drivesdk",
     },
     assignemnt5: {
       name: "Assignment-5",
-      link: "",
+      link: "https://drive.google.com/file/d/1ylvfBhwodhll1SuRp9aDCUxFH1tbL-KU/view?usp=drivesdk",
     },
   },
   class_notes_obj: {
