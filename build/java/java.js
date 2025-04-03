@@ -221,6 +221,14 @@ const content = {
       name: "Ex-28 O/P",
       link: "https://drive.google.com/file/d/1ouFH59QbJW7bTW9cwlv0vFXXowIkWdp0/view?usp=drivesdk",
     },
+    EX_29_OP: {
+      name: "Ex-29 O/P",
+      link: "https://drive.google.com/file/d/1ymS1qw-SkbcyUSmk61JXiislM1xUYCz7/view?usp=drivesdk",
+    },
+    EX_30_OP: {
+      name: "Ex-30 O/P",
+      link: "https://drive.google.com/file/d/1yrf6nx082s0xsCi-zMVuUHZjVWBs5SuL/view?usp=drivesdk",
+    },
   },
   other_resources_Obj: {
     qb1: {
