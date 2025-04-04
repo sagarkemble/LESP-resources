@@ -227,7 +227,7 @@ const content = {
     },
     EX_30_OP: {
       name: "Ex-30 O/P",
-      link: "https://drive.google.com/file/d/1yrf6nx082s0xsCi-zMVuUHZjVWBs5SuL/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1yuRdqILnrOCPx-1TS4mtho8ChIcQD_4Q/view?usp=drivesdk",
     },
   },
   other_resources_Obj: {
