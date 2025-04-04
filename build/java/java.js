@@ -44,19 +44,29 @@ const content = {
       name: "Unit-4",
       link: "https://drive.google.com/file/d/1OiQ3LEI30izecl9_LSzOng_v9T2A0YYQ/view?usp=drive_link",
     },
-    //Here temporary unit 5 written
-    Unit5: {
+    awt: {
       name: "AWT",
       link: "https://drive.google.com/file/d/1ae3OAjNnZzrH5tv50l7OvKA6Rxv_uhN1/view?usp=drivesdk",
     },
-    //Here temporary unit 6 written
-    Unit6: {
+   swing: {
       name: "SWING",
       link: "https://drive.google.com/file/d/1aiH6O9nMNmfwXNtv2a9ocjTdv-IvQXMI/view?usp=drivesdk",
     },
-    Unit7: {
+    prog: {
       name: "Unit 4 programs",
       link: "https://drive.google.com/file/d/1kTv05V86QrLQV74iY6t9sN8KXGJMlGj1/view?usp=drivesdk",
+    },
+    unit4: {
+      name: "Unit-4",
+      link: "https://drive.google.com/file/d/1x0YDy-dij-tsiia_YaPkLJiiQf7k6VKg/view?usp=drivesdk",
+    },
+    unit5: {
+      name: "Basic of N/W",
+      link: "https://drive.google.com/file/d/1x0vBU8QhH4hMB4_oH5pb3HmXIhRjxpXf/view?usp=drivesdk",
+    },
+    unit6: {
+      name: "Unit-6",
+      link: "https://drive.google.com/file/d/1x1eKQ_bcuUfwbnZuhGsiJ5XMscsprbg-/view?usp=drivesdk",
     },
   },
   assignment_Obj: {
@@ -256,18 +266,6 @@ const content = {
     unit_3: {
       name: "Unit-3",
       link: "https://drive.google.com/file/d/1t9upXsQtHy72YYvrQQnzMp7SnecGlkOB/view?usp=sharing",
-    },
-    unit_4: {
-      name: "Unit-4",
-      link: "https://drive.google.com/file/d/1x0YDy-dij-tsiia_YaPkLJiiQf7k6VKg/view?usp=drivesdk",
-    },
-    unit_5: {
-      name: "Unit-5",
-      link: "https://drive.google.com/file/d/1x0vBU8QhH4hMB4_oH5pb3HmXIhRjxpXf/view?usp=drivesdk",
-    },
-    unit_6: {
-      name: "Unit-6",
-      link: "https://drive.google.com/file/d/1x1eKQ_bcuUfwbnZuhGsiJ5XMscsprbg-/view?usp=drivesdk",
     },
   },
   manual_obj: {
