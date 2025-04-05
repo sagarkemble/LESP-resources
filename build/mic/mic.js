@@ -13,6 +13,9 @@ const manual_container = document.querySelector(".manual-cards-container");
 const notes_container = document.querySelector(
   ".Notes-resources-cards-container",
 );
+const class_notes_container = document.querySelector(
+  ".class-notes-cards-container",
+);
 const other_resources_container = document.querySelector(
   ".other-resources-cards-container",
 );
@@ -164,6 +167,28 @@ const content = {
       link: "https://drive.google.com/file/d/1u1f1-ywQ0ryEKPDwh_D4FSybuvSEOCgK/view?usp=drivesdk",
     },
   },
+  class_notes_obj: {
+    unit1: {
+      name: "Unit-1",
+      link: "https://drive.google.com/file/d/1zPMX1Fr6y6GUz3ZqHAGMHdJJ64jzgII7/view?usp=drivesdk",
+    },
+    unit2: {
+      name: "Unit-2",
+      link: "https://drive.google.com/file/d/1zRAqkOwfD038e-0n6JjIoEtMqKMPTFve/view?usp=drivesdk",
+    },
+    unit3: {
+      name: "Unit-3",
+      link: "https://drive.google.com/file/d/1zcRU2JMLJo21SF_MGSkasZHcxFxisxRL/view?usp=drivesdk",
+    },
+    unit4: {
+      name: "Unit-4",
+      link: "https://drive.google.com/file/d/1zh8-iBZ0AF1LQHnUdXL63ziYNvTVLlH7/view?usp=drivesdk",
+    },
+    unit5: {
+      name: "Unit-5",
+      link: "https://drive.google.com/file/d/1zofiB-cJ-WA4QkYlPwmCx0vD7fUro_eI/view?usp=drivesdk",
+    },
+  },
   manual_obj: {
     maunal_0: {
       name: "Index",
@@ -233,3 +258,4 @@ createCard(content.other_resources_Obj, other_resources_container);
 createCard(content.notes_obj, Notes_container);
 createCard(content.manual_obj, manual_container);
 createCard(content.code_Obj, code_container);
+createCard(content.class_notes_obj, class_notes_container);
