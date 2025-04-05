@@ -166,6 +166,10 @@ const content = {
       name: "Unit-5",
       link: "https://drive.google.com/file/d/1u1f1-ywQ0ryEKPDwh_D4FSybuvSEOCgK/view?usp=drivesdk",
     },
+    unit_6: {
+      name: "Macro vs Procedure",
+      link: "https://drive.google.com/file/d/1-lPEODDvUhigNlXJ9c3Fl_rpYOhVtP6q/view?usp=drivesdk",
+    },
   },
   class_notes_obj: {
     unit1: {
