@@ -115,6 +115,18 @@ const content = {
       name: "CERTIFICATE",
       link: "https://drive.google.com/file/d/1-Be30W_zMDLOOcSO1GTX6gvvnBzdCb6f/view?usp=drive_link",
     },
+    resrc_4: {
+      name: "S1 Batch Dates",
+      link: "https://drive.google.com/file/d/10UTRzBNUNhfC_cp1iCDqwnYxR89fLzWs/view?usp=drivesdk",
+    },
+    resrc_5: {
+      name: "S2 Batch Dates",
+      link: "https://drive.google.com/file/d/10UhA0jAR0i_QkWavEaSNoT583GvV3qnK/view?usp=drivesdk",
+    },
+    resrc_6: {
+      name: "S3 Batch Dates",
+      link: "https://drive.google.com/file/d/10WjpiIkM9UvQkq7neSbx5CDAhAcP2RhA/view?usp=drivesdk",
+    },
   },
 };
 
