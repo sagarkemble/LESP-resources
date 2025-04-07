@@ -32,6 +32,18 @@ const content = {
       name: "Tutorial-2",
       link: "https://drive.google.com/file/d/10_fISMOeguC0GGMnn9Fl_EbezagDounH/view?usp=sharing",
     },
+    Tutorial_3: {
+      name: "Tutorial-3",
+      link: "https://drive.google.com/file/d/11LkuBMMhC1hFtQhV1n8Iq6pQdgiiGvD9/view?usp=drivesdk",
+    },
+    Tutorial_4: {
+      name: "Tutorial-4",
+      link: "https://drive.google.com/file/d/11XvyOiNCoQ8Nb2RAXJYwPFOz4tw0r0Bi/view?usp=drivesdk",
+    },
+    Tutorial_5: {
+      name: "Tutorial-5",
+      link: "https://drive.google.com/file/d/11YHAzbzEp9Uc_ZY9H0NFxZtGzXCyMRFE/view?usp=drivesdk",
+    },
   },
 
   notes_obj: {
