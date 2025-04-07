@@ -358,15 +358,15 @@ const contentb = {
     },
     assignemnt3: {
       name: "Assignment-3",
-      link: "../notuploaded.html",
+      link: "https://drive.google.com/file/d/11LkuBMMhC1hFtQhV1n8Iq6pQdgiiGvD9/view?usp=drivesdk",
     },
     assignemnt4: {
       name: "Assignment-4",
-      link: "../notuploaded.html",
+      link: "https://drive.google.com/file/d/11XvyOiNCoQ8Nb2RAXJYwPFOz4tw0r0Bi/view?usp=drivesdk",
     },
     assignemnt5: {
       name: "Assignment-5",
-      link: "../notuploaded.html",
+      link: "https://drive.google.com/file/d/11YHAzbzEp9Uc_ZY9H0NFxZtGzXCyMRFE/view?usp=drivesdk",
     },
     assignemnt6: {
       name: "Assignment-6",
