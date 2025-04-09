@@ -48,7 +48,7 @@ const content = {
       name: "AWT",
       link: "https://drive.google.com/file/d/1ae3OAjNnZzrH5tv50l7OvKA6Rxv_uhN1/view?usp=drivesdk",
     },
-   swing: {
+    swing: {
       name: "SWING",
       link: "https://drive.google.com/file/d/1aiH6O9nMNmfwXNtv2a9ocjTdv-IvQXMI/view?usp=drivesdk",
     },
@@ -248,6 +248,10 @@ const content = {
     qb2: {
       name: "QB UT-2",
       link: "https://drive.google.com/file/d/1HLZXIgTTTsC_KF7bJ_9C7iI852hGXriC/view?usp=drive_link",
+    },
+    prelim: {
+      name: "Prelim Question paper",
+      link: "https://drive.google.com/file/d/12ZXCIJi9Fc4Qu3N6pFKQvfRsIATebMoL/view?usp=drivesdk",
     },
     syllabus: {
       name: "Syllabus",
