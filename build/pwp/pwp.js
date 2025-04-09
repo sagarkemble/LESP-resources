@@ -358,7 +358,11 @@ const content = {
     },
     output29: {
       name: "EX-29 O/P",
-      link: "https://drive.google.com/file/d/1202fkKC2814A7ymS0OiCXX8Yrv3pkx2z/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/126-e1JcJ7aOGAHpKrXwco8VULtZQuYUs/view?usp=drivesdk",
+    },
+    output30: {
+      name: "EX-30 O/P",
+      link: "https://drive.google.com/file/d/1286pY6V7-jkMtwLM3e0Z8RM5A4MvaMnI/view?usp=drivesdk",
     },
   },
 };
