@@ -133,20 +133,21 @@ const content = {
       name: "Syllabus",
       link: "https://drive.google.com/file/d/1F7ci0w-NkYqJ4Z9sBCnpLaiEINKfDAMF/view?usp=drive_link",
     },
-
     PYQ_1: {
       name: "PYQ-2019",
       link: "https://drive.google.com/file/d/1LqRAqp80tHJVIByJ4Iw1vnaUeuWOeX1t/view?usp=sharing",
     },
-
     PYQ_2: {
       name: "PYQ_2019-2",
       link: "https://drive.google.com/file/d/1ABBxYPt1--n9vZXDRWx8Jq4-dkapc9EY/view?usp=sharing",
     },
-
     PYQ_3: {
       name: "PYQ_2022",
       link: "https://drive.google.com/file/d/1w8efNAvdOWbpmzl87jtBeGH4DXiDOKwh/view?usp=sharing",
+    },
+    prelim: {
+      name: "Prelim Question paper",
+      link: "https://drive.google.com/file/d/135UFNehf8rh49G9HAlLyOMr1Vz4ZxWnR/view?usp=drivesdk",
     },
   },
   notes_obj: {

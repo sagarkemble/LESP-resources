@@ -62,10 +62,6 @@ const content = {
       name: "Unit-4",
       link: "https://drive.google.com/file/d/1NDoEESnk2e9eJoMDPv5klnN7X6zc824k/view?usp=drivesdk",
     },
-    unit5: {
-      name: "Unit-5",
-      link: "https://drive.google.com/file/d/1-57eczkSHfkauhjBe8A1mramS2sgyrZG/view?usp=drive_link",
-    },
   },
   notes_obj: {
     unit1: {
@@ -84,9 +80,13 @@ const content = {
       name: "Network Topology",
       link: "https://drive.google.com/file/d/1-f_R0UD7R2cV2n4l3mzQZ3L4r-en3e2W/view?usp=drivesdk",
     },
-    unit5: {
+    nw: {
       name: " networking device",
       link: "https://drive.google.com/file/d/1xK7fNIpiw8oPQuOTD0qma4M7shekMilG/view?usp=drivesdk",
+    },
+    unit5: {
+      name: "Unit-5",
+      link: "https://drive.google.com/file/d/1-57eczkSHfkauhjBe8A1mramS2sgyrZG/view?usp=drive_link",
     },
   },
   manual_questionandanswer_obj: {
@@ -196,7 +196,6 @@ const content = {
       name: "Syllabus",
       link: "https://drive.google.com/file/d/1IElLQ5rcPuQWjtTD-e5tNcNP7Ndm_iPi/view?usp=drive_link",
     },
-
     PYQ1: {
       name: "PYQ-2019",
       link: "https://drive.google.com/file/d/1GouoV-a2va5wYKaaTsWiZvHzd0ypeIbE/view?usp=drive_link",
@@ -208,6 +207,18 @@ const content = {
     PYQ3: {
       name: "PYQ-2022",
       link: "https://drive.google.com/file/d/1w0g_c4BY3zq01SabYY0TnTXI_P90gCUz/view?usp=drive_link",
+    },
+    Prelim: {
+      name: "Prelim Question Paper",
+      link: "https://drive.google.com/file/d/13DVxQmFumcKwI-81IWJCzjzTuNrKTnRi/view?usp=drivesdk",
+    },
+    oral1: {
+      name: "Oral Question 1-3",
+      link: "https://drive.google.com/file/d/13JubTdC1OaKN1KJpYYwJ6LyMU3btujq6/view?usp=drivesdk",
+    },
+    oral2: {
+      name: "Oral Question 3-5",
+      link: "https://drive.google.com/file/d/13RoZJNkCVBhLjAkMNZw5PZPwM4w_pQyK/view?usp=drivesdk",
     },
   },
   output_Obj: {
