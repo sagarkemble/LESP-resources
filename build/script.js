@@ -37,7 +37,7 @@ subLinkToggleButton.addEventListener("click", () => {
 
 // popup start
 document.addEventListener("DOMContentLoaded", () => {
-  let popupversion = "2.38";
+  let popupversion = "2.39";
   const localStorageData = localStorage.getItem("updatepopupShown");
   console.log(localStorageData);
 

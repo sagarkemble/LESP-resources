@@ -6,7 +6,7 @@ const highlight4 = passedparameter.get("highlight4");
 const assignment_container = document.querySelector(
   ".assignment-cards-container",
 );
-
+const Unitwise_mcq = document.querySelector(".Notes-resources-cards-container");
 const other_resources_container = document.querySelector(
   ".other-resources-cards-container",
 );
@@ -52,6 +52,29 @@ const content = {
     assignemnt10: {
       name: "Assignment-10",
       link: "https://drive.google.com/file/d/1x1sA3X2W2TfG1lqxBVYCBYfWySE7bl67/view?usp=drivesdk",
+    },
+  },
+
+  mcq_obj: {
+    unit_1: {
+      name: "Unit-1",
+      link: "https://drive.google.com/file/d/14pZlLdrptWjCbcM_vzeA1y09dBkbJUda/view?usp=drivesdk",
+    },
+    unit_2: {
+      name: "Unit-2",
+      link: "https://drive.google.com/file/d/14lNIvi7Nr-LeUG5I17Nmj8mWkjd-XEV4/view?usp=drivesdk",
+    },
+    unit_3: {
+      name: "Unit-3",
+      link: "https://drive.google.com/file/d/14k_bsPj192k99UuWdwUCKt0W2G-sRKsO/view?usp=drivesdk",
+    },
+    unit_4: {
+      name: "Unit-4",
+      link: "https://drive.google.com/file/d/14gqMb9JcR34cthoXTVFZ7va33fFMA3Gy/view?usp=drivesdk",
+    },
+    unit_5: {
+      name: "Unit-5",
+      link: "https://drive.google.com/file/d/14Y-rHM6PfpTBSvMkNfoyhUy8sJQGt0ZG/view?usp=drivesdk",
     },
   },
 
@@ -133,3 +156,4 @@ if (localStorage.getItem("DIV") == "A") {
 }
 // Load Assignments
 createCard(content.other_resources_Obj, other_resources_container);
+createCard(content.mcq_obj, Unitwise_mcq);
