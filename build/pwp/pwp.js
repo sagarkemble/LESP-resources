@@ -92,6 +92,10 @@ const content = {
       name: "Evaluation Sheet",
       link: "https://drive.google.com/file/d/1skulvzTI_lO4I8Oqxdp40Yuy6Wz9A8w3/view?usp=drivesdk",
     },
+    resrc6: {
+      name: "Pratical External Questions",
+      link: "https://drive.google.com/file/d/17eNUBJkMURkF2OW0bjGwR1A76VHFUQnd/view?usp=drivesdk",
+    },
   },
   manaul_obj: {
     manual_0: {
