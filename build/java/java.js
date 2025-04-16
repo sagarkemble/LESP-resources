@@ -257,6 +257,10 @@ const content = {
       name: "Syllabus",
       link: "https://drive.google.com/file/d/1n1GKosTv0jxSdrgv0d7X5YyOi4qHRQKw/view?usp=drive_link",
     },
+    Pr: {
+      name: "Pra External Que",
+      link: "https://drive.google.com/file/d/180VH6b11MKVtraKu4wcR_LzfJb6_56jB/view?usp=drivesdk",
+    },
   },
   notes_obj: {
     unit_1: {
