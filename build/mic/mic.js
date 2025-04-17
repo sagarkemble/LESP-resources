@@ -149,6 +149,10 @@ const content = {
       name: "Prelim Question paper",
       link: "https://drive.google.com/file/d/135UFNehf8rh49G9HAlLyOMr1Vz4ZxWnR/view?usp=drivesdk",
     },
+    PRQ: {
+      name: "PR External Que",
+      link: "https://drive.google.com/file/d/18LtJ5pp9P2Ri4uecgKio0ynydEGZr6M1/view?usp=drivesdk",
+    },
   },
   notes_obj: {
     unit_1: {
