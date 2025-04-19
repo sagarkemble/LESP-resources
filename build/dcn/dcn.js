@@ -221,7 +221,7 @@ const content = {
       link: "https://drive.google.com/file/d/13RoZJNkCVBhLjAkMNZw5PZPwM4w_pQyK/view?usp=drivesdk",
     },
     PRIQ: {
-      name: "PR Internal Ques",
+      name: "PR Internal Que",
       link: "https://drive.google.com/file/d/13RoZJNkCVBhLjAkMNZw5PZPwM4w_pQyK/view?usp=drivesdk",
     },
   },
