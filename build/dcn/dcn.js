@@ -222,7 +222,7 @@ const content = {
     },
     PRIQ: {
       name: "PR Internal Que",
-      link: "https://drive.google.com/file/d/13RoZJNkCVBhLjAkMNZw5PZPwM4w_pQyK/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/19TwdEJ6tbtrb5jgbvTODa1y7AAyfvB3S/view?usp=drivesdk",
     },
   },
   output_Obj: {
