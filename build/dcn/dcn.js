@@ -220,6 +220,10 @@ const content = {
       name: "Oral Question 3-5",
       link: "https://drive.google.com/file/d/13RoZJNkCVBhLjAkMNZw5PZPwM4w_pQyK/view?usp=drivesdk",
     },
+    PRIQ: {
+      name: "PR Internal Ques",
+      link: "https://drive.google.com/file/d/13RoZJNkCVBhLjAkMNZw5PZPwM4w_pQyK/view?usp=drivesdk",
+    },
   },
   output_Obj: {
     Exp_1_OP: {
