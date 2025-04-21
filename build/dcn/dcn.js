@@ -85,7 +85,7 @@ const content = {
       link: "https://drive.google.com/file/d/1-f_R0UD7R2cV2n4l3mzQZ3L4r-en3e2W/view?usp=drivesdk",
     },
     nw: {
-      name: " networking device",
+      name: "Networking Device",
       link: "https://drive.google.com/file/d/1xK7fNIpiw8oPQuOTD0qma4M7shekMilG/view?usp=drivesdk",
     },
     unit5: {
@@ -221,7 +221,7 @@ const content = {
       link: "https://drive.google.com/file/d/13JubTdC1OaKN1KJpYYwJ6LyMU3btujq6/view?usp=drivesdk",
     },
     oral2: {
-      name: "Oral Question 3-5",
+      name: "Oral Question 4-5",
       link: "https://drive.google.com/file/d/13RoZJNkCVBhLjAkMNZw5PZPwM4w_pQyK/view?usp=drivesdk",
     },
     PRIQ: {
