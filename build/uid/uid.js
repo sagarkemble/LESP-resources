@@ -127,6 +127,14 @@ const content = {
       name: "S3 Batch Dates",
       link: "https://drive.google.com/file/d/10WjpiIkM9UvQkq7neSbx5CDAhAcP2RhA/view?usp=drivesdk",
     },
+    resrc_7: {
+      name: "Notes 1-3",
+      link: "https://drive.google.com/file/d/1E0Bvn3vV5Gw_AK73F8n60_4Ugaay_KE5/view?usp=drivesdk",
+    },
+    resrc_8: {
+      name: "Pr Internal Que",
+      link: "https://drive.google.com/file/d/1E1stN2dmc0Af4nHGI7jYASTWdM3ckwyI/view?usp=drivesdk",
+    },
   },
 };
 
