@@ -188,6 +188,10 @@ const content = {
     },
   },
   other_resources_Obj: {
+    extra: {
+      name: "Extra Que",
+      link: "https://drive.google.com/file/d/1KF5Xvh5G32kOv5-HPT8BLbjw695-GYwQ/view?usp=drivesdk",
+    },
     qb1: {
       name: "QB UT-1",
       link: "https://drive.google.com/file/d/163Xzoq9CbS2uG_xz8DGvaLnn3OqeSx6j/view?usp=drivesdk",
